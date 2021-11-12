@@ -1,0 +1,324 @@
+NetOps;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards
+APM;temperature cpu1 temp
+NetOps;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards
+violation event raised ge-0/0/12 profile name paysec interface discards deviation discards rule name discards
+disk /var free space
+violation event raised gi0/0/1 profile name wan link discards deviation discards rule name discards
+physical memory memory module slot dimm_b9 state values ok non-critical. critical. non-recoverable
+physical memory memory module slot b12 state values ok non-critical. critical. non-recoverable
+violation event raised ge-1/0/23 profile name paysec interface discards deviation discards rule name discards
+violation event raised gi0/3/0 profile name wan link discards deviation discards rule name discards
+violation event raised gi0/0/5 profile name wan link discards deviation discards rule name discards
+total cpu usage total violated least minutes minutes
+temperature cpu3 temp
+rnd hub packet_loss minutes
+total cpu usage e .broadcom.net
+physical memory memory module slot b5 state values ok non-critical. critical. non-recoverable
+memory usage e .broadcom.net
+violation event raised ae4 profile name paysec interface discards deviation discards rule name discards
+violation event raised po16 profile name paysec interface discards deviation discards rule name discards
+violation event raised te0/1/4 profile name wan link discards deviation discards rule name discards
+violation event raised gi1/0/21 profile name paysec interface discards deviation discards rule name discards
+unresolved fault detected
+violation event raised ge-1/0/20 profile name paysec interface discards deviation discards rule name discards
+violation event raised gi1/0/32 profile name paysec interface discards deviation discards rule name discards
+violation event raised ethernet1/17 profile name paysec interface discards deviation discards rule name discards
+violation event raised gi0/1 profile name wan link discards deviation discards rule name discards
+swap memory usage swap .broadcom.net
+violation event raised ge-0/0/22 profile name paysec interface discards deviation discards rule name discards
+wac-wap-15 stopped responding polls
+violation event raised tu14240 profile name wan link discards deviation discards rule name discards
+violation event raised ae9 profile name paysec interface discards deviation discards rule name discards
+robot desktop-322scnq inactive
+average samples total cpu
+packet loss qos ping wat vmware up-down- packet_loss
+physical memory usage physical .mycompany.net
+physical memory memory module slot dimm_b4 state values ok non-critical. critical. non-recoverable
+cdm running rnd-relay.smtp.avagotech.net possibly duplicated data series qos database
+physical memory memory module slot b4 state values ok non-critical. critical. non-recoverable
+percentage java heap used
+qos_disk_free_perc c .broadcom.net
+violation event raised ge-1/0/21 profile name paysec interface discards deviation discards rule name discards
+physical memory memory module slot a7 state values ok non-critical. critical. non-recoverable
+violation event raised ge-0/0/23 profile name paysec interface discards deviation discards rule name discards
+physical memory memory module slot dimm_a7 state values ok non-critical. critical. non-recoverable
+violation event raised gi1/0/0 profile name wan link discards deviation discards rule name discards
+violation event raised ae6 profile name paysec interface discards deviation discards rule name discards
+disk physical disk status values unknown ok non-critical critical non-recoverable
+utilpercent
+robot xl76-wat-test inactive
+violation event raised gi1/0/4 profile name wan link discards deviation discards rule name discards
+robot inactive
+violation event raised gi1/0/23 profile name paysec interface discards deviation discards rule name discards
+violation event raised ge-0/0/14 profile name paysec interface discards deviation discards rule name discards
+violation event raised profile name memory utilization rule name high memory utilization aggregate- warning
+average response time variance intensity
+violation event raised gi0/0/12 profile name wan link discards deviation discards rule name discards
+violation event raised po39 profile name paysec interface discards deviation discards rule name discards
+violation event raised gi0/0/14 profile name wan link discards deviation discards rule name discards
+violation event raised gi1/0/17 profile name paysec interface discards deviation discards rule name discards
+violation event raised gi1/0/34 profile name paysec interface discards deviation discards rule name discards
+violation event raised profile name memory utilization rule name high memory utilization aggregate- critical
+physical memory memory module slot a10 state values ok non-critical. critical. non-recoverable
+management agent lost
+violation event raised gi0/0/10 profile name wan link discards deviation discards rule name discards
+violation event raised ge-0/0/20 profile name paysec interface discards deviation discards rule name discards
+violation event raised gi0/0/16 profile name wan link discards deviation discards rule name discards
+total cpu usage total .extad.local violated least minutes minutes
+physical memory usage physical .broadcom.net violated least minutes minutes
+violation event raised gi1/0/20 profile name paysec interface discards deviation discards rule name discards
+heap used
+violation event raised ae3 profile name paysec interface discards deviation discards rule name discards
+qos_disk_free_perc e .broadcom.net
+physical memory usage e .broadcom.net
+UIM;violation event raised gi0/1/1 profile name wan link discards deviation discards rule name discards
+violation event raised gi1/0/25 profile name paysec interface discards deviation discards rule name discards
+violation event raised gi1/0/33 profile name paysec interface discards deviation discards rule name discards
+violation event raised ge-0/0/21 profile name paysec interface discards deviation discards rule name discards
+violation event raised gi0/0/3 profile name wan link discards deviation discards rule name discards
+tau-cas-b4-sw01 stopped responding polls
+violation event raised gi0/0/7 profile name wan link discards deviation discards rule name discards
+connection failed login refused
+violation event raised fa0/1/2 profile name wan link discards deviation discards rule name discards
+physical memory usage physical .broadcom.net
+physical memory memory module slot dimm c2 state values ok non-critical. critical. non-recoverable
+cdm running possibly duplicated data series qos database
+physical memory memory module slot a6 state values ok non-critical. critical. non-recoverable
+packet loss qos ping unix ash up-down-lnpvmicro10 packet_loss violated least minutes minutes
+violation event raised te0/1/2 profile name wan link discards deviation discards rule name discards
+violation event raised te0/1/6 profile name wan link discards deviation discards rule name discards
+qos_disk_free_perc m .broadcom.net
+violation event raised gi0/0 profile name wan link discards deviation discards rule name discards
+violation event raised ethernet1/47 profile name prod_dc_switches_interface_util_over_75 rule name proddc_switch_interface_utilization_over_75
+violation event raised gi0/2/0 profile name wan link discards deviation discards rule name discards
+mysap-db10a-02 stopped responding polls
+physical memory usage physical
+physical memory memory module slot b3 state values ok non-critical. critical. non-recoverable
+average samples disk free c 0.00mb error 0mb total size
+violation event raised ae5 profile name paysec interface discards deviation discards rule name discards
+qos_disk_delta_perc /tmp
+violation event raised gi1/0/22 profile name paysec interface discards deviation discards rule name discards
+connection none failed login refused
+violation event raised tu16057 profile name wan link discards deviation discards rule name discards
+disk usage /var
+physical memory memory module slot dimm_a1 state values ok non-critical. critical. non-recoverable
+violation event raised gi0/0/2 profile name wan link discards deviation discards rule name discards
+rnd hub 27-pacelab24 packet_loss minutes
+violation event raised gi0/0/0 profile name wan link discards deviation discards rule name discards
+wac-wap-24 stopped responding polls
+violation event raised gi0/0/4 profile name wan link discards deviation discards rule name discards
+unable spool message
+violation event raised gi0/0/6 profile name wan link discards deviation discards rule name discards
+swap memory usage swap
+violation event raised ethernet1/18 profile name paysec interface discards deviation discards rule name discards
+stall count
+different type model
+stopped responding polls
+violation event raised ethernet1/29 profile name paysec interface discards deviation discards rule name discards
+violation event raised port-channel1 profile name paysec interface discards deviation discards rule name discards
+violation event raised gi1/0/3 profile name wan link discards deviation discards rule name discards
+robot wpvirvops002 inactive
+physical memory memory module slot b1 state values ok non-critical. critical. non-recoverable
+rnd hub connection ping failed
+packet loss qos ping vm up-down- packet_loss
+wac-wap-30 stopped responding polls
+violation event raised gi1/0/24 profile name paysec interface discards deviation discards rule name discards
+violation event raised gi0/0/15 profile name wan link discards deviation discards rule name discards
+violation event raised ge-1/0/22 profile name paysec interface discards deviation discards rule name discards
+violation event raised profile name latency deviation alarm rule name latency deviation higher
+total cpu usage total .broadcom.net violated least minutes minutes
+violation event raised gi0/0/11 profile name wan link discards deviation discards rule name discards
+wac-ll2-r28-labincube-sw01 stopped responding polls
+violation event raised gi2/0/0 profile name wan link discards deviation discards rule name discards
+temperature cpu2 temp
+internalalarm unable get cpu data error
+physical memory memory module slot a8 state values ok non-critical. critical. non-recoverable
+cdm running none possibly duplicated data series qos database
+violation event raised gi0/0/17 profile name wan link discards deviation discards rule name discards
+violation event raised port-channel300 profile name interface err test rule name interface err test
+errors per interval
+violation event raised po60 profile name wan link discards deviation discards rule name discards
+physical memory memory module slot b7 state values ok non-critical. critical. non-recoverable
+false c .broadcom.net
+violation event raised mgmt profile name paysec interface discards deviation discards rule name discards
+physical memory usage physical .broadcom-test.local
+rnd lvn- packet_loss minutes
+qos_net_connect_packetloss ping unix ash up-down-lnpvcaftp01_wk04may packet_loss violated least minutes minutes
+temperature cpu1 temp
+disk /opt free space
+violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards
+violation event raised gi0/0/1 profile name wan link discards deviation discards rule name discards
+total cpu usage total .broadcom.net
+detected communication link down interface
+qos_net_connect_packetloss ping unix ash up-down-lnpvqextweb02 packet_loss violated least minutes minutes
+violation event raised ge-1/0/23 profile name paysec interface discards deviation discards rule name discards
+packet loss qos ping unix ash up-down-lnpvela03 packet_loss violated least minutes minutes
+packet loss qos ping unix ash up-down- packet_loss violated least minutes minutes
+violation event raised gi0/3/0 profile name wan link discards deviation discards rule name discards
+violation event raised gi0/0/5 profile name wan link discards deviation discards rule name discards
+qos_net_connect_packetloss ping unix ash up-down-lnpvedsd01.ash.broadcom.net packet_loss violated least minutes minutes
+violation event raised fa0/1/0 profile name wan link discards deviation discards rule name discards
+total cpu usage total violated least minutes minutes
+link up/down traps received last minutes exceeds
+temperature cpu3 temp
+rnd hub packet_loss minutes
+average samples disk free /bkp_dev_mongo_cohesity -21474836.48mb error 0mb total size
+total cpu usage e .broadcom.net
+c .broadcom.net
+qos_net_connect_packetloss ping unix ash up-down-lnpvbsnws01 packet_loss violated least minutes minutes
+packet loss qos ping ash appliances-anpvvirsec02 packet_loss violated least minutes minutes
+packet loss qos ping unix ash up-down-lpdvceda01 packet_loss violated least minutes minutes
+local file system /run/user/501 available
+packet loss qos ping unix ash up-down-lnpvbstws02 packet_loss violated least minutes minutes
+violation event raised ae4 profile name paysec interface discards deviation discards rule name discards
+violation event raised po16 profile name paysec interface discards deviation discards rule name discards
+unresolved fault detected
+packet loss qos ping unix ash up-down-lpdvwsnbpl06 packet_loss violated least minutes minutes
+qos_disk_free_perc d .broadcom.net
+violation event raised ge-1/0/20 profile name paysec interface discards deviation discards rule name discards
+violation event raised gi1/0/32 profile name paysec interface discards deviation discards rule name discards
+violation event raised ethernet1/17 profile name paysec interface discards deviation discards rule name discards
+qos_cpu_usage total wnpvpsar01.broadcom.net violated least minutes minutes
+disk usage e .broadcom.net
+violation event raised gi0/1 profile name wan link discards deviation discards rule name discards
+physical memory usage physical .sgn.broadcom.net
+swap memory usage swap .broadcom.net
+violation event raised ge-0/0/22 profile name paysec interface discards deviation discards rule name discards
+memory usage total
+violation event raised tu14240 profile name wan link discards deviation discards rule name discards
+qos_net_connect_packetloss ping unix ash up-down- packet_loss violated least minutes minutes
+violation event raised ae9 profile name paysec interface discards deviation discards rule name discards
+physical memory memory module slot dimm_a2 state values ok non-critical. critical. non-recoverable
+false e .broadcom.net
+average samples total cpu
+physical memory usage physical .mycompany.net
+percentage java heap used
+qos_disk_free_perc c .broadcom.net
+e .broadcom.net
+violation event raised ge-1/0/21 profile name paysec interface discards deviation discards rule name discards
+packet loss qos ping lvn hosts up-down-munhntxbb1a packet_loss
+physical memory memory module slot b9 state values ok non-critical. critical. non-recoverable
+total cpu usage total
+qos_disk_delta_perc /opt
+violation event raised ethernet1/63 profile name prod_dc_switches_interface_util_over_75 rule name proddc_switch_interface_utilization_over_75
+physical memory memory module slot a7 state values ok non-critical. critical. non-recoverable
+violation event raised ge-0/0/23 profile name paysec interface discards deviation discards rule name discards
+violation event raised tu500 profile name bw_thresh_over_95pct rule name high bandwidth utilization
+violation event raised gi0/0/9 profile name wan link discards deviation discards rule name discards
+disk physical disk status values unknown ok non-critical critical non-recoverable
+false d .broadcom.net
+violation event raised ae6 profile name paysec interface discards deviation discards rule name discards
+utilpercent
+robot inactive
+violation event raised gi1/0/4 profile name wan link discards deviation discards rule name discards
+violation event raised gi1/0/23 profile name paysec interface discards deviation discards rule name discards
+violation event raised ge-0/0/14 profile name paysec interface discards deviation discards rule name discards
+disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net
+violation event raised profile name memory utilization rule name high memory utilization aggregate- warning
+qos_net_connect_packetloss ping unix ash up-down-lnpvauth01.ash.broadcom.net packet_loss violated least minutes minutes
+violation event raised tu500 profile name wan link discards deviation discards rule name discards
+violation event raised ethernet1/47 profile name bw_thresh_over_85pct rule name high bandwidth utilization
+average response time variance intensity
+disk usage c .broadcom.net
+violation event raised gi0/0/12 profile name wan link discards deviation discards rule name discards
+snmp agent type hpprocurve rebooted
+violation event raised po39 profile name paysec interface discards deviation discards rule name discards
+violation event raised gi0/0/14 profile name wan link discards deviation discards rule name discards
+qos_net_connect_packetloss ping sgn icmp- packet_loss
+violation event raised gi1/0/17 profile name paysec interface discards deviation discards rule name discards
+disk usage /opt
+violation event raised gi1/0/34 profile name paysec interface discards deviation discards rule name discards
+violation event raised profile name memory utilization rule name high memory utilization aggregate- critical
+management agent lost
+d .broadcom.net
+total cpu usage c .broadcom.net
+packet loss qos ping unix ash up-down-.ash.broadcom.net packet_loss violated least minutes minutes
+violation event raised ge-0/0/20 profile name paysec interface discards deviation discards rule name discards
+violation event raised gi0/0/16 profile name wan link discards deviation discards rule name discards
+packet loss qos ping ash appliances-anpvhycu01 packet_loss violated least minutes minutes
+violation event raised tu16065 profile name wan link discards deviation discards rule name discards
+total cpu usage total .extad.local violated least minutes minutes
+physical memory usage physical .broadcom.net violated least minutes minutes
+total cpu usage total wnpvmid02.broadcom.net violated least minutes minutes
+heap used
+violation event raised ae3 profile name paysec interface discards deviation discards rule name discards
+qos_disk_free_perc e .broadcom.net
+qos_cpu_usage total wnpvdpoc01.broadcom.net violated least minutes minutes
+violation event raised gi0/1/1 profile name wan link discards deviation discards rule name discards
+disk usage d .broadcom.net
+violation event raised gi1/0/25 profile name paysec interface discards deviation discards rule name discards
+alarm e .broadcom.net
+snmp agent type gnsnmpdev rebooted
+physical memory memory module slot b6 state values ok non-critical. critical. non-recoverable
+swap memory usage c .broadcom.net
+violation event raised gi1/0/33 profile name paysec interface discards deviation discards rule name discards
+snmp agent type cisconxos rebooted
+packet loss qos ping unix ash up-down-lnpvbstsh01 packet_loss violated least minutes minutes
+violation event raised ge-0/0/21 profile name paysec interface discards deviation discards rule name discards
+violation event raised gi0/0/3 profile name wan link discards deviation discards rule name discards
+tau-cas-b4-sw01 stopped responding polls
+violation event raised gi0/0/7 profile name wan link discards deviation discards rule name discards
+connection failed login refused
+total cpu usage d .broadcom.net
+packet loss qos ping unix ash up-down-lpdvceda02 packet_loss violated least minutes minutes
+packet loss qos ping unix ash up-down-lpdvwsnbpl05 packet_loss violated least minutes minutes
+physical memory usage physical .broadcom.net
+database integrity problem re-run discovery system
+cdm running possibly duplicated data series qos database
+physical memory memory module slot a6 state values ok non-critical. critical. non-recoverable
+packet loss qos ping unix ash up-down-lnpvmicro10 packet_loss violated least minutes minutes
+violation event raised te0/1/2 profile name wan link discards deviation discards rule name discards
+violation event raised te0/1/6 profile name wan link discards deviation discards rule name discards
+qos_disk_free_perc m .broadcom.net
+packet loss qos ping lvn hosts up-down- packet_loss
+violation event raised tu12132 profile name wan link discards deviation discards rule name discards
+disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo02.ash.broadcom.net
+disk usage /bkp_dev_mongo_cohesity lnpvdbslmongo01.ash.broadcom.net
+disk usage /u003 .mycompany.com
+packet loss qos ping ash esx up-down- packet_loss violated least minutes minutes
+violation event raised gi0/0 profile name wan link discards deviation discards rule name discards
+violation event raised ethernet1/47 profile name prod_dc_switches_interface_util_over_75 rule name proddc_switch_interface_utilization_over_75
+false ping wpdvumhbr18.broadcom.net violated least minutes minutes
+chassis hardware log status values unknown ok non-critical critical non-recoverable
+snmp agent type rtr_cisco rebooted
+packet loss qos ping ash appliances- packet_loss violated least minutes minutes
+physical memory usage physical
+swap memory usage e .broadcom.net
+violation event raised ae5 profile name paysec interface discards deviation discards rule name discards
+qos_cpu_usage total gtso unix-lnpvdsa01.sgn.broadcom.net violated least minutes minutes
+connection none failed login refused
+average samples disk free /var 0.00mb error 0mb total size
+physical memory memory module slot b10 state values ok non-critical. critical. non-recoverable
+violation event raised gi0/1/0 profile name wan link discards deviation discards rule name discards
+bad link detected
+violation event raised gi0/0/2 profile name wan link discards deviation discards rule name discards
+violation event raised gi0/0/0 profile name wan link discards deviation discards rule name discards
+violation event raised gi0/0/4 profile name wan link discards deviation discards rule name discards
+swap memory usage swap
+alarm c .broadcom.net
+violation event raised ethernet1/18 profile name paysec interface discards deviation discards rule name discards
+stall count
+violation event raised tu19245 profile name wan link discards deviation discards rule name discards
+unix ash up-down-lpdvsumft01 connection lpdvsumft01 ssh failed
+qos_disk_free_perc /opt
+stopped responding polls
+violation event raised gi1/0/1 profile name wan link discards deviation discards rule name discards
+snmp agent type infobloxdev rebooted
+violation event raised port-channel1 profile name paysec interface discards deviation discards rule name discards
+violation event raised gi1/0/3 profile name wan link discards deviation discards rule name discards
+violation event raised ethernet1/47 profile name bw_thresh_over_95pct rule name high bandwidth utilization
+memory usage
+packet loss qos ping ash appliances-anpvvirsec01 packet_loss violated least minutes minutes
+rnd hub connection ping failed
+violation event raised gi1/0/24 profile name paysec interface discards deviation discards rule name discards
+violation event raised gi0/0/15 profile name wan link discards deviation discards rule name discards
+violation event raised ge-1/0/22 profile name paysec interface discards deviation discards rule name discards
+temperature cpu2 temp
+total cpu usage total .broadcom.net violated least minutes minutes
+violation event raised gi0/0/11 profile name wan link discards deviation discards rule name discards
+internalalarm unable get cpu data error
+swap memory usage d .broadcom.net
+alarm d .broadcom.net
+errors per interval
+local file system /var/lib/docker/overlay2/bc466b9d6161e891bf952176595a7299f3d8de4d1134ed8922b8e8b6661ef9db/merged available
+average samples disk free /bkp_qa_mongo_cohesity -21474836.48mb error 0mb total size
