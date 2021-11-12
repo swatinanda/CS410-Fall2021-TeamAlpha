@@ -1,6 +1,6 @@
-violation event raised mgmt profile name paysec interface discards deviation discards rule name discards
-temperature cpu1 temp
-violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards
+NetOps;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards
+APM;temperature cpu1 temp
+NetOps;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards
 violation event raised ge-0/0/12 profile name paysec interface discards deviation discards rule name discards
 disk /var free space
 violation event raised gi0/0/1 profile name wan link discards deviation discards rule name discards
@@ -71,7 +71,7 @@ heap used
 violation event raised ae3 profile name paysec interface discards deviation discards rule name discards
 qos_disk_free_perc e .broadcom.net
 physical memory usage e .broadcom.net
-violation event raised gi0/1/1 profile name wan link discards deviation discards rule name discards
+UIM;violation event raised gi0/1/1 profile name wan link discards deviation discards rule name discards
 violation event raised gi1/0/25 profile name paysec interface discards deviation discards rule name discards
 violation event raised gi1/0/33 profile name paysec interface discards deviation discards rule name discards
 violation event raised ge-0/0/21 profile name paysec interface discards deviation discards rule name discards
