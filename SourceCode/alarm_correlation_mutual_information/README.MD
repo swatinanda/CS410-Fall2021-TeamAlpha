@@ -38,5 +38,5 @@ This will repeat 250 times
 
 The Incidental templates are getting correlated 
 
-![alt text](https://github.gwd.broadcom.net/ab658825/alarm_correlation_mutual_information/blob/master/mi.png)
+![alt text](https://github.com/swatinanda/CS410-Fall2021-TeamAlpha/blob/main/SourceCode/alarm_correlation_mutual_information/mi.png)
 
