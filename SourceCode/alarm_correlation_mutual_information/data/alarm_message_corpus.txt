@@ -322,3 +322,8 @@ alarm d .broadcom.net
 errors per interval
 local file system /var/lib/docker/overlay2/bc466b9d6161e891bf952176595a7299f3d8de4d1134ed8922b8e8b6661ef9db/merged available
 average samples disk free /bkp_qa_mongo_cohesity -21474836.48mb error 0mb total size
+APM;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000
+APM;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000
+APM;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000
+Spectrum;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS
+Spectrum;CHASSIS fdt-snc.net DOWN
