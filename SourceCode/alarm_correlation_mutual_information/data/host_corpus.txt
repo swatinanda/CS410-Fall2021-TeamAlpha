@@ -370,8 +370,6 @@ wpdvjmp01
 wnpvtosca03
 wpdvisscmbefs1
 lpdvbhftps01.broadcom.com
-lnpvphsw02.broadcom.com
-_1
 esxash72.ash.broadcom.net
 lc-sj1-4185.lvn.broadcom.net
 lprdexfdbadm05.kc1.broadcom.net

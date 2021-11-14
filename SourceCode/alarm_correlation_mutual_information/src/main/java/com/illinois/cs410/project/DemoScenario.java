@@ -18,7 +18,7 @@ public class DemoScenario {
 
     List<Incident> incidents = new ArrayList<Incident>();
     int intervals;
-    int totalTemplates;
+    static int totalTemplates;
     int topCorrelatedTemplates = 10;
     public static void main(String[] args) throws IOException {
         DemoScenario demoScenarios = new DemoScenario();
@@ -30,6 +30,12 @@ public class DemoScenario {
         int totalDisplay = demoScenarios.totalTemplates - demoScenarios.incidents.get(demoScenarios.incidents.size() -1 ).getTemplates();
         double[][] mi = processor.getMutualInfomation();
         writeFile(mi);
+        AlarmFactory factory = new AlarmFactory(totalTemplates);
+        factory.createAlarms();
+        List<AlarmTemplates> vertices = factory.getAlarms();
+        List<Edge> edges = factory.getEdges(mi);
+        Graph g = new Graph(vertices, edges);
+
     }
 
     private static void writeFile(double[][] mi) throws IOException {
