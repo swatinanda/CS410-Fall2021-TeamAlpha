@@ -1,8 +1,13 @@
 package com.example.demo.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonInclude;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class AlertEdge {
     String type;
-    Double score;
+    Double mutual_information;
 
     public String getType() {
         return type;
@@ -12,11 +17,11 @@ public class AlertEdge {
         this.type = type;
     }
 
-    public Double getScore() {
-        return score;
+    public Double getMutual_information() {
+        return mutual_information;
     }
 
-    public void setScore(Double score) {
-        this.score = score;
+    public void setMutual_information(Double mutual_information) {
+        this.mutual_information = mutual_information;
     }
 }
