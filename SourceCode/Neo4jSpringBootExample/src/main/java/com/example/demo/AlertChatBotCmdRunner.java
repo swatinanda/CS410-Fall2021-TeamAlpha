@@ -11,10 +11,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
 
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 
 @Component
@@ -55,10 +52,13 @@ public class AlertChatBotCmdRunner implements CommandLineRunner {
                 if (choice.equalsIgnoreCase("2")) {
                     getAlertCount(sc, driver);
                 }
+                if (choice.equalsIgnoreCase("3")) {
+                    getAffectedCIs(sc, driver);
+                }
+                if (choice.equalsIgnoreCase("4")) {
+                    getAffectedServices(sc, driver);
+                }
             } while (!choice.equals("q"));
-
-
-
 
             System.exit(0);
 
@@ -80,31 +80,30 @@ public class AlertChatBotCmdRunner implements CommandLineRunner {
             message = choice;
             if(!message.isEmpty()) {
                 if (!choice.equals("q")) {
-                    //System.out.println("Enter device:");
-                    //choice = sc.nextLine();
-                    //device = choice;
-                    //if (!device.isEmpty()) {
-                    if (!choice.equals("q")) {
-                        AlertsController ctrller = new AlertsController(driver);
-                        List<Map<String, Object>> response = ctrller.getAlerts(message, device);
-                        Comparator<Map<String,Object>> sortByScore = Comparator.comparing(x -> ((Double)x.get("mutual_information")));
+                    System.out.println("Enter device:");
+                    choice = sc.nextLine();
+                    device = choice;
+                    if (!device.isEmpty()) {
+                        if (!choice.equals("q")) {
+                            AlertsController ctrller = new AlertsController(driver);
+                            List<Map<String, Object>> response = ctrller.getAlerts(message, device);
+                            Comparator<Map<String, Object>> sortByScore = Comparator.comparing(x -> ((Double) x.get("mutual_information")));
 
-                        response.sort(sortByScore);
-                        if (response.size() > 0) {
-                            System.out.println("These are the correlated Alerts:");
-                            for (int i = response.size() - 1; i >= 0; i--)
-                                System.out.println(mapper.writeValueAsString(response.get(i)));
+                            response.sort(sortByScore);
+                            if (response.size() > 0) {
+                                System.out.println("These are the correlated Alerts:");
+                                for (int i = response.size() - 1; i >= 0; i--)
+                                    System.out.println(mapper.writeValueAsString(response.get(i)));
 
-                        } else {
-                            System.out.println("No substantially correlated alerts found.");
+                            } else {
+                                System.out.println("No substantially correlated alerts found.");
+                            }
+                            System.out.println("Want to diagnose more alerts? Y/N");
+                            choice = sc.nextLine();
+
+
                         }
-                        System.out.println("Want to diagnose more alerts? Y/N");
-                        choice = sc.nextLine();
-
-
                     }
-                    //}
-                    //}
 
                 }
             }
@@ -132,13 +131,94 @@ public class AlertChatBotCmdRunner implements CommandLineRunner {
                             System.out.println(response);
 
                         }
-                        //}
-                        //}
 
                     }
 
                     System.out.println("Want to get alert counts again? Y/N");
                     choice = sc.nextLine();
+                }
+            }
+        } while (!choice.equals("N"));
+    }
+
+    private void getAffectedCIs(Scanner sc, Driver driver) throws JsonProcessingException {
+        String choice = "";
+        do {
+            String message = "";
+            String device = "";
+            System.out.println("Enter alert message:");
+            choice = sc.nextLine();
+
+            message = choice;
+            if(!message.isEmpty()) {
+                if (!choice.equals("q")) {
+                    String start = "";
+                    String end = "";
+                    System.out.println("Enter start date time in format MM-DD-YYYY hh:mm:");
+                    choice = sc.nextLine();
+
+                    start = choice;
+                    if (!start.isEmpty()) {
+                        if (!choice.equals("q")) {
+                            System.out.println("Enter end date time in format MM-DD-YYYY hh:mm:");
+                            choice = sc.nextLine();
+                            end = choice;
+                            if (!end.isEmpty()) {
+                                if (!choice.equals("q")) {
+                                    AlertsController ctrller = new AlertsController(driver);
+                                    Set<String> response = ctrller.getAffectedCIs(start, end, message);
+                                    System.out.println("Affected CIs are:");
+                                    System.out.println(response.toString());
+
+                                }
+                            }
+
+                            System.out.println("Want to get Impacted Devices again? Y/N");
+                            choice = sc.nextLine();
+                        }
+                    }
+                }
+            }
+        } while (!choice.equals("N"));
+    }
+
+    private void getAffectedServices(Scanner sc, Driver driver) throws JsonProcessingException {
+        String choice = "";
+        do {
+            String message = "";
+            String device = "";
+            System.out.println("Enter alert message:");
+            choice = sc.nextLine();
+
+            message = choice;
+            if(!message.isEmpty()) {
+                if (!choice.equals("q")) {
+                    String start = "";
+                    String end = "";
+                    System.out.println("Enter start date time in format MM-DD-YYYY hh:mm:");
+                    choice = sc.nextLine();
+
+                    start = choice;
+                    if (!start.isEmpty()) {
+                        if (!choice.equals("q")) {
+                            System.out.println("Enter end date time in format MM-DD-YYYY hh:mm:");
+                            choice = sc.nextLine();
+                            end = choice;
+                            if (!end.isEmpty()) {
+                                if (!choice.equals("q")) {
+                                    AlertsController ctrller = new AlertsController(driver);
+                                    Set<String> response = ctrller.getAffectedServices(start, end, message);
+                                    System.out.println("Affected Services are:");
+                                    System.out.println(response.toString());
+
+                                }
+
+                            }
+
+                            System.out.println("Want to query unhealthy services again? Y/N");
+                            choice = sc.nextLine();
+                        }
+                    }
                 }
             }
         } while (!choice.equals("N"));

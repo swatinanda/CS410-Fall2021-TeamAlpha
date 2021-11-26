@@ -6,11 +6,13 @@ package com.example.demo;
  import com.example.demo.model.AlertVertex;
  import com.example.demo.model.AlertVertexRelation;
  import com.fasterxml.jackson.core.JsonProcessingException;
+ import com.fasterxml.jackson.databind.JsonNode;
  import org.neo4j.driver.*;
  import org.neo4j.driver.internal.InternalNode;
  import org.neo4j.driver.internal.InternalPath;
  import org.neo4j.driver.internal.InternalRecord;
  import org.neo4j.driver.internal.value.ListValue;
+ import org.neo4j.driver.internal.value.NodeValue;
  import org.neo4j.driver.types.Relationship;
  import org.springframework.http.MediaType;
  import org.springframework.util.StringUtils;
@@ -35,9 +37,7 @@ public class AlertsController {
                 @Override
                 public List<Map<String, Object>> execute(Transaction tx) {
 
-                    //1Query qry = new Query("MATCH p=()-->() RETURN p LIMIT 25");
-                    //2Query qry = new Query("MATCH (n:Alert) RETURN n LIMIT 25");
-                    String deviceClause = !StringUtils.isEmpty(device) ? String.format("toLower(n.device)=toLower('%s')", device) : null;
+                    String deviceClause = !StringUtils.isEmpty(device) ? String.format("toLower(n.ci)=toLower('%s')", device) : null;
                     String messageClause = !StringUtils.isEmpty(message) ? String.format("toLower(n.name) CONTAINS toLower('%s')", message) : null;
                     List<String> lstWhere = new ArrayList<>();
                     if(deviceClause != null)
@@ -45,19 +45,13 @@ public class AlertsController {
                     if(messageClause != null)
                         lstWhere.add(messageClause);
                     String whereClause = String.join(" AND ", lstWhere);
-                    //Query qry = new Query("MATCH (n:Alert ) WHERE " +   whereClause + "\n" +
-                    //        " CALL {\n" +
-                    //        "    WITH n MATCH (n)-[correlated_to]-(asso_alert)  RETURN asso_alert,(n)-[correlated_to]-(asso_alert) as relation\n" +
-                    //        "    \n" +
-                   //         "}\n" +
-                    //        "RETURN asso_alert as vertex, relation as edge");
 
                     Query qry = new Query("MATCH (n:Alert ) WHERE  " +   whereClause + "\n" +
                          " CALL {\n" +
-                         " WITH n MATCH (n)-[r:CORRELATED_AT]-(asso_alert) WHERE toFloat(r.mutual_information) > 0.2 RETURN asso_alert,(n)-[r:CORRELATED_AT]-(asso_alert) as relation\n" +
+                         " WITH n MATCH (n)-[r:CORRELATED_AT]-(asso_alert) RETURN asso_alert,(n)-[r:CORRELATED_AT]-(asso_alert) as relation\n" +
                          " ORDER BY r.mutual_information DESC\n" +
                          " }\n" +
-                         " RETURN asso_alert as vertex, relation as edge ");
+                         " RETURN asso_alert as vertex, relation as edge LIMIT 5");
 
                     System.out.println("********* Cypher Query *********");
                     System.out.println(qry.toString());
@@ -85,6 +79,7 @@ public class AlertsController {
 
     }
 
+    @GetMapping(path = "/alertsCounts", produces = MediaType.APPLICATION_JSON_VALUE)
     public String getAlertsCount(String start, String end) throws JsonProcessingException {
         final String[] response = {""};
         try (Session session = driver.session(SessionConfig.forDatabase("neo4j"))) {
@@ -123,6 +118,119 @@ public class AlertsController {
             });
         }
         return response[0];
+    }
+
+
+    @GetMapping(path = "/affectedCIs", produces = MediaType.APPLICATION_JSON_VALUE)
+    public Set<String> getAffectedCIs(String start, String end, String alert) throws JsonProcessingException {
+         Set<String> response = new HashSet<>();
+        try (Session session = driver.session(SessionConfig.forDatabase("neo4j"))) {
+
+            session.readTransaction(new TransactionWork<Set<String>>() {
+                @Override
+                public Set<String> execute(Transaction tx) {
+
+                    String[] startDateTime = start.split(" ");
+                    String[] endDateTime = end.split(" ");
+
+                    String startClause = " i.date >= '" + startDateTime[0] + "' AND i.startTime >= '" + startDateTime[1] + "'";
+                    String endClause = "i.date <= '" + endDateTime[0] + "' AND i.endTime <= '" + endDateTime[1] + "'";
+                    List<String> lstWhere = new ArrayList<>();
+                    if (startClause != null)
+                        lstWhere.add(startClause);
+                    if (endClause != null)
+                        lstWhere.add(endClause);
+                    String whereClause = String.join(" AND ", lstWhere);
+
+                    String whereAlert = String.format(" toLower(n.name) CONTAINS toLower('%s') ", alert);
+
+
+                    Query qry = new Query("MATCH (n:Alert ) WHERE  " + whereAlert + "\n" +
+                            "MATCH (n)-[r:CORRELATED_AT]-(asso_alert) \n" +
+                            "with n,asso_alert, r ORDER BY r.mutual_information DESC limit 5 \n" +
+                            "optional MATCH (n )-[ar]-(c:CI), (c:CI)-[ci]-(i:Interval) WHERE " + whereClause + "\n" +
+
+                            " return  c as ci ,(n )-[ar]-(c:CI) as ar , i \n" +
+                            "UNION \n" +
+                            "MATCH (n:Alert ) WHERE  " + whereAlert + "\n" +
+                            "MATCH (n)-[r:CORRELATED_AT]-(asso_alert) \n" +
+                            "with n,asso_alert, r ORDER BY r.mutual_information DESC limit 5 \n" +
+                            "optional MATCH (asso_alert )-[ar]-(c:CI), (c:CI)-[ci]-(i:Interval) WHERE " + whereClause + "\n" +
+
+                            " return  c as ci ,(asso_alert )-[ar]-(c:CI) as ar , i ");
+
+                    System.out.println("********* Cypher Query *********");
+                    System.out.println(qry.toString());
+                    System.out.println("********************************");
+                    Result result = tx.run(qry);
+                    while (result.hasNext()) {
+                        Record record = result.next();
+                        //response[0] = "Alert counts between period " + start + " and " + end + " is " + record.get("cnt").asInt();
+                        if(record.get("ci") != null)
+                            response.add(((NodeValue)record.get("ci")).get("name").asString());
+                    }
+                    return response;
+                }
+
+            });
+        }
+        return response;
+    }
+
+    @GetMapping(path = "/affectedServices", produces = MediaType.APPLICATION_JSON_VALUE)
+    public Set<String> getAffectedServices(String start, String end, String alert) throws JsonProcessingException {
+        Set<String> response = new HashSet<>();
+        try (Session session = driver.session(SessionConfig.forDatabase("neo4j"))) {
+
+            session.readTransaction(new TransactionWork<Set<String>>() {
+                @Override
+                public Set<String> execute(Transaction tx) {
+
+                    String[] startDateTime = start.split(" ");
+                    String[] endDateTime = end.split(" ");
+
+                    String startClause = " i.date >= '" + startDateTime[0] + "' AND i.startTime >= '" + startDateTime[1] + "'";
+                    String endClause = "i.date <= '" + endDateTime[0] + "' AND i.endTime <= '" + endDateTime[1] + "'";
+                    List<String> lstWhere = new ArrayList<>();
+                    if (startClause != null)
+                        lstWhere.add(startClause);
+                    if (endClause != null)
+                        lstWhere.add(endClause);
+                    String whereClause = String.join(" AND ", lstWhere);
+
+                    String whereAlert = String.format(" toLower(n.name) CONTAINS toLower('%s') ", alert);
+
+
+                    Query qry = new Query("MATCH (n:Alert ) WHERE  " + whereAlert + "\n" +
+                            "MATCH (n)-[r:CORRELATED_AT]-(asso_alert) \n" +
+                            "with n,asso_alert, r ORDER BY r.mutual_information DESC limit 5 \n" +
+                            "optional MATCH (n )-[ar]-(c:CI), (c:CI)-[ci]-(i:Interval), (c:CI)-[]-(s:Service) WHERE " + whereClause + "\n" +
+
+                            " return  c as ci ,(n )-[ar]-(c:CI) as ar , i, (c:CI)-[]-(s:Service) as cis, s \n" +
+                            "UNION \n" +
+                            "MATCH (n:Alert ) WHERE  " + whereAlert + "\n" +
+                            "MATCH (n)-[r:CORRELATED_AT]-(asso_alert) \n" +
+                            "with n,asso_alert, r ORDER BY r.mutual_information DESC limit 5 \n" +
+                            "optional MATCH (asso_alert )-[ar]-(c:CI), (c:CI)-[ci]-(i:Interval), (c:CI)-[]-(s:Service) WHERE " + whereClause + "\n" +
+
+                            " return  c as ci ,(asso_alert )-[ar]-(c:CI) as ar , i, (c:CI)-[]-(s:Service) as cis, s ");
+
+                    System.out.println("********* Cypher Query *********");
+                    System.out.println(qry.toString());
+                    System.out.println("********************************");
+                    Result result = tx.run(qry);
+                    while (result.hasNext()) {
+                        Record record = result.next();
+                        //response[0] = "Alert counts between period " + start + " and " + end + " is " + record.get("cnt").asInt();
+                        if(record.get("s") != null)
+                            response.add(((NodeValue)record.get("s")).get("name").asString());
+                    }
+                    return response;
+                }
+
+            });
+        }
+        return response;
     }
 
     private AlertVertex getAlertVertex(InternalNode vertex) {
