@@ -40,11 +40,12 @@ public class AlertChatBotCmdRunner implements CommandLineRunner {
                 System.out.println("*     2) Get Alert Counts in a given duration");
                 System.out.println("*     3) Get Impacted Devices due to an Alert in a given duration");
                 System.out.println("*     4) Unhealthy services in a given duration");
+                System.out.println("*     5) Get root cause Alerts");
                 System.out.println("*****************************************************************");
 
 
 
-                System.out.println("Enter your option (1 | 2 | 3 | 4   or q to quit)");
+                System.out.println("Enter your option (1 | 2 | 3 | 4 | 5 | 6   or q to quit)");
                 choice = sc.nextLine();
                 if (choice.equalsIgnoreCase("1")) {
                     getAlerts(sc, driver);
@@ -57,6 +58,9 @@ public class AlertChatBotCmdRunner implements CommandLineRunner {
                 }
                 if (choice.equalsIgnoreCase("4")) {
                     getAffectedServices(sc, driver);
+                }
+                if (choice.equalsIgnoreCase("5")) {
+                    getRootCauseAlert(sc, driver);
                 }
             } while (!choice.equals("q"));
 
@@ -95,10 +99,43 @@ public class AlertChatBotCmdRunner implements CommandLineRunner {
                                 for (int i = response.size() - 1; i >= 0; i--)
                                     System.out.println(mapper.writeValueAsString(response.get(i)));
 
+                                do {
+                                    System.out.println("Do you want to make any alert as root cause? (Y/N) ");
+                                    choice = sc.nextLine();
+                                    if (!choice.isEmpty() && choice.equalsIgnoreCase("Y")) {
+                                        System.out.println("Enter alert to be marked as Root cause");
+                                        choice = sc.nextLine();
+                                        if (!choice.isEmpty()) {
+                                            String alertRootCause = choice;
+                                            System.out.println("Enter date time of Root Cause Alert in format MM-DD-YYYY hh:mm");
+                                            choice = sc.nextLine();
+                                            if (!choice.isEmpty()) {
+                                                String rootCauseAlertTime = choice;
+                                                //todo feedback loop
+                                                try {
+                                                    Boolean success = ctrller.setRootCauseAlert(message, alertRootCause, rootCauseAlertTime);
+                                                    if(success) {
+                                                        System.out.println("Root cause alert set as below:");
+                                                        System.out.println("Input Alert: " + message);
+                                                        System.out.println("Root Cause Alert: " + alertRootCause);
+                                                        System.out.println("Root Cause Alert Time: " + rootCauseAlertTime);
+                                                    } else {
+                                                        System.out.println("Error in saving root cause alert");
+                                                    }
+                                                } catch (Exception exp) {
+                                                    System.out.println("Error in saving root cause alert");
+                                                }
+                                                System.out.println("Do you want to make any more alert as root cause? (Y/N) ");
+                                                choice = sc.nextLine();
+
+                                            }
+                                        }
+                                    }
+                                } while (choice.equalsIgnoreCase("Y"));
                             } else {
                                 System.out.println("No substantially correlated alerts found.");
                             }
-                            System.out.println("Want to diagnose more alerts? Y/N");
+                            System.out.println("Want to diagnose more alerts? (Y/N)");
                             choice = sc.nextLine();
 
 
@@ -115,13 +152,13 @@ public class AlertChatBotCmdRunner implements CommandLineRunner {
         do {
             String start = "";
             String end = "";
-            System.out.println("Enter start date time in format MM-DD-YYYY hh:mm:");
+            System.out.println("Enter start date time in format MM-DD-YYYY hh:mm");
             choice = sc.nextLine();
 
             start = choice;
             if(!start.isEmpty()) {
                 if (!choice.equals("q")) {
-                    System.out.println("Enter end date time in format MM-DD-YYYY hh:mm:");
+                    System.out.println("Enter end date time in format MM-DD-YYYY hh:mm");
                     choice = sc.nextLine();
                     end = choice;
                     if (!end.isEmpty()) {
@@ -141,6 +178,44 @@ public class AlertChatBotCmdRunner implements CommandLineRunner {
         } while (!choice.equals("N"));
     }
 
+    private void getRootCauseAlert(Scanner sc, Driver driver) throws JsonProcessingException {
+        String choice = "";
+        do {
+            String start = "";
+            String end = "";
+            String date = "";
+            System.out.println("Enter date in format MM-DD-YYYY");
+            choice = sc.nextLine();
+
+            date = choice;
+            if(!date.isEmpty()) {
+                if (!choice.equals("q")) {
+                    System.out.println("Enter start time in format hh:mm");
+                    choice = sc.nextLine();
+                    if (!choice.equals("q")) {
+                        start = choice;
+                        if (!start.isEmpty()) {
+
+                            System.out.println("Enter end time in format hh:mm");
+                            choice = sc.nextLine();
+                            if (!choice.equals("q")) {
+                                end = choice;
+                                if (!end.isEmpty()) {
+                                    if (!choice.equals("q")) {
+                                        AlertsController ctrller = new AlertsController(driver);
+                                        List<String> response = ctrller.getRootCauseAlerts(date, start, end);
+                                        System.out.println(response);
+                                    }
+                                }
+                                System.out.println("Want to get root cause alerts again? Y/N");
+                                choice = sc.nextLine();
+                            }
+                        }
+                    }
+                }
+            }
+        } while (!choice.equals("N"));
+    }
     private void getAffectedCIs(Scanner sc, Driver driver) throws JsonProcessingException {
         String choice = "";
         do {

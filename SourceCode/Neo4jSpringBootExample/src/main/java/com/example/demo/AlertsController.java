@@ -7,22 +7,27 @@ package com.example.demo;
  import com.example.demo.model.AlertVertexRelation;
  import com.fasterxml.jackson.core.JsonProcessingException;
  import com.fasterxml.jackson.databind.JsonNode;
+ import com.fasterxml.jackson.databind.ObjectMapper;
  import org.neo4j.driver.*;
  import org.neo4j.driver.internal.InternalNode;
  import org.neo4j.driver.internal.InternalPath;
  import org.neo4j.driver.internal.InternalRecord;
  import org.neo4j.driver.internal.value.ListValue;
  import org.neo4j.driver.internal.value.NodeValue;
+ import org.neo4j.driver.internal.value.PathValue;
+ import org.neo4j.driver.types.Node;
  import org.neo4j.driver.types.Relationship;
  import org.springframework.http.MediaType;
  import org.springframework.util.StringUtils;
  import org.springframework.web.bind.annotation.GetMapping;
+ import org.springframework.web.bind.annotation.PostMapping;
  import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AlertsController {
 
     private Driver driver = null;
+    ObjectMapper mapper = new ObjectMapper();
     public AlertsController() {}
     public AlertsController(Driver driver) {
         this.driver = driver;
@@ -79,6 +84,7 @@ public class AlertsController {
 
     }
 
+
     @GetMapping(path = "/alertsCounts", produces = MediaType.APPLICATION_JSON_VALUE)
     public String getAlertsCount(String start, String end) throws JsonProcessingException {
         final String[] response = {""};
@@ -119,6 +125,69 @@ public class AlertsController {
         }
         return response[0];
     }
+
+
+    @GetMapping(path = "/rootCauseAlerts", produces = MediaType.APPLICATION_JSON_VALUE)
+    public List<String> getRootCauseAlerts(String date, String start, String end) throws JsonProcessingException {
+        List<String> response = new ArrayList<>();
+        try (Session session = driver.session(SessionConfig.forDatabase("neo4j"))) {
+
+            session.readTransaction(new TransactionWork<List<String>>() {
+                @Override
+                public List<String> execute(Transaction tx) {
+
+                    String dateWhereClause = " i.date = '" + date + "' and i.startTime >= '" + start + "' and i.endTime <= '" + end + "' ";
+
+                    Query qry = new Query("MATCH (asso_alert)-[g:GENERATED_AT]-(i:Interval) WHERE g.root_cause=true and  " + dateWhereClause + "\n" +
+                            " RETURN distinct((asso_alert)-[g:GENERATED_AT]-(i:Interval)) ");
+
+                    System.out.println("********* Cypher Query *********");
+                    System.out.println(qry.toString());
+                    System.out.println("********************************");
+                    Result result = tx.run(qry);
+                    while (result.hasNext()) {
+
+                        Record record = result.next();
+                        try {
+
+                            for (Value v :(((InternalRecord) record).values())) {
+                                ListValue lv = (ListValue) v;
+                                Iterable<Node> nodes = ((InternalPath)lv.asList().get(0)).nodes();
+                                Node startNodeAlert = null;
+                                Node endNodeInterval = null;
+
+                                for (Node node:nodes
+                                     ) {
+                                    if(node.hasLabel("Alert"))
+                                        startNodeAlert = node;
+                                    else if(node.hasLabel("Interval"))
+                                        endNodeInterval = node;
+                                }
+
+                                String resultString = "Root cause alert on date: " + endNodeInterval.get("date")
+                                        + " time: " + endNodeInterval.get("intervalPeriod") + " is " + startNodeAlert.get("name");
+
+                                response.add(resultString);
+
+                            }
+                            //Arr values = ((InternalRecord) record).values();
+                            //((InternalPath)((ListValue)((InternalRecord) record).values().get(0)).asList().get(0)).nodes().
+
+
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+                        //((InternalNode)((Arrays.ArrayList)((PathValue)((ListValue)(((InternalRecord) record).values[0])).get(0)).asPath().nodes()).get(0)).labels()
+
+                    }
+                    return response;
+                }
+
+            });
+        }
+        return response;
+    }
+
 
 
     @GetMapping(path = "/affectedCIs", produces = MediaType.APPLICATION_JSON_VALUE)
@@ -176,7 +245,56 @@ public class AlertsController {
         }
         return response;
     }
+    @PostMapping(path = "/setRootCause", produces = MediaType.APPLICATION_JSON_VALUE)
+    public Boolean setRootCauseAlert(String inputAlert, String rootCauseAlert, String rootCauseTime)
+    {
+        final Boolean[] response = {true};
+        try (Session session = driver.session(SessionConfig.forDatabase("neo4j"))) {
 
+            session.writeTransaction(new TransactionWork<Boolean>() {
+                @Override
+                public Boolean execute(Transaction tx) {
+                    String inputAlertClause = String.format(" toLower(n.name) CONTAINS toLower('%s') ", inputAlert);
+
+                    String[] rootCauseDateTime = rootCauseTime.split(" ");
+                    String rootCauseAlertDateTimeClause = " i.date = '" + rootCauseDateTime[0] + "' AND i.startTime <= '" + rootCauseDateTime[1] + "' AND i.endTime >= '"+ rootCauseDateTime[1] +"'";
+                    String rootCauseAlertClause = String.format(" toLower(asso_alert.name) CONTAINS toLower('%s') ", rootCauseAlert);
+                    List<String> lstRootCauseWhere = new ArrayList<>();
+                    if(rootCauseAlertDateTimeClause!= null)
+                        lstRootCauseWhere.add(rootCauseAlertDateTimeClause);
+                    if(rootCauseAlertClause != null)
+                        lstRootCauseWhere.add(rootCauseAlertClause);
+
+                    String rootCauseAlertWhereClause = String.join(" AND ", lstRootCauseWhere);
+
+                    Query qry = new Query("MATCH (n:Alert ) WHERE " + inputAlertClause + "\n" +
+                            " MATCH (n)-[r:CORRELATED_AT]-(asso_alert), (asso_alert)-[:GENERATED_AT]-(i:Interval) \n" +
+                            " WHERE " + rootCauseAlertWhereClause + "\n" +
+                            " MERGE (asso_alert)-[g:GENERATED_AT]-(i) \n" +
+                            " ON MATCH SET g.root_cause=true"
+                    );
+                    System.out.println("********* Cypher Query *********");
+                    System.out.println(qry.toString());
+                    System.out.println("********************************");
+                    try {
+                        Result result = tx.run(qry);
+                        while (result.hasNext()) {
+                            Record record = result.next();
+                            //response[0] = "Alert counts between period " + start + " and " + end + " is " + record.get("cnt").asInt();
+                            response[0] = true;
+                        }
+
+                    } catch (Exception ex) {
+                        System.out.println("Error in updating the root cause feedback");
+                        response[0] = false;
+                    }
+                    return response[0];
+                }
+
+            });
+        }
+        return response[0];
+    }
     @GetMapping(path = "/affectedServices", produces = MediaType.APPLICATION_JSON_VALUE)
     public Set<String> getAffectedServices(String start, String end, String alert) throws JsonProcessingException {
         Set<String> response = new HashSet<>();
@@ -191,12 +309,12 @@ public class AlertsController {
 
                     String startClause = " i.date >= '" + startDateTime[0] + "' AND i.startTime >= '" + startDateTime[1] + "'";
                     String endClause = "i.date <= '" + endDateTime[0] + "' AND i.endTime <= '" + endDateTime[1] + "'";
-                    List<String> lstWhere = new ArrayList<>();
+                    List<String> lstWhen = new ArrayList<>();
                     if (startClause != null)
-                        lstWhere.add(startClause);
+                        lstWhen.add(startClause);
                     if (endClause != null)
-                        lstWhere.add(endClause);
-                    String whereClause = String.join(" AND ", lstWhere);
+                        lstWhen.add(endClause);
+                    String whenClause = String.join(" AND ", lstWhen);
 
                     String whereAlert = String.format(" toLower(n.name) CONTAINS toLower('%s') ", alert);
 
@@ -204,14 +322,14 @@ public class AlertsController {
                     Query qry = new Query("MATCH (n:Alert ) WHERE  " + whereAlert + "\n" +
                             "MATCH (n)-[r:CORRELATED_AT]-(asso_alert) \n" +
                             "with n,asso_alert, r ORDER BY r.mutual_information DESC limit 5 \n" +
-                            "optional MATCH (n )-[ar]-(c:CI), (c:CI)-[ci]-(i:Interval), (c:CI)-[]-(s:Service) WHERE " + whereClause + "\n" +
+                            "optional MATCH (n )-[ar]-(c:CI), (c:CI)-[ci]-(i:Interval), (c:CI)-[]-(s:Service) WHERE " + whenClause + "\n" +
 
                             " return  c as ci ,(n )-[ar]-(c:CI) as ar , i, (c:CI)-[]-(s:Service) as cis, s \n" +
                             "UNION \n" +
                             "MATCH (n:Alert ) WHERE  " + whereAlert + "\n" +
                             "MATCH (n)-[r:CORRELATED_AT]-(asso_alert) \n" +
                             "with n,asso_alert, r ORDER BY r.mutual_information DESC limit 5 \n" +
-                            "optional MATCH (asso_alert )-[ar]-(c:CI), (c:CI)-[ci]-(i:Interval), (c:CI)-[]-(s:Service) WHERE " + whereClause + "\n" +
+                            "optional MATCH (asso_alert )-[ar]-(c:CI), (c:CI)-[ci]-(i:Interval), (c:CI)-[]-(s:Service) WHERE " + whenClause + "\n" +
 
                             " return  c as ci ,(asso_alert )-[ar]-(c:CI) as ar , i, (c:CI)-[]-(s:Service) as cis, s ");
 
