@@ -21,22 +21,31 @@ public class TestRealScenarioWithMI {
         processor.computerMutualInformation();
         double[][] mi = processor.getMutualInfomation();
         // find out the the correlated alarms based on mutual information for the first template
-        int[] indexes = indexesOfTopElements(mi[0],4);
+        int[] indexes = indexesOfTopElements(mi[0],6);
         System.out.println(Arrays.toString(indexes));
-        System.out.println(alarms.get(0));
+        //System.out.println(alarms.get(0));
         for(int i=0; i<indexes.length; i++)
         {
             System.out.println(alarms.get(indexes[i]));
+        }
+
+        System.out.println("Their Mutual Information Matrix is : ");
+        for(int i=0; i< indexes.length; i++)
+        {
+            for(int j=0; j<indexes.length; j++)
+                System.out.printf("%.3f ", mi[indexes[i]][indexes[j]]);
+            System.out.print("\n");
         }
     }
     static int[] indexesOfTopElements(double[] orig, int nummax) {
         double[] copy = Arrays.copyOf(orig,orig.length);
         Arrays.sort(copy);
         double[] honey = Arrays.copyOfRange(copy,copy.length - nummax, copy.length);
-        int[] result = new int[nummax];
-        int resultPos = 0;
+        int[] result = new int[nummax+1];
+        result[0] = 0;
+        int resultPos = 1;
         for(int i = 0; i < orig.length; i++) {
-            if(resultPos == nummax)
+            if(resultPos == nummax+1)
                 break;
             double onTrial = orig[i];
             int index = Arrays.binarySearch(honey,onTrial);

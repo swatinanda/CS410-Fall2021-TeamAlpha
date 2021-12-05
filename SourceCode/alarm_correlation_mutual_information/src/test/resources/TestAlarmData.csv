@@ -1,4 +1,4 @@
-sju-ll2-sw04;APM;kafka_lab133;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{ 67, 69, 71, 85, 221, 224, 225, 227, 229, 230 }
+sju-ll2-sw04;APM;nfs_disk;The alert DXSaaS NFS Disk % Used Alert has breached the MAJOR threshold of 80;{ 67, 69, 71, 85, 221, 224, 225, 227, 229, 230 }
 lc-irv-3489.lvn.broadcom.net;APM;service12;The alert Deployment Availablity has breached the MAJOR threshold of 0;{44, 47, 57, 73, 110, 120, 170, 175, 236}
 wpdvjmp01;UIM;service12;DEVICE IRV2-4-AP03 HAS STOPPED RESPONDING TO POLLS;{36, 40, 98, 105, 164, 188, 230, 243, 252, 264}
 wsgpvmjmp01;Datadog;service13;Interface is down;{43, 70, 106, 119, 219, 254}
@@ -39,7 +39,7 @@ SC5TFAPPSW0102_ae5;APMDatadog;service11;Device or SNMP agent on Device lvn-dctor
 lc-lvn-0889.lvn.broadcom.net;APM;service16;LINK UP/DOWN TRAPS RECEIVED IN THE LAST 5 MINUTES EXCEEDS THRESHOLD;{29, 171, 177, 226, 229, 236, 246, 286}
 wnpvtsf01;Spectrum;service12;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards;{18, 23, 29, 33, 38, 114, 170, 193, 194, 272}
 nan-wan-sr1.nw-ap.broadcom.net_Gi0/0/1;APM;service1;A power outage was detected in server room 23;{15, 37, 55, 197, 203, 219, 234, 255, 256, 263, 281}
-sgn-dcdmz-int;APM;OI_log-monitor;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000;{ 67, 69, 71, 85, 221, 224, 225, 226, 229, 230 }
+sgn-dcdmz-int;APM;kafka_consumer_lag;The alert APM Metric Sorter Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{ 67, 69, 71, 85, 221, 224, 225, 226, 229, 231 }
 ren-wan-sr1.nw-am.broadcom.net;Dynatrace;service7;The alert Frontend Errors has breached the MAJOR threshold of 1;{11, 21, 39, 66, 82, 132, 154, 250, 265, 279}
 lc-sj1-6670.lvn.broadcom.net;Spectrum;service7;robot inactive;{11, 36, 43, 78, 134, 135, 265, 270, 276}
 ren-wan-bdr1.nw-am.broadcom.net;Solarwinds;service7;The alert Heap Used Percent has breached the MAJOR threshold of 40;{32, 82, 129, 160, 167, 215, 228, 244, 251}
@@ -80,7 +80,7 @@ cvc-wan-sr2.nw-am.broadcom.net_Gi0/0/1;Spectrum;service16;The alert ClusterManag
 wnpvtsf06;Spectrum;service14;The alert Heap Used Percent has breached the MAJOR threshold of 40;{3, 4, 39, 63, 90, 106, 132, 144, 149, 154, 156, 196, 209, 214, 215, 257, 261}
 wpdvepiap01;UIM;service11;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{30, 50, 155, 156, 168, 177, 180, 188, 189, 253, 257, 260, 280}
 cpr-wan-sr1.nw-em.broadcom.net_Gi0/0/0;APMDatadog;service7;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00);{19, 68, 104, 136, 176, 178, 229, 233, 241, 248, 251, 263, 281}
-lc-lvn-1513;APM;zookeeper_lab134;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000;{ 68, 69, 71, 85, 221, 224, 225, 227, 229, 230 }
+lc-lvn-1513;APM;zookeeper_lab134;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000;{ 68, 69, 70, 71, 221, 224, 225, 227, 229, 231 }
 lc-sj1-3779.lvn.broadcom.net;Solarwinds;service15;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{14, 38, 41, 69, 99, 132, 157, 162, 173, 200, 218, 219, 220, 227, 255, 263, 275, 284}
 lc-sj1-4513.lvn.broadcom.net;NetOps;service14;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{2, 57, 67, 77, 112, 126, 129, 163, 223}
 ANPVVIRSEC01;APMDatadog;service7;Data Center Outage Alert;{8, 27, 95, 97, 122, 143, 169, 183, 198, 205, 221, 274}
@@ -203,7 +203,7 @@ wnpvisscmfejb2;UIM;service11;Data Center Outage Alert;{14, 72, 83, 105, 124, 150
 lc-sj1-4865.lvn.broadcom.net;Spectrum;service8;Data Center Outage Alert;{1, 14, 25, 150, 189, 265, 283}
 wpdvwsd14;APM;service7;CHASSIS fdt-snc.net DOWN;{4, 7, 14, 23, 26, 31, 40, 98, 123, 144, 158, 231}
 sha-wan-bdr1.nw-ap.broadcom.net_Gi0/0/0;Dynatrace;service14;DEVICE IRV2-4-AP03 HAS STOPPED RESPONDING TO POLLS;{45, 78, 82, 118, 139, 160, 209, 219, 233, 277}
-wsgpvmjmp01;Spectrum;ethernet_fdt-snc;CHASSIS fdt-snc.net DOWN;{ 69, 70, 71, 85, 221, 224, 225, 227, 229, 230 }
+wsgpvmjmp01;APM;kafka_service;The alert APM ServiceAlarm Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{ 69, 70, 71, 85, 221, 224, 225, 227, 229, 230 }
 lc-sj1-4009.lvn.broadcom.net;Dynatrace;service15;robot inactive;{43, 53, 143, 150, 188, 212, 240, 280}
 lc-lvn-0914.lvn.broadcom.net;Datadog;service13;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{75, 99, 238, 254, 255, 269}
 bri-wan-sr1.nw-em.broadcom.net_Gi0/0/3;APM;service2;percentage java heap used;{26, 31, 38, 69, 91, 100, 109, 115, 121, 200, 218, 225, 275, 276}
@@ -987,7 +987,7 @@ wlvnvmgc02;Spectrum;service4;disk usage c exceeds;{39, 71, 87, 125, 145, 275}
 lc-tlva-109.ihl.broadcom.net;Dynatrace;service15;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards;{42, 59, 63, 83, 121, 144, 155, 174, 183, 187, 225, 234}
 wpdvisscmfefs1;APMDatadog;service9;sssd: Process /usr/sbin/sssd/ is not running;{3, 20, 43, 53, 69, 133, 146, 224, 235}
 bcatestdev.lvn.broadcom.net;Dynatrace;service6;The alert Heap Used Percent has breached the MAJOR threshold of 40;{12, 24, 45, 62, 105, 120, 133, 152, 219, 263, 285}
-lc-irv-3489;Spectrum;ethernet_fdt-snc;DEVICE fdt-snc.net HAS STOPPED RESPONDING TO POLLS;{ 67, 69, 70, 85, 221, 224, 225, 227, 229, 230 }
+lc-irv-3489;APM;kafka_service;The alert ClusterManager - ServiceAlarm AlarmThreadPool QueuedTask Alert(US PROD) has breached the CRITICAL threshold of 100;{ 67, 69, 70, 85, 221, 224, 225, 227, 229, 230 }
 bri-wan-sr1.nw-em.broadcom.net_Gi0/0/3;APM;service4;The alert GCPHeap1 has breached the MAJOR threshold of 8;{49, 68, 94, 113, 117, 152, 250}
 anpvpsc12.yis.broadcom.net;Datadog;service6;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{9, 11, 41, 68, 93, 143, 219, 235, 236, 286}
 sju-cas-sw08.nw-am.broadcom.net;NetOps;service10;LINK UP/DOWN TRAPS RECEIVED IN THE LAST 5 MINUTES EXCEEDS THRESHOLD;{6, 25, 51, 53, 72, 99, 173, 179, 190, 193, 223, 233}
