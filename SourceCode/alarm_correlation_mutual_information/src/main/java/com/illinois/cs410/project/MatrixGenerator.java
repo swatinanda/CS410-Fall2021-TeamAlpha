@@ -1,10 +1,6 @@
 package com.illinois.cs410.project;
 
-import java.util.BitSet;
-import java.util.HashSet;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public class MatrixGenerator {
 
@@ -48,14 +44,6 @@ public class MatrixGenerator {
         }
         return randomBit.stream().mapToInt(Number::intValue).toArray();
 
-
-        /*int[] enabledBits = new int[randomCount];
-        for(int k =0; k<randomCount; k++){
-            int value = rand.nextInt(templates);
-            enabledBits[k] = value;
-        }
-        System.out.println("Requested "+randomCount+" Got "+enabledBits.length);
-        return enabledBits;*/
     }
 
     public LinkedHashMap<Integer, BitSet> doDataProcessing() {

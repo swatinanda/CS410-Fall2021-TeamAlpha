@@ -20,17 +20,37 @@ public class AlarmFactory {
     Set<String> messages;
     Set<String> host;
     Set<String> source;
+    Set<String> service;
     String dirName = "data/";
-    public AlarmFactory(int noOfAlarm) {
-        this.number = noOfAlarm;
+
+    private void readServiceCorpus(String fileName) {
+        try (BufferedReader br = new BufferedReader(new FileReader(dirName+fileName))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                // process the line.
+                this.service.add(line);
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public AlarmFactory() {
         this.alarms = new ArrayList<>();
         this.host = new HashSet<>();
         this.messages = new HashSet<>();
         this.source = new HashSet<>();
+        this.service = new HashSet<>();
+        this.number = 5;
         readHostCorpus("host_corpus.txt");
         readMessageCorpus("alarm_message_corpus.txt");
+        readServiceCorpus("service_corpus.txt");
+    }
 
-
+    public void setNumber(int number) {
+        this.number = number;
     }
 
     private void readHostCorpus(String fileName) {
@@ -67,17 +87,19 @@ public class AlarmFactory {
 
     }
 
-    public void createAlarms()
+    public void createAlarms(int startNumber)
     {
         int hostSize = this.host.size();
         int messageSize = this.messages.size();
         int sourceSize = this.source.size();
-        for(int i=1; i<=number; i++)
+        int serviceSize = this.service.size();
+        for(int i=0; i<number; i++)
         {
-            this.alarms.add(new AlarmTemplates(i,
+            this.alarms.add(new AlarmTemplates((long)startNumber+i,
                     getRandom(messageSize, this.messages),
                     getRandom(hostSize, this.host),
-                    getRandom(sourceSize, this.source)));
+                    getRandom(sourceSize, this.source),
+                    getRandom(serviceSize, this.service)));
         }
     }
 

@@ -11,17 +11,17 @@ UIM;Disk Usage (%) on D:\ for D:\ is at 5.57 %.
 UIM;DEVICE DETECTED A COMMUNICATION LINK DOWN ON AN INTERFACE
 UIM;Temperature for CPU1 Temp on lc-ibn-1051.ibn.broadcom.net is 103.0 (> 100.0)
 UIM;DEVICE IRV2-4-AP03 HAS STOPPED RESPONDING TO POLLS
-UIM;CDM is running on bpel-vip.ash.broadcom.net, possibly duplicated data series in the QoS database
+UIM;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database
 UIM;Robot mnmjmp6405 is inactive
 Datadog;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01)
-UIM;Profile SQL102, instance admsqlc9n2\SQL102, AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec, sql text: sp_server_diagnostics
-UIM;Profile NP01SOA3, instance NP01SOA3, tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES, chunks:39.00)
-UIM;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500', last_calc='20211113160400', redo_start='0', redo_stop='0' WHERE calc_id=1	0.000
-UIM;Profile MSSQLSERVER, instance ldcna1cht1, buffer cache hit-ratio (88.80%) is too low
-UIM;Profile MAZNASQLTSTC1N2, instance MAZNASQLTSTC1N2, buffer cache hit-ratio (87.17%) is too low
+UIM;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics
+UIM;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00)
+UIM;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000
+UIM;Profile MSSQLSERVER- instance ldcna1cht1- buffer cache hit-ratio (88.80%) is too low
+UIM;Profile MAZNASQLTSTC1N2- instance MAZNASQLTSTC1N2- buffer cache hit-ratio (87.17%) is too low
 UIM;sssd: Process /usr/sbin/sssd/ is not running
 UIM;java-AdminServer: Process /AdminServer/ is not running
-UIM;ntpd_monitoring: Process ntpd not started, max starts 3 reached
+UIM;ntpd_monitoring: Process ntpd not started- max starts 3 reached
 UIM;DNS lookup of 'www.google.com' failed (type 'a') on nameserver 'sha-dns-1.broadcom.net' for profile 'sha-dns-1.broadcom.net'
 UIM;QOS_CPU_MULTI_USAGE on CPU-2 for User-2 is at 52.53 %.
 UIM;robot inactive
@@ -64,3 +64,8 @@ Dynatrace;disk usage c exceeds
 NetOps;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards
 APM;temperature cpu1 temp
 NetOps;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards
+APM;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000
+APM;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000
+APM;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000
+Spectrum;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS
+Spectrum;CHASSIS fdt-snc.net DOWN
