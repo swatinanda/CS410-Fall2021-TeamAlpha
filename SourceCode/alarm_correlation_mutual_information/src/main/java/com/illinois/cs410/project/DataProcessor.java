@@ -84,10 +84,15 @@ public class DataProcessor {
         }
 
     }
+    List<AlarmTemplates> alarmTemplatesList;
+
+    public List<AlarmTemplates> getAlarmTemplatesList() {
+        return alarmTemplatesList;
+    }
 
     public void dumpDataToCsv(List<Incident> incidents) {
         int startId = 0;
-        List<AlarmTemplates> alarmTemplatesList = new ArrayList<>();
+        alarmTemplatesList = new ArrayList<>();
         int incidentId = 1;
         for(Incident i : incidents)
         {

@@ -1,8 +1,6 @@
 package com.illinois.cs410.project;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.*;
 
 public class DemoScenario {
@@ -20,9 +18,26 @@ public class DemoScenario {
         processor.dumpDataToCsv(demoScenarios.getIncidents());
         processor.computerMutualInformation();
         double[][] mi = processor.getMutualInfomation();
+        writeAlarmData(templates, processor.getAlarmTemplatesList());
         writeFile(mi);
 
 
+    }
+
+    private static void writeAlarmData(LinkedHashMap<Integer, BitSet> templates, List<AlarmTemplates> alarmTemplatesList) {
+        try {
+            PrintWriter writer = new PrintWriter("output/AlarmData.txt");
+            int count =0;
+            for(AlarmTemplates a: alarmTemplatesList)
+            {
+                writer.print(a.host+";"+a.source+";"+a.service+";"+a.message+";"+templates.get(count)+"\n");
+                count++;
+            }
+
+            writer.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     private static void writeFile(double[][] mi) throws IOException {

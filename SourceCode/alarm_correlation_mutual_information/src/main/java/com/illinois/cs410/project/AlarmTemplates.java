@@ -8,10 +8,35 @@ public class AlarmTemplates {
     Long id;
     String message;
     String host;
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     String source;
     String service;
     ArrayList<Interval> intervals;
     int incidentId;
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public void setHost(String host) {
+        this.host = host;
+    }
+
+    public void setSource(String source) {
+        this.source = source;
+    }
+
+    public void setService(String service) {
+        this.service = service;
+    }
+
+    public void setIntervals(ArrayList<Interval> intervals) {
+        this.intervals = intervals;
+    }
 
     public Long getId() {
         return id;
