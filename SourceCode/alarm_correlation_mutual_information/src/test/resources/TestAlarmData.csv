@@ -1,0 +1,993 @@
+sju-ll2-sw04;APM;nfs_disk;The alert DXSaaS NFS Disk % Used Alert has breached the MAJOR threshold of 80;{ 67, 69, 71, 85, 221, 224, 225, 227, 229, 230 }
+lc-irv-3489.lvn.broadcom.net;APM;service12;The alert Deployment Availablity has breached the MAJOR threshold of 0;{44, 47, 57, 73, 110, 120, 170, 175, 236}
+wpdvjmp01;UIM;service12;DEVICE IRV2-4-AP03 HAS STOPPED RESPONDING TO POLLS;{36, 40, 98, 105, 164, 188, 230, 243, 252, 264}
+wsgpvmjmp01;Datadog;service13;Interface is down;{43, 70, 106, 119, 219, 254}
+wpdvwsd06;APM;service4;Profile MSSQLSERVER- instance ldcna1cht1- buffer cache hit-ratio (88.80%) is too low;{10, 28, 44, 74, 80, 104, 106, 116, 151, 213, 285}
+ren-wan-sr1.nw-am.broadcom.net_Te0/1/6;Datadog;service6;temperature cpu1 temp;{12, 85, 86, 154, 182, 197, 198, 271, 277}
+LPDVMFT13;NetOps;service13;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{65, 69, 71, 84, 88, 234, 247, 248, 284}
+wnpdvrdp01;APM;service7;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{8, 23, 33, 46, 103, 134, 140, 152}
+lnppinc05.sgn.broadcom.net;UIM;service16;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{28, 76, 84, 118, 122, 133, 175, 212, 231, 257}
+sha-wan-bdr3.nw-ap.broadcom.net_Gi0/0/1;APM;service6;Temperature for CPU1 Temp on lc-ibn-1051.ibn.broadcom.net is 103.0 (> 100.0);{102, 103, 153, 163, 186, 208, 215, 266, 285}
+lc-lvn-1502.lvn.broadcom.net;Datadog;service7;Server returned HTTP response code 401 for URL http://abc.com;{5, 14, 122, 151, 174, 206, 220, 226}
+wnpvisscmbeap2;NetOps;service11;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards;{0, 122, 145, 146, 161, 259}
+lc-sj1-5744.lvn.broadcom.net;APMDatadog;service1;Percentage of Maximum Capacity Currently Used going to reach 85.0 pct;{91, 97, 102, 130, 135, 173, 223, 264, 277, 279}
+lc-sj1-5635.lvn.broadcom.net;APM;service15;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{7, 41, 55, 72, 77, 81, 152, 172, 194, 229, 254}
+lnpvabrcaw02.broadcom.com;UIM;service15;sssd: Process /usr/sbin/sssd/ is not running;{33, 39, 78, 98, 99, 114, 124, 218, 232, 241, 258, 259}
+banlcs128.ibn.broadcom.net;APMDatadog;service16;High Receive Percent Utilization on Interface GigabitEthernet0/0/1 · *** LAN *** for node 4LU-Antwerpen-RTR01;{18, 28, 50, 68, 76, 79, 130, 164, 198, 224, 276}
+lc-irv-3713.lvn.broadcom.net;Datadog;service1;Disk Usage (%) on D:\ for D:\ is at 5.57 %.;{4, 42, 46, 64, 81, 93, 118, 128, 163, 176, 192}
+pales202;APMDatadog;service15;The alert Deployment Availablity has breached the MAJOR threshold of 0;{50, 74, 85, 109, 131, 153, 155, 195, 240, 243, 271, 280}
+lnpvbhftps01.broadcom.com;Spectrum;service10;SWITCH FIBRE CHANNEL PORT SCAN;{32, 52, 87, 100, 125, 137, 229}
+sju-voice-vg02.nw-am.broadcom.net;Spectrum;service13;Robot mnmjmp6405 is inactive;{3, 24, 115, 181}
+lc-sj1-4009.lvn.broadcom.net;NetOps;service1;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00);{1, 177, 201, 211, 231, 277}
+lc-lvn-1130.lvn.broadcom.net;APM;service4;The alert Frontend Errors has breached the MAJOR threshold of 1;{41, 74, 81, 82, 91, 101, 116, 127, 164, 173, 189, 218, 256, 266}
+lc-tlva-643.ihl.broadcom.net;Datadog;service2;Cellular Interface is Up;{3, 47, 80, 101, 118, 125, 168, 169, 174, 178, 189, 277, 281}
+mvj-fab-2fidf02-sw2.nw-ap.broadcom.net;UIM;service16;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{113, 119, 136, 174, 184, 217, 262}
+wpdvwsd17;APM;service3;sssd: Process /usr/sbin/sssd/ is not running;{41, 44, 62, 79, 84, 90, 108, 138, 142, 156, 186, 262, 281}
+lc-lvn-1684.lvn.broadcom.net;Dynatrace;service9;CPU Average Total Usage on Total for User is at 1.14 %.;{110, 116, 130, 175, 185, 205, 234}
+wpdvisscmbejb12;UIM;service5;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{11, 13, 16, 24, 79, 140, 269}
+sju-cas-sw08.nw-am.broadcom.net;Datadog;service10;Total CPU Usage on Total for WNPVTSF09.Broadcom.net is at 1.07 %. It has violated the threshold for at least 7.0 minutes out of 5.0 MINUTES.;{0, 9, 11, 14, 21, 59, 73, 81, 152, 200, 238, 286}
+sdg-ll2-1f-a1047-wcc-bca-sw6.nw-am.broadcom.net;APMDatadog;service1;The alert Heap Used Percent has breached the MAJOR threshold of 40;{80, 116, 131, 143, 186, 193, 211, 216, 237, 246, 249, 279}
+wpdvlab04;NetOps;service7;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000;{5, 51, 60, 128, 194, 199, 203, 204, 206, 222, 249, 271}
+mab-wan-sr1.nw-am.broadcom.net_Gi0/0/3;NetOps;service3;Node is down;{4, 11, 26, 30, 62, 66, 94, 100, 119, 148, 152, 185, 192, 204, 221, 235, 245, 286}
+sdg-ll2-1f-a1047-wcc-sw5.nw-am.broadcom.net;Solarwinds;service13;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{3, 28, 46, 92, 93, 111, 135, 184, 217, 244, 263, 273, 282}
+ihy-ll2-b2-csg-lab2-aggr01.nw-ap.broadcom.net;APMDatadog;service9;High packet loss;{78, 95, 109, 170, 196, 219, 240, 242}
+SC5TFAPPSW0102_ge-0/0/20;Dynatrace;service8;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS;{15, 29, 31, 54, 186, 195, 208, 272}
+lc-irv-3226.lvn.broadcom.net;Datadog;service5;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards;{26, 51, 65, 81, 83, 86, 103, 182, 199, 208, 225, 235, 253, 267}
+lc-blr-627.ibn.broadcom.net;APMDatadog;service11;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{5, 9, 34, 48, 58, 70, 132, 149, 159, 162}
+bld-med-bca-05.ihl.broadcom.net;Solarwinds;service3;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{88, 109, 150, 151, 157, 160, 199, 208, 277, 281}
+SC5TFAPPSW0102_ae5;APMDatadog;service11;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{25, 51, 75, 107, 115, 139, 147, 156, 170, 244, 245}
+lc-lvn-0889.lvn.broadcom.net;APM;service16;LINK UP/DOWN TRAPS RECEIVED IN THE LAST 5 MINUTES EXCEEDS THRESHOLD;{29, 171, 177, 226, 229, 236, 246, 286}
+wnpvtsf01;Spectrum;service12;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards;{18, 23, 29, 33, 38, 114, 170, 193, 194, 272}
+nan-wan-sr1.nw-ap.broadcom.net_Gi0/0/1;APM;service1;A power outage was detected in server room 23;{15, 37, 55, 197, 203, 219, 234, 255, 256, 263, 281}
+sgn-dcdmz-int;APM;kafka_consumer_lag;The alert APM Metric Sorter Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{ 67, 69, 71, 85, 221, 224, 225, 226, 229, 231 }
+ren-wan-sr1.nw-am.broadcom.net;Dynatrace;service7;The alert Frontend Errors has breached the MAJOR threshold of 1;{11, 21, 39, 66, 82, 132, 154, 250, 265, 279}
+lc-sj1-6670.lvn.broadcom.net;Spectrum;service7;robot inactive;{11, 36, 43, 78, 134, 135, 265, 270, 276}
+ren-wan-bdr1.nw-am.broadcom.net;Solarwinds;service7;The alert Heap Used Percent has breached the MAJOR threshold of 40;{32, 82, 129, 160, 167, 215, 228, 244, 251}
+sdg-ll2-2f-mdf-a2027-sw1.nw-am.broadcom.net;NetOps;service16;Hardware component is in warning or critical state;{35, 40, 46, 47, 68, 76, 136, 201, 224, 233, 243, 267, 270}
+bji-wan-sr1.nw-ap.broadcom.net_Gi0/0/0;Spectrum;service6;High packet loss;{19, 98, 171, 200, 242, 250}
+lnpvela02;Dynatrace;service1;Cellular Interface is Up;{27, 49, 53, 107, 117, 153, 239, 265, 275, 279}
+ren-wan-bdr1.nw-am.broadcom.net;Datadog;service4;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards;{12, 55, 56, 89, 116, 155, 216, 255, 273}
+lc-irv-2720.lvn.broadcom.net;NetOps;service11;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database;{0, 2, 57, 62, 98, 112, 161, 167, 196, 236, 257, 258}
+banlcs114.ibn.broadcom.net;Datadog;service4;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{6, 26, 47, 55, 72, 115, 158, 210, 228, 266, 270}
+wpdvissfabdb03;UIM;service7;Profile MAZNASQLTSTC1N2- instance MAZNASQLTSTC1N2- buffer cache hit-ratio (87.17%) is too low;{6, 10, 45, 87, 146, 150, 153, 192, 197, 216, 250, 253}
+png-cas-pbxsw1.nw-ap.broadcom.net;APM;service11;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00);{31, 47, 49, 54, 55, 69, 71, 114, 121, 130, 179, 205, 233, 242}
+lc-sj1-4185.lvn.broadcom.net;Dynatrace;service9;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{35, 50, 89, 104, 136, 171, 214, 236, 275}
+slk-wan-sr1.nw-em.broadcom.net_Gi0/0/3;Dynatrace;service16;DEVICE IRV2-4-AP03 HAS STOPPED RESPONDING TO POLLS;{16, 20, 29, 92, 123, 180, 214, 217, 260, 285, 286}
+lc-ibn-1039.ibn.broadcom.net;Datadog;service8;The alert Response Time Variance Intensity has breached the MAJOR threshold of 25;{25, 34, 42, 56, 67, 79, 150, 155, 178, 185, 217, 279}
+ibn-wan-bpr1.nw-ap.broadcom.net_Gi0/0/0;NetOps;service4;Percentage of Maximum Capacity Currently Used going to reach 85.0 pct;{6, 17, 67, 93, 94, 103, 139, 147, 150, 155, 165, 172, 191, 242, 247, 255, 278, 282}
+lnpvmysql02.ash.broadcom.net;NetOps;service12;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{12, 32, 64, 65, 105, 131, 201, 234, 237, 251}
+inp-ll2-2f-sep-tor-a04-sw01.nw-ap.broadcom.net;Dynatrace;service15;CHASSIS fdt-snc.net DOWN;{61, 69, 83, 111, 232, 240, 242, 243, 271}
+wnpvpsar01.sgn.broadcom.net;Datadog;service12;MANAGEMENT AGENT LOST;{78, 136, 138, 168, 228, 268}
+inp-yel-ll3-sw01.inp.broadcom.net;APM;service14;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{5, 21, 34, 77, 121, 145, 168, 176, 184, 187, 203, 204, 209, 212, 219, 247, 273, 277}
+sju-ll2-lab133-bvt-a6-yellow-sw04;Solarwinds;service12;The alert Frontend Errors has breached the MAJOR threshold of 1;{2, 16, 21, 39, 106, 139, 143, 155, 180, 206, 210, 235, 278}
+ihl-wan-bdr1.nw-em.broadcom.net_Gi0/0/0;Dynatrace;service8;A power outage was detected in server room 23;{18, 66, 95, 120, 144, 162, 176, 234, 278}
+sdg-cas-mdfas02.nw-am.broadcom.net;UIM;service7;disk usage c exceeds;{19, 23, 107, 133, 137, 198, 237, 270}
+wpdvtstap01;NetOps;service11;SWITCH FIBRE CHANNEL PORT SCAN;{50, 59, 87, 90, 97, 118, 128, 131, 141, 181, 203, 228}
+SC5TFBOSW2.arcot.ca.com_Gi1/0/34;Spectrum;service3;The alert CPU Throttling has breached the CRITICAL threshold of 10000000000;{22, 33, 37, 41, 61, 85, 108, 125, 128, 176, 199}
+lc-irv-2716.lvn.broadcom.net;APMDatadog;service2;The alert Response Time Variance Intensity has breached the MAJOR threshold of 25;{15, 41, 104, 105, 132, 153, 170, 187, 232, 235}
+lc-sj1-5545.lvn.broadcom.net;Dynatrace;service11;Profile MSSQLSERVER- instance ldcna1cht1- buffer cache hit-ratio (88.80%) is too low;{11, 26, 31, 61, 130, 161, 174, 237}
+lc-irv-4142.lvn.broadcom.net;UIM;service10;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{3, 19, 43, 93, 94, 95, 114, 120, 164, 174, 246, 251}
+frk-dctor-p1b2sw01;UIM;service15;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{3, 48, 113, 127, 152, 205, 260, 274}
+_10;UIM;service4;Hardware component is in warning or critical state;{57, 61, 76, 78, 90, 129, 138, 163, 189, 224, 231, 242, 249, 273, 285}
+lnpv3dftsqa01.sgn.broadcom.net;Dynatrace;service2;ntpd_monitoring: Process ntpd not started- max starts 3 reached;{28, 56, 100, 130, 164, 185, 190, 198, 227}
+10.85.25.110;Solarwinds;service7;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{0, 12, 19, 81, 86, 131, 133, 183, 191, 241}
+lc-irv-3273.lvn.broadcom.net;Dynatrace;service12;A power outage was detected in server room 23;{111, 183, 274}
+mho-fab-inarip34sw1.nw-ap.broadcom.net;APM;service7;High packet loss;{10, 52, 121, 148, 249, 267}
+mvj-fab-fmt-sw1.nw-ap.broadcom.net;NetOps;service7;High response time;{60, 65, 109, 116, 125, 126, 175, 238, 267, 286}
+wpdvissdw02;Solarwinds;service9;The alert GCPHeap1 has breached the MAJOR threshold of 8;{51, 96, 110, 135, 137, 138, 142, 191, 192, 207, 216, 229, 257, 259}
+ash-wan-sr3.nw-am.broadcom.net_Gi0/0/1;Datadog;service1;High Transmit Percent Utilization on Interface Vlan268 · L3 for ReplicationNetwork-1-1_vl.110_10.22.168.0/24 for node N7706-2-DC2_Spine-2;{21, 23, 58, 66, 103, 109, 134, 143, 157, 180}
+cvc-wan-sr2.nw-am.broadcom.net_Gi0/0/1;Spectrum;service16;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000;{6, 39, 62, 199, 202}
+wnpvtsf06;Spectrum;service14;The alert Heap Used Percent has breached the MAJOR threshold of 40;{3, 4, 39, 63, 90, 106, 132, 144, 149, 154, 156, 196, 209, 214, 215, 257, 261}
+wpdvepiap01;UIM;service11;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{30, 50, 155, 156, 168, 177, 180, 188, 189, 253, 257, 260, 280}
+cpr-wan-sr1.nw-em.broadcom.net_Gi0/0/0;APMDatadog;service7;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00);{19, 68, 104, 136, 176, 178, 229, 233, 241, 248, 251, 263, 281}
+lc-lvn-1513;APM;zookeeper_lab134;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000;{ 68, 69, 70, 71, 221, 224, 225, 227, 229, 231 }
+lc-sj1-3779.lvn.broadcom.net;Solarwinds;service15;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{14, 38, 41, 69, 99, 132, 157, 162, 173, 200, 218, 219, 220, 227, 255, 263, 275, 284}
+lc-sj1-4513.lvn.broadcom.net;NetOps;service14;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{2, 57, 67, 77, 112, 126, 129, 163, 223}
+ANPVVIRSEC01;APMDatadog;service7;Data Center Outage Alert;{8, 27, 95, 97, 122, 143, 169, 183, 198, 205, 221, 274}
+lvn-dctor-3dr02c04sw02;Dynatrace;service9;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{27, 117, 122, 154, 193, 266, 285}
+banis10.ibn.broadcom.net;Dynatrace;service3;Hardware component is in warning or critical state;{45, 58, 117, 134, 156, 179, 203, 204, 258, 280}
+wnpvtsf05;NetOps;service15;DNS lookup of 'www.google.com' failed (type 'a') on nameserver 'sha-dns-1.broadcom.net' for profile 'sha-dns-1.broadcom.net';{8, 39, 70, 91, 103, 123, 167, 218, 238, 258, 268, 274}
+web-lvnhf-bca-01.lvn.broadcom.net;APMDatadog;service5;The alert Memory Utilization has breached the CRITICAL threshold of 90;{13, 31, 52, 74, 107, 118, 120, 140, 145, 187, 202, 213, 220, 252, 264}
+sju-voice-vg01.nw-am.broadcom.net;Solarwinds;service9;The alert Frontend Errors has breached the MAJOR threshold of 1;{0, 23, 25, 49, 51, 71, 93, 159, 169, 171, 172, 195, 255, 262, 268}
+txp-wan-sr1.nw-am.broadcom.net_Gi0/0/0;Datadog;service4;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00);{69, 122, 134}
+dvtmysql-sin-01.sgn.broadcom.net;Dynatrace;service4;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{1, 2, 37, 69, 157, 173, 196, 224, 240, 245, 251}
+lc-sj1-6217.lvn.broadcom.net;UIM;service16;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{23, 32, 76, 90, 117, 160, 186, 215, 220, 227, 248, 256}
+wnpvissstjp01;Spectrum;service7;High Transmit Percent Utilization;{50, 94, 98, 137, 166, 207, 223, 243}
+wpdvokt04;UIM;service9;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{12, 18, 44, 71, 93, 100, 139, 172, 177, 209, 276}
+banlcs436.ibn.broadcom.net;Datadog;service5;The alert CPU Throttling has breached the CRITICAL threshold of 10000000000;{33, 115, 151, 194, 204, 225, 226, 235, 280}
+SC5TFAPPSW0102_ge-1/0/22;APMDatadog;service16;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{8, 24, 58, 89, 108, 163, 201, 230, 269}
+lnpvcodeinsight07.ash.broadcom.net;NetOps;service4;Total CPU Usage on Total for WNPVTSF09.Broadcom.net is at 1.07 %. It has violated the threshold for at least 7.0 minutes out of 5.0 MINUTES.;{57, 83, 106, 122, 142, 161, 162, 171, 173, 180, 186, 197, 210, 248, 272}
+wnpvndm03;Dynatrace;service14;The alert Total Restart has breached the MAJOR threshold of 10;{14, 17, 18, 19, 20, 54, 89, 90, 99, 137, 193, 201, 202, 223, 256}
+banlcs114.ibn.broadcom.net;APMDatadog;service9;Server returned HTTP response code 401 for URL http://abc.com;{13, 24, 65, 162, 201, 254, 263, 273}
+lvn-lc-bcawlan-13.lvn.broadcom.net;Datadog;service7;High packet loss;{1, 4, 5, 10, 49, 78, 99, 109, 144, 230, 274, 281, 282}
+sen-wan-sr1.nw-ap.broadcom.net_Gi0/0/0;UIM;service1;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{60, 74, 84, 195, 204, 226, 240, 243, 260, 269, 282}
+wnpvisstsrp02;Spectrum;service7;CHASSIS fdt-snc.net DOWN;{6, 20, 37, 56, 205, 217, 242, 258, 260}
+wlvnvmegc08;APM;service7;java-AdminServer: Process /AdminServer/ is not running;{15, 32, 97, 110, 118, 223, 224, 231}
+ihy-wan-sr1.nw-ap.broadcom.net_Gi0/0/3;APM;service6;The alert Heap Used Percent has breached the MAJOR threshold of 40;{53, 58, 76, 79, 96, 126, 221, 270, 274}
+lc-blr-380.ibn.broadcom.net;NetOps;service5;High response time;{9, 20, 37, 54, 72, 79, 88, 101, 107, 124, 188, 271, 280}
+SC5TFBOSW2.arcot.ca.com_Gi1/0/33;Solarwinds;service5;The alert Heap Used Percent has breached the MAJOR threshold of 40;{4, 64, 77, 82, 94, 139, 159, 202, 221, 241, 263, 272}
+lc-irv-3713.lvn.broadcom.net;Solarwinds;service6;CPU Average Total Usage on Total for User is at 1.14 %.;{13, 49, 108, 123, 147, 153, 167, 180, 183, 197, 200, 203, 232, 283}
+ren-dctor-p2r01c01sw02;Datadog;service4;CHASSIS fdt-snc.net DOWN;{40, 121, 132, 133, 168, 171, 247, 248, 260, 270}
+lc-sj1-6475.lvn.broadcom.net;NetOps;service2;robot inactive;{59, 70, 82, 169, 171, 182, 188, 190, 196, 209, 213, 218, 258, 262}
+wpdvwins01;Datadog;service16;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS;{30, 39, 73, 123, 144, 158, 159, 166, 206, 221, 228, 239, 285}
+wpdvissjp02;NetOps;service9;The alert Heap Used Percent has breached the MAJOR threshold of 40;{10, 33, 127, 199, 230, 238, 239}
+lc-ibn-1047.ibn.broadcom.net;NetOps;service5;Robot mnmjmp6405 is inactive;{0, 22, 60, 89, 113, 119, 158, 279}
+sju-ll2-lab133-bvt-c8-sw19;Dynatrace;service16;Hardware component is in warning or critical state;{22, 38, 53, 63, 64, 71, 81, 186, 225}
+lc-sj1-6670.lvn.broadcom.net;NetOps;service9;MANAGEMENT AGENT LOST;{61, 70, 77, 101, 102, 185, 211, 220, 284}
+wpdvseppgpsql01;Datadog;service3;Cellular Interface is Up;{9, 25, 43, 66, 67, 256, 276}
+wnpvtsf08;Dynatrace;service16;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS;{13, 14, 40, 52, 67, 85, 126, 160}
+lnpvabrcavaw02.ash.broadcom.net;APM;service13;robot inactive;{7, 25, 33, 61, 71, 75, 125, 206, 208, 280}
+dvtmysql-sin-01.sgn.broadcom.net;NetOps;service3;High Receive Percent Utilization on Interface GigabitEthernet0/0/1 · *** LAN *** for node 4LU-Antwerpen-RTR01;{32, 100, 153, 154, 179, 222, 228, 239, 250, 283}
+opi-fab-inarip34sw2.nw-ap.broadcom.net;Spectrum;service2;The alert CPU Throttling has breached the CRITICAL threshold of 10000000000;{20, 32, 53, 97, 134, 145, 150, 156, 157, 169, 172, 197, 212, 223, 234}
+lnpvsubscw02.broadcom.com;Solarwinds;service5;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS;{12, 29, 61, 64, 118, 141, 187, 243, 253}
+lc-irv-2927.lvn.broadcom.net;APM;service3;A power outage was detected in server room 23;{26, 72, 117, 165, 236, 250}
+wnpdvetl01;Spectrum;service10;Interface is down;{1, 3, 14, 30, 45, 75, 91, 140, 172, 209, 224}
+_10;Datadog;service1;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS;{25, 92, 101, 105, 108, 113, 152, 234, 277}
+wpdvwsd06;APM;service8;Hardware component is in warning or critical state;{48, 86, 119, 126}
+sju-ll2-lab133-bvt-e3-yellow-sw48;UIM;service1;Interface is down;{84, 138, 147, 160, 165, 181, 212, 245, 254, 283}
+ihl-wan-sr2.nw-em.broadcom.net_Tu14240;Solarwinds;service2;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{10, 60, 73, 147, 213, 216, 266}
+bso-wan-sr1.nw-em.broadcom.net_Gi0/0/0;Spectrum;service11;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{27, 65, 74, 94, 129, 148, 172}
+sgn-dcdmz-int-p1au14sw05.nw-ap.broadcom.net;NetOps;service12;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{17, 29, 35, 178, 205, 207, 213, 249, 261, 275, 283}
+lc-sj1-5853.lvn.broadcom.net;NetOps;service14;Cellular Interface is Up;{7, 56, 88, 155, 168, 209, 283}
+lnpvbhftps01.broadcom.com;APMDatadog;service11;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{40, 60, 98, 105, 169, 195, 215, 231, 249, 261, 263, 266, 278}
+wnpvjmps01;APMDatadog;service16;Percentage of Maximum Capacity Currently Used going to reach 85.0 pct;{7, 24, 49, 65, 75, 98, 114, 148, 175, 194, 220, 232, 239, 260}
+lpdvmfdess08.broadcom.com;APMDatadog;service1;High Transmit Percent Utilization;{7, 16, 17, 47, 54, 91, 125, 138, 164, 206, 214, 221}
+png-vg4.nw-ap.broadcom.net;Dynatrace;service11;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{30, 36, 47, 64, 73, 85, 104, 161, 213, 236, 282}
+sju-ll2-lab133-bvt-e3-yellow-sw48;NetOps;service1;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{10, 20, 36, 62, 68, 92, 166, 246, 252, 257, 272, 284}
+wpdvisscmbedb6;Datadog;service7;Percentage of Maximum Capacity Currently Used going to reach 85.0 pct;{17, 59, 119, 184, 185, 189, 192, 207, 262}
+sju-ll2-lab133-bvt-b10-sw12;APMDatadog;service8;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{35, 56, 96, 131, 154, 174, 177, 237, 268}
+wpdvisscmfejb2;Solarwinds;service3;The alert Heap Used Percent has breached the MAJOR threshold of 40;{21, 29, 123, 148, 168, 227, 259, 268}
+lc-blr-362.ibn.broadcom.net;Datadog;service14;A power outage was detected in server room 23;{72, 121, 137, 210, 211, 246, 273}
+wpdvlab04;NetOps;service12;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS;{53, 89, 96, 99, 100, 107, 196, 209, 222, 226, 229, 247}
+sjs-dns-1.broadcom.net;Datadog;service12;The alert Total Restart has breached the MAJOR threshold of 10;{16, 38, 99, 225, 233, 252, 265, 276}
+lnpvnginx03.broadcom.com;Dynatrace;service6;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{45, 78, 102, 142, 146, 190, 198, 238, 256}
+sju-ll2-lab133-bvt-d6-yellow-sw11;Datadog;service11;Node is down;{17, 22, 64, 77, 80, 112, 211, 267}
+tok-wan-sr1.nw-ap.broadcom.net_Gi0/3/0;APMDatadog;service11;High Transmit Percent Utilization on Interface Vlan268 · L3 for ReplicationNetwork-1-1_vl.110_10.22.168.0/24 for node N7706-2-DC2_Spine-2;{30, 58, 73, 134, 159, 179, 193, 227, 239, 259, 275, 283}
+wnpdvrdp01;Spectrum;service7;Interface is down;{7, 34, 82, 195, 199, 233, 244, 261}
+sju-ll2-cubicle-sw02;Datadog;service15;Total CPU Usage on Total for WNPVTSF09.Broadcom.net is at 1.07 %. It has violated the threshold for at least 7.0 minutes out of 5.0 MINUTES.;{16, 30, 115, 143, 178, 181, 268}
+sju-ll2-lab133-aggr-yellow-e6-sw18;APM;service14;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{2, 5, 22, 74, 133, 181, 224, 245, 253}
+lvn-dctor-8dr02c07sw01;Datadog;service8;A power outage was detected in server room 23;{15, 42, 55, 63, 83, 110, 154, 169, 182, 185, 191, 208, 214, 225, 237, 244, 248, 264}
+lnpvbhftps01.broadcom.com;UIM;service12;CPU Average Total Usage on Total for User is at 1.14 %.;{13, 52, 84, 88, 120, 128, 136, 254}
+wpdvisscmbedb4;APM;service8;Profile MAZNASQLTSTC1N2- instance MAZNASQLTSTC1N2- buffer cache hit-ratio (87.17%) is too low;{18, 46, 142, 166, 191, 210, 269}
+wpdvisscmbeap1;Solarwinds;service10;ASA Site-to-Site VPN tunnel down;{8, 48, 92, 99, 140, 144, 161, 165, 222, 226, 233, 247, 252, 273}
+lnpv3dftsqa01.sgn.broadcom.net;NetOps;service9;CPU Average Total Usage on Total for User is at 1.14 %.;{142, 177, 181}
+sju-cas-stk-sw12.nw-am.broadcom.net;Spectrum;service4;disk usage c exceeds;{9, 85, 111, 188, 251, 276}
+sju-ll2-lab133-bvt-b4-sw08;Datadog;service13;Robot mnmjmp6405 is inactive;{15, 101, 121, 158, 165, 174, 194, 270}
+lpdvauth02.broadcom.com;APMDatadog;service10;The alert Memory Utilization has breached the CRITICAL threshold of 90;{12, 40, 44, 66, 80, 117, 194, 233, 267, 272, 284}
+cam-wan-sr1.nw-em.broadcom.net_Gi0/0/3;Spectrum;service8;The alert Frontend Errors has breached the MAJOR threshold of 1;{2, 9, 28, 60, 83, 164, 190, 246, 253, 276}
+vmsjc-ops018_rh58.lvn.broadcom.net;Spectrum;service8;The alert Deployment Availablity has breached the MAJOR threshold of 0;{36, 40, 62, 70, 102, 104, 146, 176, 200, 216}
+wnpvpndm02;APM;service14;CPU Average Total Usage on Total for User is at 1.14 %.;{35, 114, 129, 130, 146, 275, 284}
+lc-irv-3227.lvn.broadcom.net;APM;service2;The alert Total Restart has breached the MAJOR threshold of 10;{68, 96, 111, 124, 196, 202, 211, 283}
+lc-lvn-0890.lvn.broadcom.net;Datadog;service9;Percentage of Maximum Capacity Currently Used going to reach 85.0 pct;{6, 45, 127, 149, 151, 161, 165, 170, 173, 178, 191, 261, 266}
+wnpvalm02;Spectrum;service8;ntpd_monitoring: Process ntpd not started- max starts 3 reached;{113, 120, 149, 157, 190, 221, 232, 261}
+lprdexfdbadm05.kc1.broadcom.net;Spectrum;service13;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{17, 77, 92, 106, 115, 124, 143, 167, 187, 212, 216, 219}
+wpdvmid03;Datadog;service7;The alert Total Restart has breached the MAJOR threshold of 10;{5, 26, 38, 50, 80, 84, 128, 181, 193, 230, 254}
+lnpvabrcaw02.broadcom.com;NetOps;service1;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{27, 51, 66, 112, 129, 148, 156, 183, 202, 238, 247, 271, 278}
+vmsjc-ops028_rh58.lvn.broadcom.net;Spectrum;service1;Percentage of Maximum Capacity Currently Used going to reach 85.0 pct;{18, 36, 97, 116, 126, 127, 135, 152, 184, 187, 264, 272}
+lc-ibn-1047.ibn.broadcom.net;NetOps;service8;Interface is down;{11, 46, 86, 135, 166, 167, 211, 230, 244, 262}
+sha-wan-eavbr1.nw-ap.broadcom.net_Fa0/1/0;APMDatadog;service1;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards;{7, 52, 69, 79, 96, 119, 149, 222}
+lc-lvn-1415.lvn.broadcom.net;APM;service8;disk usage c exceeds;{27, 38, 63, 75, 96, 140, 184, 200, 215, 226, 236}
+lc-sj1-5912.lvn.broadcom.net;NetOps;service13;MANAGEMENT AGENT LOST;{13, 24, 53, 75, 158, 179, 192, 227, 265}
+lc-sj1-3936.lvn.broadcom.net;UIM;service15;DNS lookup of 'www.google.com' failed (type 'a') on nameserver 'sha-dns-1.broadcom.net' for profile 'sha-dns-1.broadcom.net';{24, 102, 110, 149, 151, 176}
+lc-tlva-643.ihl.broadcom.net;Dynatrace;service1;CPU Average Total Usage on Total for User is at 1.14 %.;{1, 34, 45, 53, 82, 151, 178, 190, 191, 228, 254, 265, 274, 279}
+wpdvsld01;Dynatrace;service4;The alert Heap Used Percent has breached the MAJOR threshold of 40;{54, 71, 112, 162, 268}
+lftcvmsntst01.ash.broadcom.net;APMDatadog;service12;sssd: Process /usr/sbin/sssd/ is not running;{34, 48, 63, 80, 106, 141, 157, 183, 189, 262}
+wpdvwsd08;Datadog;service12;A power outage was detected in server room 23;{21, 43, 91, 126, 158, 162, 173, 223, 231}
+lnpv3dspqa02.sgn.broadcom.net;Spectrum;service3;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{48, 59, 86, 112, 113, 121, 160, 163, 166, 188, 201, 214, 222}
+lnpvabrcaw03.broadcom.com;UIM;service9;MANAGEMENT AGENT LOST;{0, 19, 20, 52, 68, 72, 75, 86, 95, 124, 128, 129, 132, 145, 237, 245, 271}
+wnpvtosca03;Dynatrace;service1;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{4, 26, 177, 188, 192, 203, 213, 231, 257, 286}
+SC5TFAPPSW0102_ge-1/0/22;Dynatrace;service12;The alert Frontend Errors has breached the MAJOR threshold of 1;{6, 87, 92, 104, 108, 133, 145, 207, 240, 250, 278}
+SC5TFBOFW02-5200_mgmt;APMDatadog;service16;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{27, 28, 44, 45, 85, 103, 110, 137, 165, 258}
+tok-wan-symlab01.nw-ap.broadcom.net_Gi0/0/0;APM;service15;The alert Heap Used Percent has breached the MAJOR threshold of 40;{62, 140, 143, 163, 235, 275, 284}
+ihl-wan-sr2.nw-em.broadcom.net_Tu14240;Spectrum;service16;sssd: Process /usr/sbin/sssd/ is not running;{42, 76, 95, 105, 111, 120, 125, 135, 179}
+lc-lvn-1364.lvn.broadcom.net;APMDatadog;service10;The alert Response Time Variance Intensity has breached the MAJOR threshold of 25;{1, 35, 37, 88, 91, 117, 210, 252, 282}
+wpdvisscmfejb2;Datadog;service8;MANAGEMENT AGENT LOST;{31, 68, 107, 133, 141, 204, 222, 225, 265, 269}
+tok-wan-symlab01.nw-ap.broadcom.net_Gi0/0/0;Solarwinds;service5;The alert Heap Used Percent has breached the MAJOR threshold of 40;{31, 95, 97, 193, 217, 220, 241, 244, 259, 278}
+ren-dcbl-p4r02c05sw02;UIM;service12;Robot mnmjmp6405 is inactive;{42, 109, 141, 142, 160, 175, 218, 248, 267}
+tok-wan-symlab01.nw-ap.broadcom.net_Gi0/0/0;NetOps;service6;Disk Usage (%) on D:\ for D:\ is at 5.57 %.;{31, 41, 49, 67, 88, 102, 187, 212, 252, 255, 261}
+bso-wan-sr1.nw-em.broadcom.net_Gi0/0/0;NetOps;service6;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{113, 210, 225}
+hsi-wan-sr1.nw-ap.broadcom.net_Gi0/0/0;Solarwinds;service8;High packet loss;{22, 37, 44, 48, 59, 63, 87, 93, 147, 149, 182, 195, 219}
+lc-irv-3512.lvn.broadcom.net;Dynatrace;service6;Temperature for CPU1 Temp on lc-ibn-1051.ibn.broadcom.net is 103.0 (> 100.0);{1, 23, 56, 57, 89, 101, 111, 131, 200, 212, 227, 235, 269}
+lc-sj1-3608.lvn.broadcom.net;Datadog;service14;Profile MSSQLSERVER- instance ldcna1cht1- buffer cache hit-ratio (88.80%) is too low;{2, 36, 67, 108, 182, 198, 206, 207, 208, 239, 245, 250, 259, 269}
+bbm-wan-asesr1.nw-ap.broadcom.net_Gi0/0;UIM;service9;CPU Average Total Usage on Total for User is at 1.14 %.;{8, 57, 87, 127, 145, 182, 229, 246, 281}
+lc-sj1-6591.lvn.broadcom.net;APMDatadog;service7;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{34, 59, 136, 158, 180, 183, 232, 280}
+lc-sj1-6217.lvn.broadcom.net;Spectrum;service9;A power outage was detected in server room 23;{15, 112, 141, 175, 190, 205, 217, 251, 264}
+bld-med-bca-05.ihl.broadcom.net;Dynatrace;service10;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{46, 70, 87, 114, 123, 139, 167, 241}
+lc-sj1-3829.lvn.broadcom.net;APMDatadog;service9;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{16, 42, 43, 127, 144, 170}
+wnpvisstsap01;UIM;service12;The alert GCPHeap1 has breached the MAJOR threshold of 8;{22, 35, 42, 124, 139, 144, 202, 230, 241}
+lnpvcodeinsight03.ash.broadcom.net;APM;service6;Total CPU Usage on Total for WNPVTSF09.Broadcom.net is at 1.07 %. It has violated the threshold for at least 7.0 minutes out of 5.0 MINUTES.;{9, 54, 63, 184, 189, 207, 218}
+lc-irv-2494.lvn.broadcom.net;Dynatrace;service2;The alert CPU Throttling has breached the CRITICAL threshold of 10000000000;{4, 8, 38, 58, 90, 123, 138, 141, 146, 147, 166, 214, 264, 286}
+frk-dctor-p3b21sw03;NetOps;service16;percentage java heap used;{43, 51, 73, 94, 100, 146, 238, 240, 253, 256}
+wpdvhydsql01;APM;service6;Concurrent Invocations going to reach 5.0 pct;{25, 115, 148, 150, 159, 255, 282}
+wnpvisscmfejb2;UIM;service11;Data Center Outage Alert;{14, 72, 83, 105, 124, 150, 159, 179, 197, 215, 249}
+lc-sj1-4865.lvn.broadcom.net;Spectrum;service8;Data Center Outage Alert;{1, 14, 25, 150, 189, 265, 283}
+wpdvwsd14;APM;service7;CHASSIS fdt-snc.net DOWN;{4, 7, 14, 23, 26, 31, 40, 98, 123, 144, 158, 231}
+sha-wan-bdr1.nw-ap.broadcom.net_Gi0/0/0;Dynatrace;service14;DEVICE IRV2-4-AP03 HAS STOPPED RESPONDING TO POLLS;{45, 78, 82, 118, 139, 160, 209, 219, 233, 277}
+wsgpvmjmp01;APM;kafka_service;The alert APM ServiceAlarm Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{ 69, 70, 71, 85, 221, 224, 225, 227, 229, 230 }
+lc-sj1-4009.lvn.broadcom.net;Dynatrace;service15;robot inactive;{43, 53, 143, 150, 188, 212, 240, 280}
+lc-lvn-0914.lvn.broadcom.net;Datadog;service13;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{75, 99, 238, 254, 255, 269}
+bri-wan-sr1.nw-em.broadcom.net_Gi0/0/3;APM;service2;percentage java heap used;{26, 31, 38, 69, 91, 100, 109, 115, 121, 200, 218, 225, 275, 276}
+lc-sj1-4978.lvn.broadcom.net;Datadog;service11;temperature cpu1 temp;{37, 51, 56, 108, 139, 146, 168, 194, 198, 236, 239, 264}
+lc-lvn-0914.lvn.broadcom.net;Datadog;service2;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS;{14, 32, 60, 70, 93, 97, 124, 137, 153, 172, 215, 222, 235, 249, 272}
+wpdvwins01;UIM;service15;A power outage was detected in server room 23;{60, 101, 114, 183, 275}
+lc-sj1-6475.lvn.broadcom.net;Datadog;service16;CPU Average Total Usage on Total for User is at 1.14 %.;{28, 41, 53, 116, 119, 140, 169, 219, 242, 254, 258, 268, 284}
+wpdvjmp01;Datadog;service12;Server returned HTTP response code 401 for URL http://abc.com;{38, 44, 134, 147, 184, 210, 259}
+wpdvwsd11;APM;service1;temperature cpu1 temp;{30, 141, 145, 158, 210, 235, 278}
+wpdvokad04;APMDatadog;service4;temperature cpu1 temp;{28, 33, 62, 74, 92, 180, 239, 246, 274, 282}
+wnpvpsar01.sgn.broadcom.net;APMDatadog;service12;High Transmit Percent Utilization;{28, 96, 128, 132, 145, 150, 180, 211, 215, 232, 253}
+lc-lvn-1412.lvn.broadcom.net;Spectrum;service11;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{42, 111, 119, 126, 175, 176, 187, 207, 261, 285}
+linrvmdb01.png.broadcom.net;Spectrum;service4;The alert Memory Utilization has breached the CRITICAL threshold of 90;{44, 77, 91, 102, 132, 134, 243, 259}
+lc-sj1-4478.lvn.broadcom.net;APMDatadog;service3;Server returned HTTP response code 401 for URL http://abc.com;{20, 32, 35, 45, 51, 53, 61, 129, 167, 190, 267, 278, 280}
+_10;APMDatadog;service14;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards;{28, 136, 177, 183, 197, 209, 216, 229, 262, 268}
+lc-blr-640.ibn.broadcom.net;Dynatrace;service16;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database;{8, 127, 228, 244, 249, 255, 266}
+anpvpsc11.yis.broadcom.net;APM;service4;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000;{10, 30, 31, 51, 128, 140, 159, 182, 205, 253, 272, 282}
+lc-lvn-0804.lvn.broadcom.net;Dynatrace;service2;High Transmit Percent Utilization on Interface Vlan268 · L3 for ReplicationNetwork-1-1_vl.110_10.22.168.0/24 for node N7706-2-DC2_Spine-2;{19, 24, 27, 82, 131, 169, 170, 183, 184, 196, 218, 247, 286}
+mec-wan-sr1.nw-em.broadcom.net_Gi0/0/0;Datadog;service2;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards;{2, 44, 48, 49, 104, 130, 188, 213, 253, 271}
+wnpvtsf06;APMDatadog;service6;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{13, 98, 113, 126, 173, 187, 214, 232}
+lc-sj1-6234.lvn.broadcom.net;APMDatadog;service14;High Transmit Percent Utilization on Interface Vlan268 · L3 for ReplicationNetwork-1-1_vl.110_10.22.168.0/24 for node N7706-2-DC2_Spine-2;{59, 126, 195, 218}
+lc-sj1-5545.lvn.broadcom.net;Solarwinds;service6;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database;{2, 11, 21, 103, 159, 211}
+lc-lvn-1378.lvn.broadcom.net;NetOps;service15;Profile MSSQLSERVER- instance ldcna1cht1- buffer cache hit-ratio (88.80%) is too low;{41, 116, 131, 166, 181, 184, 186, 195, 229, 230, 252, 255, 274}
+SC5TFAPPSW0102_ae5;APM;service15;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{27, 72, 79, 89, 125, 182, 192, 205, 217, 280}
+wpdvisscmfedb1;APMDatadog;service9;Percentage of Maximum Capacity Currently Used going to reach 85.0 pct;{45, 67, 84, 100, 144, 149, 177, 189, 246, 258, 285}
+atl-ll2-lab1b-agg-dcsg-sw04.nw-am.broadcom.net;Solarwinds;service13;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{26, 44, 187, 211, 262}
+lnpvcodeinsight02.ash.broadcom.net;Spectrum;service16;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{10, 39, 60, 63, 93, 125, 139, 140, 168, 179, 207, 210, 231, 250}
+tau-wan-sr1.nw-am.broadcom.net_Gi0/0/3;Dynatrace;service3;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{16, 40, 43, 87, 96, 104, 141, 199, 211, 223}
+lc-lvn-1718.lvn.broadcom.net;APMDatadog;service2;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database;{4, 6, 17, 46, 72, 108, 226, 242}
+wpdvisscmbeap4;Dynatrace;service1;Cellular Interface is Up;{18, 21, 22, 38, 64, 83, 86, 108, 138, 151, 154, 165, 182, 205, 234}
+sju-voice-vg01.nw-am.broadcom.net;NetOps;service9;Broadcast alarm was triggered.;{63, 74, 107, 108, 122, 138, 221, 247, 266}
+lc-sj1-5887.lvn.broadcom.net;UIM;service11;Data Center Outage Alert;{12, 28, 55, 59, 65, 81, 115, 138, 197, 239, 240, 279}
+SC5TFBOSW3.arcot.ca.com_Po39;APMDatadog;service12;QOS_CPU_MULTI_USAGE on CPU-2 for User-2 is at 52.53 %.;{5, 37, 113, 150, 177, 208, 216, 272}
+ash-wan-sr3.nw-am.broadcom.net_Gi1/0/1;APMDatadog;service2;The alert Frontend Errors has breached the MAJOR threshold of 1;{7, 100, 106, 151, 154, 175, 203, 255, 269}
+wnpvuimp01.lvn.broadcom.net;Spectrum;service12;MANAGEMENT AGENT LOST;{82, 98, 153, 177, 233, 240}
+lpdvwsnbpl06.broadcom.com;NetOps;service10;sssd: Process /usr/sbin/sssd/ is not running;{19, 36, 56, 58, 131, 137, 168, 176, 214, 219, 227, 250, 273, 286}
+wnpvjmp01;Dynatrace;service3;Node is down;{141, 144, 157, 168, 170, 183, 233, 241, 244, 247}
+tau-cas-B4-sw01;UIM;service14;Disk Usage (%) on D:\ for D:\ is at 5.57 %.;{6, 33, 35, 42, 56, 76, 79, 136, 146, 252, 256}
+sju-ll2-lab133-bvt-e3-yellow-sw48;NetOps;service8;Data Center Outage Alert;{20, 38, 53, 67, 88, 128, 188, 192, 235, 282}
+lc-irv-3227.lvn.broadcom.net;NetOps;service7;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database;{24, 29, 148, 203, 209, 225, 226, 228, 276}
+sju-ll2-lab133-bvt-a10-yellow-sw05;NetOps;service10;Server returned HTTP response code 401 for URL http://abc.com;{22, 29, 44, 68, 74, 81, 92, 147, 238, 271}
+sdg-ll2-3f-a3059-stb-sw11.nw-am.broadcom.net;Datadog;service1;Profile MAZNASQLTSTC1N2- instance MAZNASQLTSTC1N2- buffer cache hit-ratio (87.17%) is too low;{8, 150, 186, 203, 233, 246, 270}
+btk-wan-sr1.nw-ap.broadcom.net_Gi0/0/3;Spectrum;service13;The alert Deployment Availablity has breached the MAJOR threshold of 0;{17, 42, 52, 85, 95, 109, 166, 192, 233}
+png-cas-gdhssw1.nw-ap.broadcom.net;Datadog;service5;Concurrent Invocations going to reach 5.0 pct;{4, 22, 63, 91, 121, 128, 132, 164, 179, 194}
+lc-sj1-5576.lvn.broadcom.net;Dynatrace;service2;CPU Average Total Usage on Total for User is at 1.14 %.;{92, 102, 111, 133, 203, 224, 240, 256, 285}
+lpdvndr03.ash.broadcom.net;Dynatrace;service4;Disk Usage (%) on D:\ for D:\ is at 5.57 %.;{21, 24, 37, 60, 88, 90, 134, 248, 252}
+LPDVNETL01;Solarwinds;service15;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards;{1, 2, 47, 101, 107, 111, 122, 135, 152, 156, 185, 197, 204, 227}
+ANPVHYCU01;Datadog;service3;The alert Total Restart has breached the MAJOR threshold of 10;{41, 121, 129, 217, 263}
+ANPVVIRSEC02;Spectrum;service1;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{50, 60, 63, 76, 96, 112, 169, 192}
+acc-dcbl-p4d8sw01.nw-am.broadcom.net;Solarwinds;service1;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS;{8, 29, 31, 85, 86, 124, 137, 139, 155, 167}
+wpdvisscmbejb4;NetOps;service7;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards;{12, 24, 27, 122, 130, 142, 147, 160, 281, 282}
+lc-sj1-6659.lvn.broadcom.net;Spectrum;service10;Node is down;{69, 72, 75, 84, 97, 106, 122, 147, 230, 278}
+wpdvissbeap1;UIM;service14;High Transmit Percent Utilization on Interface Vlan268 · L3 for ReplicationNetwork-1-1_vl.110_10.22.168.0/24 for node N7706-2-DC2_Spine-2;{11, 13, 52, 65, 70, 77, 93, 111, 127, 137, 139, 153, 155, 190}
+acc-dcobmgmt-p5e9sw01.nw-am.broadcom.net;Solarwinds;service16;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{120, 157, 202, 221, 232, 235, 258}
+lc-irv-3384.lvn.broadcom.net;Solarwinds;service8;Cellular Interface is Up;{9, 49, 58, 64, 87, 115, 183, 210, 223, 227, 228, 252}
+lc-irv-2886.lvn.broadcom.net;Spectrum;service4;High Transmit Percent Utilization;{13, 28, 46, 85, 112, 127, 163, 185, 251}
+wibnvmegc06;Spectrum;service4;Concurrent Invocations going to reach 5.0 pct;{10, 13, 40, 54, 73, 88, 166, 185, 188, 194, 204, 210, 214, 240, 247, 248, 264, 276}
+wnpvmmid01;Datadog;service11;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{16, 91, 143, 167, 169, 171, 180, 204, 215, 218}
+lgh-wan-sr1.nw-ap.broadcom.net_Tu500;Datadog;service2;High Transmit Percent Utilization;{1, 69, 100, 106, 109, 273}
+wnpvujmp01;Dynatrace;service6;Hardware component is in warning or critical state;{15, 57, 88, 124, 141, 178, 278, 284}
+SC5TFBOFW01-5200_mgmt;APMDatadog;service3;High response time;{94, 118}
+SC5TFAPPSW0102_ge-0/0/22;Solarwinds;service9;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000;{0, 37, 76, 101, 105, 124, 136, 159, 177, 196, 197, 215, 226, 243, 251, 266, 269}
+wnpvsftp01;APMDatadog;service11;Profile MAZNASQLTSTC1N2- instance MAZNASQLTSTC1N2- buffer cache hit-ratio (87.17%) is too low;{5, 133, 154, 176, 250, 285}
+lc-lvn-0636.lvn.broadcom.net;NetOps;service8;DEVICE DETECTED A COMMUNICATION LINK DOWN ON AN INTERFACE;{14, 41, 103, 113, 148, 160, 166, 167, 173, 199, 207, 220, 281}
+ANPVVIRSEC01;APMDatadog;service9;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{22, 222, 227, 250, 251, 284}
+LPDVCEDA01;Solarwinds;service10;High response time;{34, 68, 86, 100, 117, 130, 171, 172, 191, 193, 199, 224}
+SC5TFAPPSW0102_ge-0/0/22;Solarwinds;service4;Total CPU Usage on Total for WNPVTSF09.Broadcom.net is at 1.07 %. It has violated the threshold for at least 7.0 minutes out of 5.0 MINUTES.;{3, 48, 74, 89, 113, 123, 145, 167, 190, 209, 213, 238, 243, 273}
+wpdvmid04;Spectrum;service16;Disk Usage (%) on D:\ for D:\ is at 5.57 %.;{27, 57, 87, 91, 134, 162, 182, 193, 224, 230, 256, 274, 279}
+lc-irv-2716.lvn.broadcom.net;NetOps;service11;Broadcast alarm was triggered.;{3, 5, 13, 16, 27, 36, 55, 57, 116, 222, 227, 251}
+ren-dctor-p2r01c01sw02;APM;service11;DNS lookup of 'www.google.com' failed (type 'a') on nameserver 'sha-dns-1.broadcom.net' for profile 'sha-dns-1.broadcom.net';{65, 70, 115, 133, 203, 220, 223, 238, 248}
+wpdvjmp02;Datadog;service7;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{44, 59, 60, 73, 167, 202}
+lc-lvn-1378.lvn.broadcom.net;Spectrum;service9;Broadcast alarm was triggered.;{46, 51, 69, 70, 125, 181, 198, 222, 271, 277, 284}
+wpdvisscmfeap2;Dynatrace;service1;Percentage of Maximum Capacity Currently Used going to reach 85.0 pct;{15, 47, 53, 59, 66, 93, 152, 159, 189, 191, 226, 265, 273}
+lc-sj1-6201.lvn.broadcom.net;APMDatadog;service9;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{3, 11, 25, 39, 47, 61, 102, 107, 114, 125, 135, 138, 141, 142, 143, 263, 277, 285}
+vmsjc-ops022_rh58.lvn.broadcom.net;NetOps;service5;Profile MAZNASQLTSTC1N2- instance MAZNASQLTSTC1N2- buffer cache hit-ratio (87.17%) is too low;{13, 53, 76, 95, 144, 167, 200, 280}
+LNPVMICRO10;Solarwinds;service14;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards;{14, 31, 36, 75, 117, 119, 153, 180, 191, 260}
+lnppinc05.sgn.broadcom.net;UIM;service4;Hardware component is in warning or critical state;{5, 7, 78, 88, 117, 166, 232, 286}
+wpdvowcf01;Solarwinds;service16;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS;{25, 36, 56, 71, 84, 111, 137, 152, 161, 170, 195, 196}
+lc-lvn-1378.lvn.broadcom.net;Spectrum;service14;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database;{7, 30, 32, 78, 162, 197, 211, 224, 277, 286}
+wnpvisscmbejb1;Spectrum;service11;High Transmit Percent Utilization on Interface Vlan268 · L3 for ReplicationNetwork-1-1_vl.110_10.22.168.0/24 for node N7706-2-DC2_Spine-2;{24, 32, 46, 62, 152, 173, 187, 238, 269}
+mec-wan-sr1.nw-em.broadcom.net_Gi0/0/0;UIM;service14;CPU Average Total Usage on Total for User is at 1.14 %.;{79, 111, 184, 194, 233, 234, 261, 270}
+banlcs636.ibn.broadcom.net;Datadog;service13;robot inactive;{77, 118, 158, 161, 183, 194, 222, 235, 253}
+vmsjc-ops022_rh58.lvn.broadcom.net;Dynatrace;service9;Total CPU Usage on Total for WNPVTSF09.Broadcom.net is at 1.07 %. It has violated the threshold for at least 7.0 minutes out of 5.0 MINUTES.;{2, 66, 75, 97, 119, 122, 136, 168, 228, 247, 267}
+wnpvissdw02;Datadog;service2;The alert Response Time Variance Intensity has breached the MAJOR threshold of 25;{0, 1, 3, 7, 30, 35, 49, 62, 71, 72, 76, 93, 164, 199, 216, 235, 246}
+vmsjc-ops022_rh58.lvn.broadcom.net;APMDatadog;service4;The alert Heap Used Percent has breached the MAJOR threshold of 40;{26, 33, 51, 102, 104, 120, 148, 156, 212, 236, 259, 261, 274, 276}
+lc-sj1-5982.lvn.broadcom.net;NetOps;service13;Server returned HTTP response code 401 for URL http://abc.com;{11, 17, 18, 49, 106, 135, 136, 137, 221, 224, 225, 258, 281}
+lc-sj1-6667.lvn.broadcom.net;NetOps;service14;Temperature for CPU1 Temp on lc-ibn-1051.ibn.broadcom.net is 103.0 (> 100.0);{2, 27, 32, 120, 152, 153, 180, 184, 188, 206, 216, 267, 283}
+lc-lvn-1940.lvn.broadcom.net;Datadog;service6;Node is down;{16, 70, 79, 118, 145, 206, 207, 210}
+lpdvcodeinsight10.ash.broadcom.net;UIM;service5;java-AdminServer: Process /AdminServer/ is not running;{15, 25, 113, 146, 151, 161, 163, 196, 217}
+SC5TFBOFW01-5200_mgmt;Solarwinds;service3;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00);{19}
+lc-lvn-2043.lvn.broadcom.net;APMDatadog;service1;percentage java heap used;{2, 26, 34, 61, 80, 92, 113, 128, 162, 242, 244, 246, 264, 277}
+sju-ll2-lab133-bvt-a11-yellow-sw06;Spectrum;service3;MANAGEMENT AGENT LOST;{35, 47, 94, 99, 136, 202, 220, 241, 242, 243, 252}
+ren-dcobmgmt-p1ar02c05sw04;APMDatadog;service9;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{10, 26, 41, 68, 95, 105, 115, 124, 126, 139, 217, 248, 273, 281, 282}
+wnpvglo04;NetOps;service13;robot inactive;{20, 80, 83, 86, 93, 98, 115, 122, 129, 131, 160, 164, 165, 187, 198, 221, 284}
+sjs-ll2-lab103-d25-csg-sw10;NetOps;service5;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{1, 81, 95, 110, 141, 151, 184, 185, 213, 218, 237}
+ihl-wan-bdr1.nw-em.broadcom.net_Gi0/0/0;APM;service1;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000;{11, 25, 73, 158, 178, 263}
+ash-wan-sr3.nw-am.broadcom.net_Gi0/0/12;NetOps;service9;Node is down;{36, 38, 52, 54, 124, 149, 156, 160, 212, 237, 253, 281}
+sju-ll2-lab133-bvt-d10-yellow-sw13;NetOps;service6;SWITCH FIBRE CHANNEL PORT SCAN;{24, 47, 154, 181, 201, 208, 237, 249, 250}
+lc-sj1-5855.lvn.broadcom.net;Dynatrace;service1;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00);{7, 22, 45, 79, 153, 155, 178, 201, 266}
+esxashsa01.ash.broadcom.net;NetOps;service13;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{21, 48, 156, 182, 191, 243, 257, 283}
+acc-wan-bdr1.nw-am.broadcom.net_Po60;APMDatadog;service1;ntpd_monitoring: Process ntpd not started- max starts 3 reached;{39, 170, 208, 219}
+wpdvlab04;Spectrum;service8;The alert Response Time Variance Intensity has breached the CRITICAL threshold of 5;{6, 36, 53, 96, 126, 158, 165, 229}
+lc-sj1-5675.lvn.broadcom.net;Datadog;service9;The alert Heap Used Percent has breached the MAJOR threshold of 40;{30, 63, 138, 156, 162, 203, 208, 229, 264}
+LNPVAUTH01;Dynatrace;service12;temperature cpu1 temp;{15, 83, 118, 131, 182, 199, 202, 227, 241, 245, 248, 257, 263, 278}
+ash-wan-sr3.nw-am.broadcom.net_Gi0/0/4;Dynatrace;service4;temperature cpu1 temp;{46, 222}
+lnpvnerp08.sgn.broadcom.net;UIM;service16;The alert CPU Throttling has breached the CRITICAL threshold of 10000000000;{84, 142, 151, 181, 209, 227, 233, 252, 254, 267}
+sju-voice-vg01.nw-am.broadcom.net;Dynatrace;service7;The alert Response Time Variance Intensity has breached the CRITICAL threshold of 5;{41, 50, 62, 112, 144, 163, 176, 179, 226, 239, 247, 251, 265}
+wpdvisscmbeap4;APM;service12;percentage java heap used;{50, 63, 73, 92, 94, 214, 219}
+wpdvepiap02;Datadog;service2;Temperature for CPU1 Temp on lc-ibn-1051.ibn.broadcom.net is 103.0 (> 100.0);{18, 42, 108, 144, 171, 213, 231}
+lvn-dcagg-3cr01c08sw01.nw-am.broadcom.net_Ethernet1/63;Spectrum;service12;percentage java heap used;{43, 90, 110, 160, 267, 270, 278}
+wibnvmegc08.broadcom.net;APMDatadog;service3;Profile MAZNASQLTSTC1N2- instance MAZNASQLTSTC1N2- buffer cache hit-ratio (87.17%) is too low;{34, 166, 173, 268}
+lc-irv-2970.lvn.broadcom.net;APM;service3;Interface is down;{47, 77, 85, 112, 116, 122, 192, 220, 236, 279, 280}
+SC5TFAPPSW0102_ge-0/0/14;Spectrum;service8;The alert Frontend Errors has breached the MAJOR threshold of 1;{55, 57, 68, 83, 85, 91, 110, 212, 257}
+lc-irv-2927.lvn.broadcom.net;UIM;service8;The alert GCPHeap1 has breached the MAJOR threshold of 8;{23, 27, 34, 52, 64, 168, 175, 213, 241, 260, 269}
+lc-lvn-1941.lvn.broadcom.net;NetOps;service8;sssd: Process /usr/sbin/sssd/ is not running;{19, 31, 66, 80, 127, 146, 184, 225, 261, 264}
+wnpvmmid02;APMDatadog;service15;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{1, 58, 67, 118, 169, 189, 203, 226, 234, 260}
+wnpvtsf05;Spectrum;service2;Robot mnmjmp6405 is inactive;{78, 99, 147, 170, 213, 216, 250}
+app-lvn-wcc-54.lvn.broadcom.net;Datadog;service16;Broadcast alarm was triggered.;{28, 99, 107, 155, 157, 215, 241, 274}
+lc-sj1-3888.lvn.broadcom.net;Dynatrace;service15;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{18, 70, 77, 161, 174, 178, 195, 200, 260, 262, 286}
+wnpdvrdp04;NetOps;service10;The alert Response Time Variance Intensity has breached the CRITICAL threshold of 5;{18, 39, 58, 86, 159, 179, 280, 284}
+lc-sj1-6124.lvn.broadcom.net;APM;service5;The alert GCPHeap1 has breached the MAJOR threshold of 8;{10, 12, 54, 55, 86, 142, 146, 148, 230, 266, 268}
+wpdvadsa01;UIM;service12;DEVICE DETECTED A COMMUNICATION LINK DOWN ON AN INTERFACE;{9, 12, 52, 71, 72, 77, 104, 109, 191, 193, 259}
+cvc-wan-sr1.nw-am.broadcom.net_Gi0/0/0;NetOps;service11;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{9, 19, 49, 50, 52, 58, 82, 140, 163, 196, 248, 249, 262, 283, 285}
+wnpvisscmbejb2;Spectrum;service2;CHASSIS fdt-snc.net DOWN;{18, 69, 72, 109, 121, 175, 263, 271}
+wnpdvrdp03;Solarwinds;service4;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{16, 181, 189, 223, 225, 264}
+lc-irv-2936.lvn.broadcom.net;NetOps;service13;The alert Response Time Variance Intensity has breached the CRITICAL threshold of 5;{54, 61, 99, 130, 135, 137, 200, 236, 248}
+lc-lvn-1684.lvn.broadcom.net;Solarwinds;service15;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000;{78, 80, 89, 166, 254, 259, 265}
+lc-sj1-5887.lvn.broadcom.net;Datadog;service8;Interface is down;{3, 5, 25, 50, 82, 93, 123, 143, 228, 260}
+wpngvmrfs01;UIM;service5;High Transmit Percent Utilization;{40, 56, 57, 87, 177, 185, 257, 275}
+wpdvisscmbeap9;Spectrum;service12;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{0, 17, 71, 119, 172, 175, 231, 271, 279, 281}
+lc-blr-380.ibn.broadcom.net;Dynatrace;service6;The alert GCPHeap1 has breached the MAJOR threshold of 8;{37, 82, 110, 229, 259}
+wpdvhydsql01;APMDatadog;service6;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{0, 23, 178, 181, 216}
+wathvntxf03.wat.broadcom.net;Dynatrace;service13;sssd: Process /usr/sbin/sssd/ is not running;{42, 45, 64, 67, 73, 86, 95, 106, 149, 173, 179}
+mho-fab-inarip34sw1.nw-ap.broadcom.net;UIM;service15;DEVICE IRV2-4-AP03 HAS STOPPED RESPONDING TO POLLS;{84, 97, 101, 117, 126, 129, 143, 183, 190, 199, 201, 206, 255, 279, 282}
+apdveapi04.broadcom.com;APM;service4;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{20, 129, 157, 177, 201, 239, 279}
+lc-lvn-1089.lvn.broadcom.net;Datadog;service7;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{79, 96, 129, 161, 192, 198, 228, 245, 251, 260}
+sen-wan-sr1.nw-ap.broadcom.net_Gi0/0/0;Solarwinds;service5;ntpd_monitoring: Process ntpd not started- max starts 3 reached;{35, 38, 43, 57, 153, 174, 223, 242, 244}
+gpssw-sj1-win02;APM;service3;ntpd_monitoring: Process ntpd not started- max starts 3 reached;{15, 39, 62, 102, 109, 118, 134, 145, 157, 195, 201, 232, 238, 277}
+lc-lvn-1709.lvn.broadcom.net;Spectrum;service8;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{9, 33, 195, 206, 237, 267, 275}
+lnpvela08.ash.broadcom.net;APM;service9;Temperature for CPU1 Temp on lc-ibn-1051.ibn.broadcom.net is 103.0 (> 100.0);{36, 68, 71, 171, 172, 174, 245}
+wpdvisscmbejb9;Spectrum;service9;sssd: Process /usr/sbin/sssd/ is not running;{6, 17, 101, 135, 182, 194, 198, 237}
+lnpvesldw03.broadcom.com;UIM;service15;The alert Total Restart has breached the MAJOR threshold of 10;{6, 39, 57, 58, 69, 89, 107, 110, 141, 172, 215, 221, 242, 251}
+ren-dcobmgmt-p3br02c05sw04;Spectrum;service11;QOS_CPU_MULTI_USAGE on CPU-2 for User-2 is at 52.53 %.;{21, 65, 112, 148, 151, 205, 246, 278, 283}
+wpdvdxim01;APMDatadog;service2;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{4, 16, 76, 81, 105, 170, 247}
+lnpveslguw03.ash.broadcom.net;NetOps;service5;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{1, 6, 14, 21, 24, 30, 40, 59, 71, 114, 123, 145, 146, 149, 154, 168, 212, 228, 237, 240, 258}
+linrvmdb01.png.broadcom.net;Spectrum;service10;percentage java heap used;{26, 30, 42, 121, 254}
+lc-sj1-5853.lvn.broadcom.net;APMDatadog;service14;ntpd_monitoring: Process ntpd not started- max starts 3 reached;{99, 111, 133, 156, 161, 180, 195, 231, 245, 246}
+ren-wan-bdr1.nw-am.broadcom.net;Spectrum;service12;The alert Heap Used Percent has breached the MAJOR threshold of 40;{63, 65, 87, 100, 102, 105, 121, 129, 143, 162, 185, 186, 224, 254, 256, 265}
+cvc-wan-sr1.nw-am.broadcom.net_Gi0/0/0;APM;service13;CHASSIS fdt-snc.net DOWN;{0, 2, 17, 33, 40, 48, 62, 107, 108, 142, 190, 231, 270}
+LNPVELA03;UIM;service8;The alert Memory Utilization has breached the CRITICAL threshold of 90;{39, 51, 67, 68, 155, 220}
+linrvmdb01.png.broadcom.net;APMDatadog;service14;CPU Average Total Usage on Total for User is at 1.14 %.;{9, 15, 23, 164, 204, 272, 280}
+sha-wan-eavbr1.nw-ap.broadcom.net_Fa0/1/0;NetOps;service14;Percentage of Maximum Capacity Currently Used going to reach 85.0 pct;{20, 43, 101, 115, 117, 142, 154, 205, 216, 221, 223, 224, 261}
+esxash71.ash.broadcom.net;NetOps;service1;The alert Frontend Errors has breached the MAJOR threshold of 1;{22, 29, 50, 74, 80, 105, 175, 219, 282}
+png-voice-dcsw1.nw-ap.broadcom.net;Dynatrace;service16;A power outage was detected in server room 23;{4, 10, 21, 54, 98, 108, 130, 152, 172, 188, 204, 241}
+wac-ll2-r44-sw01;NetOps;service14;The alert CPU Throttling has breached the CRITICAL threshold of 10000000000;{74, 150, 165, 189, 244}
+sju-ll2-lab133-bvt-a11-yellow-sw06;Dynatrace;service14;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database;{12, 14, 32, 74, 85, 107, 120, 128, 155, 175, 208, 238}
+lc-irv-2928.lvn.broadcom.net;Solarwinds;service8;The alert Response Time Variance Intensity has breached the MAJOR threshold of 25;{12, 44, 64, 66, 75, 90, 98, 110, 154, 229, 230, 256}
+wac-ll2-r81-cali-sw02;APM;service9;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{19, 33, 52, 89, 95, 97, 103, 114, 135, 174, 249, 254, 271}
+lc-sj1-4412.lvn.broadcom.net;Datadog;service7;The alert Deployment Availablity has breached the MAJOR threshold of 0;{34, 56, 65, 92, 116, 119, 185, 234, 236, 256, 258, 275, 277}
+lpdvnerp04.kc1.broadcom.net;Dynatrace;service16;DNS lookup of 'www.google.com' failed (type 'a') on nameserver 'sha-dns-1.broadcom.net' for profile 'sha-dns-1.broadcom.net';{23, 89, 92, 130, 139, 163, 164, 209, 211, 214, 235, 239}
+lc-irv-4034.lvn.broadcom.net;Spectrum;service9;A power outage was detected in server room 23;{60, 138, 161, 170, 176, 181, 187, 210, 270}
+png-voice-coresw1.nw-ap.broadcom.net;UIM;service12;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000;{8, 50, 73, 94, 121, 133, 157, 162, 163, 176, 200, 268, 271}
+lc-tlva-132.ihl.broadcom.net;UIM;service1;The alert Frontend Errors has breached the MAJOR threshold of 1;{45, 87, 117, 138, 144, 147, 148, 151, 212, 232, 240, 269}
+wpdvjmp02;Solarwinds;service12;Temperature for CPU1 Temp on lc-ibn-1051.ibn.broadcom.net is 103.0 (> 100.0);{46, 69, 75, 103, 197, 258}
+lc-sj1-4429.lvn.broadcom.net;UIM;service15;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{66, 94, 96, 97, 150, 162, 171, 174, 180, 232}
+lc-sj1-4428.lvn.broadcom.net;Datadog;service1;Concurrent Invocations going to reach 5.0 pct;{66, 79, 106, 127, 214, 250}
+lc-sj1-4979.lvn.broadcom.net;Dynatrace;service11;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{5, 31, 49, 55, 61, 90, 96, 100, 193, 200, 207, 221, 245}
+frk-dctor-p1b2sw01;UIM;service11;CPU Average Total Usage on Total for User is at 1.14 %.;{4, 6, 8, 49, 58, 198, 243}
+lhostbpl01;Datadog;service15;DEVICE DETECTED A COMMUNICATION LINK DOWN ON AN INTERFACE;{48, 61, 81, 190, 218, 236}
+wlvnvmgc02;APMDatadog;service7;ASA Site-to-Site VPN tunnel down;{64, 76, 106, 114, 149, 179, 205, 206, 208, 267, 269, 276}
+lc-sj1-5912.lvn.broadcom.net;Dynatrace;service10;Broadcast alarm was triggered.;{8, 11, 12, 55, 59, 88, 124, 132, 133, 140, 188, 226, 256, 272, 285}
+lc-sj1-3830.lvn.broadcom.net;NetOps;service11;The alert Total Restart has breached the MAJOR threshold of 10;{0, 8, 15, 47, 68, 73, 83, 87, 158, 160, 165, 173, 196, 217, 273, 274, 279, 286}
+wnpdvrdp01;NetOps;service12;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{35, 45, 61, 123, 172, 194, 262}
+wpdvpaysec01;Solarwinds;service13;Server returned HTTP response code 401 for URL http://abc.com;{0, 23, 40, 48, 80, 81, 163, 186, 204, 208, 263, 273}
+wnpvtsf05;APM;service13;LINK UP/DOWN TRAPS RECEIVED IN THE LAST 5 MINUTES EXCEEDS THRESHOLD;{90, 114, 128, 158, 171, 199, 207, 270, 274}
+lcs17-03.lvn.broadcom.net;NetOps;service6;DNS lookup of 'www.google.com' failed (type 'a') on nameserver 'sha-dns-1.broadcom.net' for profile 'sha-dns-1.broadcom.net';{23, 29, 42, 97, 103, 104, 113, 146, 263}
+lnpvweb10.ash.broadcom.net;NetOps;service14;Interface is down;{54, 71, 75, 78, 102, 116, 165, 262, 265, 286}
+lvn-lc-bcawlan-13.lvn.broadcom.net;Datadog;service11;DEVICE IRV2-4-AP03 HAS STOPPED RESPONDING TO POLLS;{10, 22, 33, 66, 83, 132, 135, 147, 173, 178, 205, 217, 223, 245, 249, 268, 283}
+lc-sj1-4550.lvn.broadcom.net;APM;service15;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{16, 41, 70, 103, 104, 120, 125, 126, 132, 134, 169, 197, 253, 255}
+lnpv3dftsqa02.sgn.broadcom.net;Datadog;service3;Robot mnmjmp6405 is inactive;{127, 149, 201, 202, 209, 212, 229, 234, 257}
+esxash72.ash.broadcom.net;APMDatadog;service15;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{7, 34, 104, 105, 155, 164, 218, 220, 234, 243}
+wpdvisscmbejb8;Solarwinds;service7;Disk Usage (%) on D:\ for D:\ is at 5.57 %.;{3, 19, 112, 152, 174, 215}
+esxash73.ash.broadcom.net;Solarwinds;service7;robot inactive;{32, 59, 65, 110, 125, 186, 200, 202, 241, 259}
+wpdvsepad01;APMDatadog;service15;Concurrent Invocations going to reach 5.0 pct;{11, 117, 148, 186, 230, 261, 272}
+lc-irv-2774.lvn.broadcom.net;Dynatrace;service10;High response time;{4, 5, 54, 72, 95, 127, 143, 202, 206, 220, 225, 231, 234, 272}
+nan-wan-sr2.nw-ap.broadcom.net_Tu16065;Solarwinds;service3;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{20, 67, 88, 136, 142, 149, 192, 225}
+vmsjc-ops022_rh56.lvn.broadcom.net;Spectrum;service3;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards;{78, 83, 90, 91, 94, 114, 125, 145, 156, 268, 275}
+SC5TFAPPSW0102_ae9;Dynatrace;service15;Profile MAZNASQLTSTC1N2- instance MAZNASQLTSTC1N2- buffer cache hit-ratio (87.17%) is too low;{9, 84, 89, 98, 112, 239, 242, 262}
+wpdvissfabdb04;Dynatrace;service1;robot inactive;{48, 131, 132, 159, 179, 193, 201, 265}
+wnpvpsar01.sgn.broadcom.net;Dynatrace;service16;percentage java heap used;{67, 99, 120, 190, 196, 230, 237, 244, 249, 260}
+lc-irv-3512.lvn.broadcom.net;Dynatrace;service1;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{13, 18, 25, 123, 157, 169, 191, 257, 276}
+wnpvissdw02;Spectrum;service7;disk usage c exceeds;{37, 80, 116, 120, 123, 140, 187, 189, 193, 213, 266, 276, 284}
+lc-sj1-5987.lvn.broadcom.net;Datadog;service9;CHASSIS fdt-snc.net DOWN;{3, 90, 134, 184, 204, 214, 216, 218, 235, 252, 254}
+lc-irv-2928.lvn.broadcom.net;NetOps;service9;Disk Usage (%) on D:\ for D:\ is at 5.57 %.;{18, 54, 55, 56, 68, 93, 103, 138, 167, 170, 180, 183, 206, 210, 240, 275}
+lc-ibn-1047.ibn.broadcom.net;UIM;service9;QOS_CPU_MULTI_USAGE on CPU-2 for User-2 is at 52.53 %.;{65, 73, 197, 217, 247, 253, 266, 268}
+lnpvdsa01.sgn.broadcom.net;Spectrum;service2;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000;{21, 39, 46, 52, 69, 129, 137, 157, 178, 184, 185, 198, 249, 253, 275}
+lnpv3dftsqa02.sgn.broadcom.net;Datadog;service15;Cellular Interface is Up;{8, 11, 36, 47, 56, 77, 198, 209, 221, 239}
+wpvirvopsdv1_image;Datadog;service16;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards;{12, 91, 110, 172, 198, 247, 264}
+ash-wan-sr3.nw-am.broadcom.net_Gi0/0/3;NetOps;service15;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000;{4, 54, 103, 118, 124, 127, 264}
+anpvpsc12.yis.broadcom.net;UIM;service11;percentage java heap used;{0, 59, 116, 122, 143, 154, 174, 233, 239, 240}
+wpdvtstap01;Spectrum;service8;Profile MSSQLSERVER- instance ldcna1cht1- buffer cache hit-ratio (88.80%) is too low;{15, 22, 50, 66, 75, 89, 157, 159, 166, 189, 206, 240}
+SC5TFBOSW3.arcot.ca.com_Gi1/0/17;Dynatrace;service13;CHASSIS fdt-snc.net DOWN;{4, 20, 30, 72, 95, 128, 130, 142, 192, 206, 224, 276}
+wpdvwsd07;Solarwinds;service12;The alert Response Time Variance Intensity has breached the MAJOR threshold of 25;{96, 109, 116, 128, 172, 216, 259, 265, 281}
+lc-sj1-5540.lvn.broadcom.net;NetOps;service1;The alert Memory Utilization has breached the CRITICAL threshold of 90;{31, 89, 112, 115, 122, 199, 242, 256, 285, 286}
+lc-lvn-1307.lvn.broadcom.net;UIM;service1;Interface is down;{39, 75, 125, 130, 155, 189, 260, 270, 280, 281}
+sju-cas-sw08.nw-am.broadcom.net;Spectrum;service4;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{5, 77, 95, 107, 132, 138, 160, 201, 204, 216, 250}
+vmsjc-ops016_rh58.lvn.broadcom.net;UIM;service7;High Receive Percent Utilization on Interface GigabitEthernet0/0/1 · *** LAN *** for node 4LU-Antwerpen-RTR01;{2, 82, 85, 126, 141, 159, 167, 177, 210, 214, 218, 226, 229, 267}
+lnpvana01.ash.broadcom.net;APMDatadog;service2;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{57, 63, 99, 122, 130, 144, 170, 263, 272, 274, 286}
+sju-ll2-lab133-bvt-c7-sw18;APM;service5;Interface is down;{59, 82, 84, 128, 130, 208, 273, 283}
+wnpdvrdp03;Solarwinds;service7;CPU Average Total Usage on Total for User is at 1.14 %.;{6, 24, 28, 100, 112, 124, 170, 186, 196, 235, 267}
+mho-fab-inarip34sw1.nw-ap.broadcom.net;UIM;service8;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{0, 26, 38, 39, 118, 133, 148, 157, 171, 247, 251}
+wpdvpki01;NetOps;service16;High Receive Percent Utilization on Interface GigabitEthernet0/0/1 · *** LAN *** for node 4LU-Antwerpen-RTR01;{22, 68, 101, 128, 183, 185, 202, 210}
+lc-lvn-1378.lvn.broadcom.net;NetOps;service9;The alert Total Restart has breached the MAJOR threshold of 10;{14, 18, 72, 88, 181, 197, 213}
+ihy-wan-sr1.nw-ap.broadcom.net_Gi0/0/3;Datadog;service9;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards;{37, 72, 116, 153, 154, 166, 261}
+lc-ibn-1021.ibn.broadcom.net;Datadog;service5;A power outage was detected in server room 23;{67, 83, 106, 141, 165, 180, 225, 241, 268}
+wpdvisscmbejb12;APMDatadog;service3;ntpd_monitoring: Process ntpd not started- max starts 3 reached;{21, 28, 60, 76, 89, 175, 180, 181, 214}
+sju-ll2-lab133-bvt-a12-yellow-sw07;Dynatrace;service16;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards;{3, 49, 94, 102, 126, 153, 162, 182, 200, 264, 270}
+frk-dctor-p1b2sw01;APM;service7;Server returned HTTP response code 401 for URL http://abc.com;{44, 60, 68, 73, 99, 104, 108, 111, 158, 183, 192, 200, 205, 212, 247, 249, 250, 273}
+wpdvisscmbejb6;APMDatadog;service7;CPU Average Total Usage on Total for User is at 1.14 %.;{29, 37, 98, 188, 209, 216, 230, 239, 240, 278, 283}
+lc-irv-3030.lvn.broadcom.net;Spectrum;service13;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{7, 110, 131, 139, 150, 277}
+lc-lvn-1500.lvn.broadcom.net;APMDatadog;service7;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards;{6, 9, 27, 49, 66, 80, 86, 144, 206, 262}
+wnpvjmp01;APMDatadog;service1;QOS_CPU_MULTI_USAGE on CPU-2 for User-2 is at 52.53 %.;{21, 145, 151, 152, 168, 202, 238, 253, 257}
+lc-sj1-4412.lvn.broadcom.net;Datadog;service6;High Transmit Percent Utilization on Interface Vlan268 · L3 for ReplicationNetwork-1-1_vl.110_10.22.168.0/24 for node N7706-2-DC2_Spine-2;{32, 45, 87, 226}
+lnpv3dftsqa02.sgn.broadcom.net;Spectrum;service4;LINK UP/DOWN TRAPS RECEIVED IN THE LAST 5 MINUTES EXCEEDS THRESHOLD;{13, 32, 115, 156, 163, 197, 213, 220, 228, 232, 236, 275}
+wyisvmgc02;Datadog;service16;DEVICE DETECTED A COMMUNICATION LINK DOWN ON AN INTERFACE;{9, 19, 53, 114, 141, 211}
+APDVCPPM3;Datadog;service7;LINK UP/DOWN TRAPS RECEIVED IN THE LAST 5 MINUTES EXCEEDS THRESHOLD;{62, 93, 109, 144, 148, 215, 227, 231}
+lc-sj1-6667.lvn.broadcom.net;UIM;service11;Disk Usage (%) on D:\ for D:\ is at 5.57 %.;{64, 101, 133, 167, 251, 265, 272, 274}
+lnpvmysql02.ash.broadcom.net;APMDatadog;service14;temperature cpu1 temp;{17, 30, 132, 136, 220, 253}
+ash-wan-sr3.nw-am.broadcom.net_Gi0/0/16;Solarwinds;service11;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database;{89, 92, 124, 138, 205, 245, 271}
+ren-dctor-p4r01c04sw01;NetOps;service16;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{14, 81, 94, 125, 142, 177, 200, 228, 229, 265, 266, 272}
+mvj-fab-2fidf02-sw2.nw-ap.broadcom.net;Spectrum;service14;High Transmit Percent Utilization;{13, 53, 63, 65, 110, 142, 178, 231, 238}
+vmsjc-ops022_rh56.lvn.broadcom.net;Solarwinds;service12;Broadcast alarm was triggered.;{15, 23, 36, 76, 88, 100, 144, 162, 175, 187, 201, 207, 250, 254, 280}
+lc-sj1-5631.lvn.broadcom.net;APM;service13;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{22, 33, 45, 106, 108, 125, 140, 171, 181, 193, 196, 270, 279, 282}
+wpdvweb07;Spectrum;service3;ASA Site-to-Site VPN tunnel down;{77, 94, 139, 148, 252}
+lc-sj1-6667.lvn.broadcom.net;APM;service7;High Transmit Percent Utilization on Interface Vlan268 · L3 for ReplicationNetwork-1-1_vl.110_10.22.168.0/24 for node N7706-2-DC2_Spine-2;{35, 41, 71, 86, 143, 147, 176, 178, 226, 229, 233, 237, 244, 271, 281}
+anpveapisg01.broadcom.com;Solarwinds;service5;SWITCH FIBRE CHANNEL PORT SCAN;{9, 64, 70, 79, 113, 119, 189, 220, 262, 285}
+lc-irv-3370.lvn.broadcom.net;APMDatadog;service14;Node is down;{15, 35, 38, 56, 71, 146, 244, 246}
+wnpvchef03;Dynatrace;service14;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{106, 155, 158, 171, 177, 188, 206, 210, 269}
+wpdvissbeap1;UIM;service12;Server returned HTTP response code 401 for URL http://abc.com;{32, 86, 183, 192, 207, 214, 229, 232, 258}
+lnpvslicw02.broadcom.com;Dynatrace;service5;QOS_CPU_MULTI_USAGE on CPU-2 for User-2 is at 52.53 %.;{30, 44, 72, 92, 118, 145, 172, 234, 238, 244}
+wpdvisscmfedb1;Dynatrace;service8;CPU Average Total Usage on Total for User is at 1.14 %.;{76, 101, 114, 129, 224, 272}
+lc-sj1-4304.lvn.broadcom.net;UIM;service6;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{7, 29, 46, 70, 95, 138, 206, 215}
+lc-sj1-5579.lvn.broadcom.net;NetOps;service14;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000;{8, 50, 79, 114, 155, 171, 176, 217}
+wpdvwsd08;Solarwinds;service2;SWITCH FIBRE CHANNEL PORT SCAN;{6, 24, 54, 83, 103, 108, 173, 176, 233, 283}
+wpdvnlytis06;NetOps;service1;Node is down;{12, 22, 54, 58, 90, 197, 223, 262, 263, 283, 286}
+lc-blr-354.ibn.broadcom.net;Spectrum;service10;Disk Usage (%) on D:\ for D:\ is at 5.57 %.;{10, 84, 99, 117, 159, 161, 179, 185, 232, 246, 266}
+wpdvisscmbeap9;Solarwinds;service4;percentage java heap used;{32, 59, 99, 111, 136, 190}
+lc-lvn-1415.lvn.broadcom.net;Dynatrace;service15;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{26, 51, 62, 118, 163, 181, 188, 189, 257, 265}
+acc4-wan-sr3.nw-am.broadcom.net_Po60;UIM;service6;High packet loss;{26, 49, 53, 66, 93, 112, 138, 155, 172, 195, 198, 231, 257, 263, 267}
+vmsjc-ops016_rh58.lvn.broadcom.net;APM;service14;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS;{71, 144, 166, 170, 187, 223, 260}
+SC5TFAPPSW0102_ge-0/0/20;APM;service7;Server returned HTTP response code 401 for URL http://abc.com;{0, 7, 27, 69, 89, 129, 203, 212, 259, 272, 273, 274}
+lc-hyd-013.ibn.broadcom.net;NetOps;service8;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{7, 32, 49, 137, 139, 141, 202, 229, 283}
+lc-lvn-0801.lvn.broadcom.net;APM;service10;A power outage was detected in server room 23;{19, 34, 44, 47, 60, 62, 126, 173, 174, 182, 249, 258}
+wnpdvproj01;Dynatrace;service8;High response time;{36, 48, 50, 67, 80, 95, 102, 105, 166, 192, 201, 214, 225, 230, 281, 283}
+wpdvcybpsm03;NetOps;service16;The alert Heap Used Percent has breached the MAJOR threshold of 40;{1, 8, 104, 129, 138, 156, 164, 169, 186, 187, 189, 201}
+linrvmdb01.png.broadcom.net;APMDatadog;service11;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS;{90, 134, 158, 173, 222}
+acc-dctor-p3c3sw02.nw-am.broadcom.net;APMDatadog;service14;SWITCH FIBRE CHANNEL PORT SCAN;{20, 38, 90, 103, 119, 129, 223, 225, 233, 276}
+wpdvtstap01;APMDatadog;service8;The alert GCPHeap1 has breached the MAJOR threshold of 8;{3, 14, 22, 50, 52, 54, 70, 102, 107, 123, 146, 203}
+wpvirvops004;NetOps;service1;The alert GCPHeap1 has breached the MAJOR threshold of 8;{1, 22, 60, 88, 115, 160, 162, 169, 175, 218, 268}
+lnpvabrcavaw02.ash.broadcom.net;Datadog;service6;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{15, 19, 38, 95, 113, 135, 175, 211, 256, 258, 279, 285}
+ihl-wan-sr2.nw-em.broadcom.net_Tu14240;Dynatrace;service15;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards;{42, 48, 164, 165, 232, 235, 262}
+wpdvwsd07;Spectrum;service1;High packet loss;{25, 31, 149, 169, 177, 210, 218, 219, 275}
+apdveapi01.broadcom.com;Spectrum;service4;Profile MAZNASQLTSTC1N2- instance MAZNASQLTSTC1N2- buffer cache hit-ratio (87.17%) is too low;{2, 17, 30, 74, 93, 94, 97, 137, 151, 191, 220, 251, 260, 279}
+mab-wan-sr1.nw-am.broadcom.net_Gi0/0/3;Spectrum;service1;Data Center Outage Alert;{93, 96, 115}
+lnpvcodeinsight07.ash.broadcom.net;APM;service4;High Receive Percent Utilization on Interface GigabitEthernet0/0/1 · *** LAN *** for node 4LU-Antwerpen-RTR01;{24, 33, 61, 83, 91, 132, 165, 168, 191, 203, 235, 250, 259}
+sju-ll2-lab133-bvt-c1-sw15;APM;service16;MANAGEMENT AGENT LOST;{17, 18, 35, 43, 65, 84, 111, 115, 123, 150, 178, 183, 195, 198, 218}
+lc-lvn-1364.lvn.broadcom.net;UIM;service2;sssd: Process /usr/sbin/sssd/ is not running;{48, 53, 62, 135, 146, 160, 194, 217}
+wpdvepiap01;Solarwinds;service11;SWITCH FIBRE CHANNEL PORT SCAN;{6, 14, 16, 36, 63, 74, 97, 107, 145, 173, 182, 218, 236, 237, 276}
+sha-wan-bdr1.nw-ap.broadcom.net_Gi0/0/0;Solarwinds;service9;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{55, 69, 70, 74, 111, 132, 135, 140, 156, 204, 245, 264, 271}
+don-pfw-cm01.nw-ap.broadcom.net;NetOps;service14;High Transmit Percent Utilization;{42, 59, 80, 86, 98, 105, 133, 223, 244, 255, 282}
+atl-ll2-lab2a-agg-stb-sw01.nw-am.broadcom.net;Dynatrace;service5;The alert Deployment Availablity has breached the MAJOR threshold of 0;{36, 45, 77, 102, 117, 121, 126, 136, 163, 211, 227}
+lvn-ll3-sw01.nw-am.broadcom.net_Ethernet1/47;NetOps;service2;temperature cpu1 temp;{57, 69, 82, 107, 112, 118, 132, 139, 143, 157, 181, 205, 215, 236, 242, 261}
+sju-ll2-lab133-bvt-c7-sw18;Spectrum;service14;Broadcast alarm was triggered.;{46, 87, 180, 193, 196, 197, 221, 225, 231, 256, 268, 271}
+sdg-ll2-3f-a3059-stb-sw11.nw-am.broadcom.net;Dynatrace;service9;Node is down;{6, 100, 145, 147, 149, 182, 187, 273}
+lc-irv-2774.lvn.broadcom.net;NetOps;service13;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{56, 68, 69, 73, 97, 127, 129, 154, 184, 185, 282}
+wnpvaltdb01;Datadog;service9;Interface is down;{10, 40, 88, 108, 133, 147, 159, 226, 260}
+lc-lvn-1685.lvn.broadcom.net;Dynatrace;service5;java-AdminServer: Process /AdminServer/ is not running;{105, 131, 209, 221, 262}
+lnpvdbqa01.lvn.broadcom.net;Spectrum;service15;Data Center Outage Alert;{2, 27, 36, 109, 154, 186, 240, 243, 271}
+sha-wan-bdr1.nw-ap.broadcom.net_Gi0/0/0;Spectrum;service2;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{19, 67, 73, 106, 171, 241, 259, 264, 274, 284, 285}
+wathvntxf02.wat.broadcom.net;APM;service7;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS;{1, 68, 79, 105, 128, 150, 178, 219, 246, 263, 268}
+wpdvwsd09;Solarwinds;service7;Total CPU Usage on Total for WNPVTSF09.Broadcom.net is at 1.07 %. It has violated the threshold for at least 7.0 minutes out of 5.0 MINUTES.;{46, 62, 73, 89, 105, 152, 194, 195, 263}
+APDVCPPM3;APM;service9;Broadcast alarm was triggered.;{52, 78, 102, 109, 140, 195, 203, 209, 238, 282}
+lc-blr-640.ibn.broadcom.net;Spectrum;service1;Total CPU Usage on Total for WNPVTSF09.Broadcom.net is at 1.07 %. It has violated the threshold for at least 7.0 minutes out of 5.0 MINUTES.;{44, 83, 108, 120, 258, 264, 271, 276}
+wpdvisscmbejb4;UIM;service2;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards;{25, 50, 64, 102, 176, 207, 280}
+gen-wan-sr1.nw-em.broadcom.net_Gi0/0/0;APMDatadog;service12;The alert Deployment Availablity has breached the MAJOR threshold of 0;{20, 77, 102, 103, 158, 235, 243, 248, 250}
+lc-sj1-3779.lvn.broadcom.net;Solarwinds;service3;QOS_CPU_MULTI_USAGE on CPU-2 for User-2 is at 52.53 %.;{5, 9, 41, 43, 60, 143, 165, 166, 200, 205, 259}
+banlcs436.ibn.broadcom.net;NetOps;service3;temperature cpu1 temp;{31, 44, 109, 145, 213, 232, 234, 278, 281, 285}
+lnpvwsweb14.broadcom.com;Dynatrace;service3;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{3, 26, 29, 78, 83, 114, 120, 126, 131, 165, 184, 202, 259, 286}
+wpdvwsd08;Dynatrace;service13;MANAGEMENT AGENT LOST;{1, 61, 67, 89, 106, 127, 141, 149, 162, 202, 211, 227}
+lc-sj1-6591.lvn.broadcom.net;NetOps;service8;Disk Usage (%) on D:\ for D:\ is at 5.57 %.;{49, 78, 83, 96, 98, 101, 121, 134, 180, 188, 212, 229, 246, 266}
+acc-dcobmgmt-p5e9sw02.nw-am.broadcom.net;APM;service14;Broadcast alarm was triggered.;{3, 25, 58, 71, 86, 95, 97, 148, 149, 225, 246}
+lc-lvn-0889.lvn.broadcom.net;APM;service9;Cellular Interface is Up;{20, 30, 37, 41, 63, 124, 149, 151, 152, 188, 212}
+lc-sj1-6737.lvn.broadcom.net;APMDatadog;service5;QOS_CPU_MULTI_USAGE on CPU-2 for User-2 is at 52.53 %.;{6, 103, 123, 127, 174, 216, 231, 245, 255, 268, 279}
+banlcs587.ibn.broadcom.net;Spectrum;service3;Server returned HTTP response code 401 for URL http://abc.com;{2, 3, 8, 24, 70, 77, 119, 174, 219, 232, 249, 257, 266, 277, 284}
+wpdvorclupk01;APM;service14;Disk Usage (%) on D:\ for D:\ is at 5.57 %.;{30, 87, 139, 152, 175, 180, 224, 239, 260}
+lc-lvn-1221.lvn.broadcom.net;Datadog;service14;MANAGEMENT AGENT LOST;{30, 34, 82, 147, 180, 192, 220}
+lc-sj1-5084.lvn.broadcom.net;NetOps;service3;DNS lookup of 'www.google.com' failed (type 'a') on nameserver 'sha-dns-1.broadcom.net' for profile 'sha-dns-1.broadcom.net';{25, 35, 40, 52, 57, 59, 64, 101, 118, 146, 158, 236}
+sju-voice-vg02.nw-am.broadcom.net;Datadog;service16;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{31, 38, 72, 110, 131, 136, 148, 164, 175, 191, 194, 199, 202, 211}
+wpdvisscmfejb1;Solarwinds;service6;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{28, 43, 66, 80, 81, 93, 95, 157, 203, 204, 222, 224, 243, 267, 271}
+wpdvisscmbejb9;UIM;service1;High packet loss;{10, 34, 58, 107, 120, 147, 159, 201, 222, 227, 236, 257, 266, 275, 282}
+sju-ll2-lab133-bvt-e3-yellow-sw48;UIM;service13;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database;{10, 27, 35, 105, 122, 169, 172, 208, 235, 257, 272}
+hsi-wan-sr1.nw-ap.broadcom.net_Gi0/0/0;Solarwinds;service2;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{8, 18, 37, 75, 79, 90, 113, 116, 119, 125, 189, 193, 207, 213, 249, 267}
+lc-sj1-6573.lvn.broadcom.net;NetOps;service7;The alert Frontend Errors has breached the MAJOR threshold of 1;{13, 42, 43, 48, 62, 67, 114, 135, 141, 142, 143, 192, 226, 242}
+lc-lvn-0452.lvn.broadcom.net;Solarwinds;service13;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{13, 92, 105, 110, 179, 213}
+lnpvana01.ash.broadcom.net;Dynatrace;service1;temperature cpu1 temp;{8, 10, 58, 61, 77, 82, 229, 286}
+lgh-wan-sr1.nw-ap.broadcom.net_Gi0/0/0;Spectrum;service1;percentage java heap used;{14, 20, 51, 55, 81, 146, 209, 212, 248}
+lnpvd3dftsdev01.sgn.broadcom.net;Solarwinds;service14;disk usage c exceeds;{32, 75, 115, 167, 171, 194, 205, 222, 254, 269, 270}
+LNPVQEXTWEB02;APMDatadog;service5;High Transmit Percent Utilization;{47, 87, 98, 120, 215, 227, 241, 253}
+lc-lvn-0870.lvn.broadcom.net;NetOps;service14;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{21, 29, 47, 56, 58, 78, 80, 88, 111, 137, 228, 269}
+lc-irv-2774.lvn.broadcom.net;Spectrum;service9;Broadcast alarm was triggered.;{57, 61, 63, 116, 153, 219, 269}
+wpdvisscmbejb5;Dynatrace;service7;Cellular Interface is Up;{32, 81, 87, 101, 108, 111, 183, 209, 215}
+linrvmdb01.png.broadcom.net;Solarwinds;service12;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{11, 79, 114, 116, 131, 137, 150, 167, 169, 184, 197, 217, 222, 238}
+SC5TFBOSW2.arcot.ca.com_Gi1/0/34;APM;service16;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{1, 25, 104, 119, 134, 135, 150, 174, 185, 216, 237, 254, 262}
+lc-lvn-1508.lvn.broadcom.net;APM;service7;DEVICE DETECTED A COMMUNICATION LINK DOWN ON AN INTERFACE;{5, 96, 216, 219, 224, 228, 238, 280}
+lnpvdbqa01.lvn.broadcom.net;UIM;service13;The alert GCPHeap1 has breached the MAJOR threshold of 8;{4, 82, 92, 139, 186, 215, 228}
+sha-wan-eavbr1.nw-ap.broadcom.net_Fa0/1/0;Spectrum;service11;The alert GCPHeap1 has breached the MAJOR threshold of 8;{44, 134, 163, 237, 276, 277, 278, 279}
+ren-dcbl-p4r02c05sw01;Spectrum;service7;percentage java heap used;{26, 33, 45, 87, 133, 160, 187, 196, 234, 239, 251}
+munhntxbb1b.frk.broadcom.net;UIM;service3;The alert Frontend Errors has breached the MAJOR threshold of 1;{15, 36, 39, 84, 90, 99, 125, 131, 177, 193, 242, 253, 284}
+lnpvcodeinsight07.ash.broadcom.net;APM;service15;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{20, 37, 112, 122, 148, 155, 205}
+wnpvaltdb01;UIM;service12;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000;{9, 47, 61, 75, 138, 215, 240, 269}
+lc-sj1-5695.lvn.broadcom.net;APM;service5;The alert Total Restart has breached the MAJOR threshold of 10;{11, 23, 25, 66, 76, 78, 161, 191, 212}
+sju-cas-sw07.nw-am.broadcom.net;APM;service14;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{38, 60, 101, 120, 153, 190, 248, 280}
+anpveapisg02.broadcom.com;APM;service16;CHASSIS fdt-snc.net DOWN;{27, 43, 81, 84, 134, 151, 241}
+ash-wan-sr3.nw-am.broadcom.net_Gi0/0/1;Dynatrace;service2;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00);{7, 33, 55, 116, 127, 164, 165, 194, 204, 205, 208, 233, 253}
+wpdvmid04;Solarwinds;service4;MANAGEMENT AGENT LOST;{48, 76, 153, 176, 191, 196, 235}
+lc-sj1-4145.lvn.broadcom.net;Spectrum;service8;temperature cpu1 temp;{19, 109, 123, 162, 163, 164, 223, 234, 252, 276}
+lnpv3dswymqa01.sgn.broadcom.net;NetOps;service2;temperature cpu1 temp;{5, 153, 156, 210, 286}
+lc-sj1-4865.lvn.broadcom.net;NetOps;service6;QOS_CPU_MULTI_USAGE on CPU-2 for User-2 is at 52.53 %.;{15, 39, 63, 99, 146, 161, 250, 252, 254, 279}
+lc-irv-3666.lvn.broadcom.net;APM;service3;Concurrent Invocations going to reach 5.0 pct;{3, 40, 97, 117, 159, 167, 220, 242, 257, 278, 285}
+anpvpsc11.yis.broadcom.net;APM;service12;DEVICE IRV2-4-AP03 HAS STOPPED RESPONDING TO POLLS;{18, 28, 46, 71, 113, 117, 128, 190, 207, 267}
+sju-cas-sw14.nw-am.broadcom.net;Spectrum;service8;Hardware component is in warning or critical state;{57, 60, 71, 91, 128, 139, 151, 214, 246, 256}
+lc-sj1-4775.lvn.broadcom.net;Datadog;service11;Disk Usage (%) on D:\ for D:\ is at 5.57 %.;{23, 26, 57, 72, 78, 169, 183, 193, 199, 249, 256, 263}
+lftcvmsntst01.ash.broadcom.net;Dynatrace;service15;Hardware component is in warning or critical state;{29, 35, 43, 53, 55, 97, 154, 179, 191, 200, 233}
+lc-irv-2720.lvn.broadcom.net;APMDatadog;service6;Broadcast alarm was triggered.;{12, 56, 70, 97, 136, 168, 209, 255}
+lc-lvn-1412.lvn.broadcom.net;NetOps;service8;Disk Usage (%) on D:\ for D:\ is at 5.57 %.;{27, 49, 69, 91, 162, 167, 247, 252, 274}
+wat-wan-sr1.nw-em.broadcom.net_Gi0/0/16;Datadog;service5;Temperature for CPU1 Temp on lc-ibn-1051.ibn.broadcom.net is 103.0 (> 100.0);{4, 33, 52, 59, 64, 120, 143, 186, 237, 240, 251, 258, 261}
+mun-wan-sr1.nw-em.broadcom.net_Gi0/0/0;APMDatadog;service13;MANAGEMENT AGENT LOST;{0, 11, 12, 96, 98, 119, 176, 208, 227, 248}
+lc-irv-3396.lvn.broadcom.net;APM;service12;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{2, 28, 68, 115, 123, 136, 188, 190, 199, 241, 247, 280, 285}
+wnpvokt01;APM;service9;High response time;{82, 121, 133, 145, 177, 204, 226}
+lnpvsubscw03.broadcom.com;APMDatadog;service15;Server returned HTTP response code 401 for URL http://abc.com;{43, 85, 114, 241, 270}
+sju-ll2-lab133-aggr-yellow-e6-sw18;Solarwinds;service9;Hardware component is in warning or critical state;{0, 45, 79, 147, 148, 178, 212, 221, 263}
+lc-sj1-6213.lvn.broadcom.net;Spectrum;service14;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{34, 80, 123, 158, 173, 179, 188, 219, 226, 252, 274}
+mec-wan-sr1.nw-em.broadcom.net_Gi0/0/0;Dynatrace;service16;Data Center Outage Alert;{17, 31, 55, 193, 197, 230, 231, 254}
+lnpvnsoa05.sgn.broadcom.net;APM;service9;temperature cpu1 temp;{18, 23, 40, 71, 133, 149, 151, 160, 192, 213, 251, 256, 282}
+wpdvowcf01;APM;service14;The alert Memory Utilization has breached the CRITICAL threshold of 90;{55, 66, 85, 87, 117, 224, 225, 231, 247, 277}
+ihy-ll2-b2-csg-lab2-aggr01.nw-ap.broadcom.net;APM;service7;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{2, 16, 29, 41, 155, 164, 185, 190, 277}
+lc-sj1-4978.lvn.broadcom.net;Spectrum;service6;The alert Deployment Availablity has breached the MAJOR threshold of 0;{5, 14, 33, 85, 120, 130, 140, 147, 160, 190, 195, 234, 249}
+sha-wan-bdr3.nw-ap.broadcom.net_Gi0/0/1;NetOps;service2;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards;{13, 18, 26, 37, 51, 64, 74, 107, 145, 155, 161, 245, 259, 261}
+wpdvitmsnotf;Solarwinds;service9;QOS_CPU_MULTI_USAGE on CPU-2 for User-2 is at 52.53 %.;{45, 74, 123, 129, 245, 264}
+lc-sj1-4412.lvn.broadcom.net;Datadog;service10;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{38, 59, 108, 152, 243, 245, 256, 267, 275}
+nan-wan-sr2.nw-ap.broadcom.net_Tu16065;APMDatadog;service4;The alert Total Restart has breached the MAJOR threshold of 10;{63, 194}
+SC5TFAPPSW0102_ae5;APM;service10;High response time;{5, 12, 16, 34, 48, 84, 210, 269, 273, 275}
+lc-irv-3591.lvn.broadcom.net;APM;service16;The alert Frontend Errors has breached the MAJOR threshold of 1;{53, 142, 185, 198, 208, 223, 284}
+vmsjc-ops028_rh58.lvn.broadcom.net;Datadog;service16;High Receive Percent Utilization on Interface GigabitEthernet0/0/1 · *** LAN *** for node 4LU-Antwerpen-RTR01;{39, 44, 47, 75, 117, 121, 181, 195, 219, 223, 277}
+wsgpvmjh01;UIM;service7;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{81, 94, 104, 112, 132, 168, 172, 177, 228, 230, 276}
+wpdvpki01;Spectrum;service2;temperature cpu1 temp;{0, 13, 118, 184, 196, 200, 248, 252, 273, 281}
+ren-dcobmgmt-p2br02c05sw04;Datadog;service2;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{11, 23, 54, 113, 121, 131, 140, 242}
+lc-ibn-1127.ibn.broadcom.net;APMDatadog;service15;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000;{33, 91, 122, 140, 173, 199, 217}
+lftcvmsntst01.ash.broadcom.net;APM;service3;java-AdminServer: Process /AdminServer/ is not running;{21, 39, 91, 117, 121, 124, 156, 159, 179, 214, 230}
+lc-irv-2888.lvn.broadcom.net;Spectrum;service4;High Transmit Percent Utilization;{21, 34, 46, 88, 106, 124, 152, 157, 233, 286}
+lc-irv-3273.lvn.broadcom.net;Spectrum;service11;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{19, 42, 46, 48, 51, 57, 65, 76, 93, 104, 111, 234, 261}
+lc-sj1-4185.lvn.broadcom.net;UIM;service13;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database;{2, 5, 16, 21, 42, 91, 126, 130, 163, 168, 170, 178, 221, 278}
+lnpveslguw03.ash.broadcom.net;Dynatrace;service3;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{41, 76, 86, 135, 144, 168, 170, 187, 189, 201, 248}
+lc-irv-3666.lvn.broadcom.net;Datadog;service15;temperature cpu1 temp;{24, 50, 127, 140, 160, 186, 193, 258, 280}
+ldrvftp02.broadcom.com;APM;service9;Robot mnmjmp6405 is inactive;{9, 100, 171, 182, 244, 261}
+lc-sina-375.sgn.broadcom.net;Spectrum;service7;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{11, 94, 125, 165, 203, 218, 225, 254, 255}
+wnpvtosca02;Solarwinds;service5;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{20, 50, 62, 64, 78, 81, 85, 127, 174, 211, 222, 242, 277}
+lvn-wan-sr2.nw-am.broadcom.net_Gi0/0/9;NetOps;service14;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database;{1, 8, 34, 65, 100, 104, 181, 234}
+anpveapisg02.broadcom.com;APMDatadog;service5;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{4, 24, 56, 83, 98, 200}
+lvn-wan-sr2.nw-am.broadcom.net_Gi0/0/9;Dynatrace;service1;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00);{15, 40, 52, 84, 100, 154, 161, 201, 224, 261, 270}
+ash-wan-sr3.nw-am.broadcom.net_Gi0/0/5;UIM;service4;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{35, 49, 54, 67, 85, 103, 166, 175, 220, 228, 284}
+sdg-cas-mdfas02.nw-am.broadcom.net;APM;service14;CPU Average Total Usage on Total for User is at 1.14 %.;{6, 19, 72, 107, 198, 260}
+lc-sj1-5635.lvn.broadcom.net;Spectrum;service10;sssd: Process /usr/sbin/sssd/ is not running;{1, 4, 31, 80, 99, 106, 124, 146, 202, 207, 211, 245, 250}
+wpdvsld01;Dynatrace;service7;Temperature for CPU1 Temp on lc-ibn-1051.ibn.broadcom.net is 103.0 (> 100.0);{40, 51, 70, 122, 191, 251, 266}
+acc4-wan-sr3.nw-am.broadcom.net_Po60;Datadog;service4;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database;{10, 13, 85, 90, 92, 158, 162, 173, 182, 184, 230, 255, 260, 281}
+wnpvisscmfeap1;Spectrum;service9;Hardware component is in warning or critical state;{22, 27, 29, 68, 134, 149, 161, 213}
+vpar-lvn-dcsg-06.lvn.broadcom.net;Dynatrace;service7;Interface is down;{9, 94, 113, 142, 174, 265, 283}
+wathvntxf03.wat.broadcom.net;APMDatadog;service13;LINK UP/DOWN TRAPS RECEIVED IN THE LAST 5 MINUTES EXCEEDS THRESHOLD;{17, 41, 52, 58, 104, 199, 221, 232, 244}
+wpdvdxim01;APMDatadog;service9;sssd: Process /usr/sbin/sssd/ is not running;{28, 66, 92, 161, 172, 179, 187, 207}
+ldrvftp02.broadcom.com;Datadog;service16;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{31, 73, 74, 88, 156, 204, 206, 230, 255, 273, 274, 278}
+SC5TFBOSW3.arcot.ca.com_Gi1/0/17;Dynatrace;service1;ntpd_monitoring: Process ntpd not started- max starts 3 reached;{11, 23, 25, 42, 45, 65, 69, 151, 152, 176, 190, 217, 248}
+lc-lvn-0404.lvn.broadcom.net;APMDatadog;service10;Profile MAZNASQLTSTC1N2- instance MAZNASQLTSTC1N2- buffer cache hit-ratio (87.17%) is too low;{10, 16, 17, 51, 65, 96, 98, 109, 141, 150, 236, 244, 268}
+lc-lvn-0870.lvn.broadcom.net;UIM;service7;Server returned HTTP response code 401 for URL http://abc.com;{96, 136, 163, 208, 217, 236, 239, 243, 272}
+sgn-dmzs-intagg-ar17sw01.nw-ap.broadcom.net;APMDatadog;service4;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000;{23, 73, 75, 119, 169, 179, 237}
+sel-wan-sr1.nw-ap.broadcom.net_Gi0/0/2;UIM;service13;The alert Memory Utilization has breached the CRITICAL threshold of 90;{7, 24, 28, 74, 100, 110, 132, 164, 182, 203, 262, 269, 278}
+SC5TFAPPSW0102_ae3;Spectrum;service11;The alert Total Restart has breached the MAJOR threshold of 10;{47, 86, 113, 143, 144, 154, 166, 246, 258, 284}
+lc-lvn-1743.lvn.broadcom.net;Solarwinds;service10;ASA Site-to-Site VPN tunnel down;{7, 12, 41, 42, 53, 58, 237, 255}
+banlcs436.ibn.broadcom.net;APMDatadog;service2;High Transmit Percent Utilization on Interface Vlan268 · L3 for ReplicationNetwork-1-1_vl.110_10.22.168.0/24 for node N7706-2-DC2_Spine-2;{16, 61, 79, 126, 150, 168, 208, 243, 284}
+lc-sj1-4009.lvn.broadcom.net;APMDatadog;service4;java-AdminServer: Process /AdminServer/ is not running;{14, 16, 61, 112, 157, 186, 196, 221, 222, 265, 270, 279}
+wpdvpki02;Solarwinds;service16;The alert Deployment Availablity has breached the MAJOR threshold of 0;{0, 37, 40, 130, 156, 238, 241}
+wpdvisscmbejb5;NetOps;service6;ASA Site-to-Site VPN tunnel down;{14, 25, 46, 49, 56, 61, 63, 85, 137, 142, 145, 269}
+wnpdvrdp04;Datadog;service3;robot inactive;{28, 30, 75, 123, 124, 212, 263, 276}
+bld-ibn-csg-02.ibn.broadcom.net;Solarwinds;service15;Node is down;{5, 38, 66, 95, 121, 128, 153, 158, 166, 186, 217, 227, 242, 277}
+wpdvwsd17;Spectrum;service6;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00);{16, 25, 103, 113, 120, 121, 133, 139, 140, 152, 219, 223, 255, 256, 265}
+jf-lvnhf-it-006.lvn.broadcom.net;APM;service5;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{51, 58, 66, 73, 121, 122, 189, 210, 222, 239, 254, 279}
+wnpvndrt01;Dynatrace;service15;Profile MSSQLSERVER- instance ldcna1cht1- buffer cache hit-ratio (88.80%) is too low;{92, 104, 141, 202, 228, 233, 249, 271}
+lc-sj1-6573.lvn.broadcom.net;APMDatadog;service10;The alert CPU Throttling has breached the CRITICAL threshold of 10000000000;{9, 10, 35, 40, 58, 76, 78, 87, 116, 182, 218, 262}
+ftc-wan-sr1.nw-am.broadcom.net_Gi0/0/0;APMDatadog;service3;DEVICE IRV2-4-AP03 HAS STOPPED RESPONDING TO POLLS;{17, 36, 69, 89, 91, 229, 235}
+lc-sj1-4293.lvn.broadcom.net;Dynatrace;service16;High Receive Percent Utilization on Interface GigabitEthernet0/0/1 · *** LAN *** for node 4LU-Antwerpen-RTR01;{13, 103, 123, 153, 175, 187, 203, 204, 206, 269}
+wprdvmcucm01;Datadog;service1;SWITCH FIBRE CHANNEL PORT SCAN;{5, 57, 70, 89, 162, 163, 178, 183, 187, 189, 203, 209, 241, 256, 257, 271, 286}
+lc-sj1-4463.lvn.broadcom.net;APM;service15;The alert CPU Throttling has breached the CRITICAL threshold of 10000000000;{76, 88, 95, 167, 182, 230, 260}
+lnpv3dspqa01;APMDatadog;service16;High response time;{22, 60, 91, 120, 159, 208, 250}
+wpdvisscmfejb3;NetOps;service11;Server returned HTTP response code 401 for URL http://abc.com;{54, 90, 208, 233, 236, 262}
+wnpvissstjp01;Datadog;service3;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000;{32, 46, 76, 118, 119, 137, 147, 155, 163, 198, 199, 202, 208, 213, 218, 232, 235, 254, 283}
+sen-wan-sr1.nw-ap.broadcom.net_Gi0/1/1;UIM;service12;The alert Frontend Errors has breached the MAJOR threshold of 1;{4, 16, 172, 204, 241}
+sha-wan-bdr3.nw-ap.broadcom.net_Gi0/0/1;Solarwinds;service8;Data Center Outage Alert;{20, 22, 66, 133, 248, 266, 276}
+SC5TFBOFW01-5200_mgmt;UIM;service10;temperature cpu1 temp;{24, 48, 74, 109, 110, 174, 255, 262}
+sgn-dcdmz-int-p1au14sw05.nw-ap.broadcom.net;Spectrum;service11;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000;{27, 31, 45, 98, 102, 126, 129, 238, 261, 272}
+wibnvmegc08.broadcom.net;APM;service6;LINK UP/DOWN TRAPS RECEIVED IN THE LAST 5 MINUTES EXCEEDS THRESHOLD;{10, 40, 63, 82, 114, 163, 164, 212, 231, 257, 277}
+wnpvmid02.yis.broadcom.net;Datadog;service6;Percentage of Maximum Capacity Currently Used going to reach 85.0 pct;{48, 51, 90, 115, 175, 259, 265, 269}
+lc-irv-2922.lvn.broadcom.net;NetOps;service7;Data Center Outage Alert;{2, 20, 46, 51, 80, 103, 109, 130, 146, 156, 167, 237}
+sgn-dcdmz-int-p1au14sw04.nw-ap.broadcom.net;APMDatadog;service3;The alert Response Time Variance Intensity has breached the MAJOR threshold of 25;{98, 203, 213, 228}
+lnpvnerp08.sgn.broadcom.net;Solarwinds;service3;Data Center Outage Alert;{34, 44, 70, 88, 148, 169, 224, 264, 281}
+wpdvsdi01;UIM;service9;Profile MAZNASQLTSTC1N2- instance MAZNASQLTSTC1N2- buffer cache hit-ratio (87.17%) is too low;{25, 74, 86, 105, 189, 207, 215, 224, 268, 280}
+ash-wan-sr3.nw-am.broadcom.net_Gi0/0/5;Solarwinds;service8;disk usage c exceeds;{1, 19, 56, 65, 176, 207, 251, 274}
+lc-lvn-2043.lvn.broadcom.net;APM;service16;Percentage of Maximum Capacity Currently Used going to reach 85.0 pct;{30, 93, 182, 224, 276}
+lc-sj1-5853.lvn.broadcom.net;Dynatrace;service5;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{84, 141, 180, 243}
+sdg-ll2-1f-a1047-wcc-bca-sw6.nw-am.broadcom.net;Solarwinds;service8;Concurrent Invocations going to reach 5.0 pct;{48, 55, 66, 68, 81, 85, 96, 127, 155, 165, 195, 212, 234, 273}
+tok-wan-symlab01.nw-ap.broadcom.net_Gi0/0/0;APMDatadog;service15;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{24, 45, 109, 112, 116, 122, 134, 207, 255, 275, 276, 279}
+esxash73.ash.broadcom.net;Dynatrace;service8;High Transmit Percent Utilization on Interface Vlan268 · L3 for ReplicationNetwork-1-1_vl.110_10.22.168.0/24 for node N7706-2-DC2_Spine-2;{6, 44, 47, 101, 141, 164, 169, 267, 272}
+wpdvisscmbejb4;Spectrum;service5;robot inactive;{47, 53, 116, 145, 218, 219, 224, 247, 251}
+lcs17-03.lvn.broadcom.net;APM;service16;The alert Memory Utilization has breached the CRITICAL threshold of 90;{49, 51, 144, 150, 187, 216, 252, 259, 276, 285}
+lc-ibn-1127.ibn.broadcom.net;APMDatadog;service1;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{22, 32, 80, 119, 134, 140, 165, 172, 178, 241, 260, 281}
+lcs17-03.lvn.broadcom.net;APM;service8;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{46, 101, 107, 108, 154, 160, 181, 266, 284}
+fisyshap02;Datadog;service1;The alert Heap Used Percent has breached the MAJOR threshold of 40;{26, 110, 122, 138, 223, 241, 257}
+lc-lvn-1504.lvn.broadcom.net;APM;service8;Node is down;{9, 11, 29, 81, 186, 201, 238, 243}
+wpdvpki01;Datadog;service14;Robot mnmjmp6405 is inactive;{1, 9, 69, 71, 74, 96, 100, 222}
+wsgpvmegc09;NetOps;service3;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000;{33, 62, 186, 215, 225, 229, 231, 242, 263, 273}
+lc-lvn-1499.lvn.broadcom.net;Datadog;service9;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{21, 136, 214, 229, 233, 271}
+lc-irv-3396.lvn.broadcom.net;Spectrum;service14;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000;{4, 23, 45, 82, 94, 134, 183, 248, 270}
+wnpvisscmfejb3;UIM;service8;Robot mnmjmp6405 is inactive;{43, 70, 99, 179, 194, 260}
+lc-sj1-4979.lvn.broadcom.net;UIM;service5;CPU Average Total Usage on Total for User is at 1.14 %.;{30, 86, 95, 99, 104, 144, 154, 156, 192, 197, 202, 222, 224, 235, 249}
+lc-irv-3370.lvn.broadcom.net;Spectrum;service9;High Transmit Percent Utilization;{4, 23, 43, 61, 94, 121, 146, 184, 187, 214, 256, 270}
+vmsjc-ops018_rh58.lvn.broadcom.net;APMDatadog;service13;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{22, 36, 56, 75, 86, 98, 135, 152, 166, 199, 242}
+lc-sj1-3608.lvn.broadcom.net;UIM;service1;Concurrent Invocations going to reach 5.0 pct;{3, 5, 137, 184, 274}
+sgn-dmzs-intagg-ar17sw01.nw-ap.broadcom.net;APM;service12;java-AdminServer: Process /AdminServer/ is not running;{115, 119, 131, 166, 174, 179, 180, 198, 242}
+lc-sj1-4697.lvn.broadcom.net;NetOps;service14;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00);{0, 28, 34, 40, 59, 65, 162, 168, 184, 197, 205, 250, 279}
+lnpvela08.ash.broadcom.net;Datadog;service10;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards;{31, 84, 146, 185, 203, 220, 246, 267}
+wnpvokt02;APM;service3;The alert Deployment Availablity has breached the MAJOR threshold of 0;{0, 3, 90, 110, 123, 144, 154, 159, 169, 219, 246}
+apdveapi03.broadcom.com;NetOps;service2;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{52, 72, 92, 98, 114, 181, 193, 210, 213, 244, 246, 269, 278}
+sju-ll2-lab133-bvt-c1-sw15;NetOps;service1;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{25, 54, 85, 103, 132, 149, 150, 223, 260, 275}
+wnpvtsf05;Solarwinds;service13;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards;{37, 38, 103, 109, 111, 131, 155, 173, 179, 180, 195, 274}
+esxash72.ash.broadcom.net;UIM;service2;High Receive Percent Utilization on Interface GigabitEthernet0/0/1 · *** LAN *** for node 4LU-Antwerpen-RTR01;{37, 40, 49, 50, 92, 143, 263}
+sha-wan-bdr1.nw-ap.broadcom.net_Gi0/0/0;NetOps;service16;percentage java heap used;{23, 29, 45, 73, 87, 114, 156, 172, 245}
+lc-irv-2888.lvn.broadcom.net;Spectrum;service1;DEVICE IRV2-4-AP03 HAS STOPPED RESPONDING TO POLLS;{22, 23, 86, 108, 124, 165, 217, 238}
+ihl-wan-sr2.nw-em.broadcom.net_Gi0/0/1;NetOps;service14;Broadcast alarm was triggered.;{29, 84, 100, 111, 143, 197, 222, 230, 232, 262, 273}
+wibnvmegc06;APMDatadog;service7;The alert Heap Used Percent has breached the MAJOR threshold of 40;{12, 33, 59, 77, 95, 110, 140, 181, 270, 273}
+lc-sj1-5744.lvn.broadcom.net;Spectrum;service14;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{10, 11, 14, 68, 83, 93, 188, 189, 228, 286}
+sju-ll2-lab133-bvt-d6-yellow-sw11;Dynatrace;service15;Cellular Interface is Up;{107, 128, 134, 146, 158, 192, 193, 233, 235, 251}
+banlcs376.ibn.broadcom.net;APM;service5;The alert Frontend Errors has breached the MAJOR threshold of 1;{44, 55, 108, 112, 164, 198, 221, 277}
+lc-irv-3209.lvn.broadcom.net;Spectrum;service1;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{13, 31, 55, 108, 114, 153, 185, 192, 196, 201, 211, 260}
+wnpvpndm04;Datadog;service6;Disk Usage (%) on D:\ for D:\ is at 5.57 %.;{19, 28, 32, 107, 158, 178, 198, 206, 207, 216, 258}
+wnpvndm04;UIM;service16;The alert Frontend Errors has breached the MAJOR threshold of 1;{16, 24, 35, 37, 39, 44, 52, 59, 79, 154, 229, 260}
+bec-cas-s25fb01.nw-ap.broadcom.net;Datadog;service11;Server returned HTTP response code 401 for URL http://abc.com;{139, 171, 174, 188, 189, 209, 217, 226, 252, 277}
+acc-dcobmgmt-p5e9sw02.nw-am.broadcom.net;NetOps;service4;sssd: Process /usr/sbin/sssd/ is not running;{50, 53, 88, 278, 283}
+lprdexfdbadm05.kc1.broadcom.net;Spectrum;service8;robot inactive;{15, 29, 78, 226, 228, 255, 276}
+10.85.25.110;APMDatadog;service7;CHASSIS fdt-snc.net DOWN;{44, 73, 88, 100, 106, 138, 141, 202, 205, 215, 219, 234, 265}
+wpdvisscmfeap2;APMDatadog;service10;Broadcast alarm was triggered.;{46, 47, 51, 61, 64, 104, 128, 157, 190, 211, 225, 228, 243, 253}
+wpdvwsd13;APMDatadog;service14;The alert Response Time Variance Intensity has breached the MAJOR threshold of 25;{1, 11, 82, 172, 177, 212, 217, 229, 274, 278, 279}
+wpdvissdw02;Solarwinds;service2;Cellular Interface is Up;{38, 127, 130, 141, 202, 208, 210, 211, 216, 284}
+wnpvissstap02;APM;service16;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{2, 39, 62, 79, 102, 135, 154, 182, 239}
+lc-sj1-6213.lvn.broadcom.net;APMDatadog;service10;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000;{51, 57, 94, 116, 117, 169, 223, 224, 244, 249, 256, 272, 280, 286}
+ihl-wan-sr2.nw-em.broadcom.net_Gi0/0/1;NetOps;service15;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database;{6, 16, 71, 100, 112, 123, 142, 160, 173, 192, 198}
+lc-sj1-5542.lvn.broadcom.net;Spectrum;service6;Data Center Outage Alert;{20, 34, 114, 205, 240}
+lc-irv-2922.lvn.broadcom.net;Solarwinds;service5;Server returned HTTP response code 401 for URL http://abc.com;{3, 18, 30, 54, 66, 103, 136, 164, 166, 170, 171, 192, 230, 235}
+sdg-ll2-1f-a1047-wcc-sw5.nw-am.broadcom.net;Dynatrace;service16;DEVICE IRV2-4-AP03 HAS STOPPED RESPONDING TO POLLS;{53, 80, 91, 93, 125, 150, 176, 248}
+sju-ll2-lab133-bvt-a12-yellow-sw07;APM;service3;The alert Total Restart has breached the MAJOR threshold of 10;{13, 17, 27, 28, 42, 66, 76, 99, 125, 146, 169, 170, 183, 209, 249, 261, 269, 274, 282}
+wathvntxf02.wat.broadcom.net;Solarwinds;service16;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00);{42, 81, 150, 163, 173, 246, 260, 282}
+btk-wan-sr1.nw-ap.broadcom.net_Gi0/0/3;UIM;service16;CHASSIS fdt-snc.net DOWN;{48, 116, 122, 148, 177, 226, 238, 249, 261, 270}
+lnpvbstms03;NetOps;service14;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{17, 28, 45, 86, 102, 132, 138, 168, 246, 257, 264, 266}
+LNPVMICRO10;NetOps;service13;DNS lookup of 'www.google.com' failed (type 'a') on nameserver 'sha-dns-1.broadcom.net' for profile 'sha-dns-1.broadcom.net';{1, 54, 124, 142, 151, 159}
+lvn-wan-sr3.nw-am.broadcom.net_Gi0/0/1;Spectrum;service16;The alert Total Restart has breached the MAJOR threshold of 10;{2, 28, 40, 204, 218, 220, 234, 285}
+bld-med-bca-05.ihl.broadcom.net;Datadog;service5;High packet loss;{71, 83, 97, 101, 181, 205, 207, 247, 257, 285}
+lpdvcodeinsight10.ash.broadcom.net;UIM;service4;DNS lookup of 'www.google.com' failed (type 'a') on nameserver 'sha-dns-1.broadcom.net' for profile 'sha-dns-1.broadcom.net';{47, 69, 77, 83, 105, 135, 179, 280}
+wnpvisscmbejb2;UIM;service13;temperature cpu1 temp;{36, 101, 110, 121, 152, 172, 188, 195, 221, 230, 238, 283}
+lc-sj1-3793.lvn.broadcom.net;Datadog;service8;temperature cpu1 temp;{147, 180, 250, 266, 282}
+sju-ll2-lab133-bvt-c1-sw15;APMDatadog;service4;High Transmit Percent Utilization;{22, 29, 80, 92, 123, 128, 135, 136, 146, 165, 215, 254, 266, 267}
+wpdvissrp01;NetOps;service13;Hardware component is in warning or critical state;{24, 139, 142, 156, 216, 237}
+sju-ll2-cubicle-sw02;APM;service16;Robot mnmjmp6405 is inactive;{19, 23, 64, 105, 143, 178, 217}
+wnpvisstsrp02;Datadog;service8;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards;{8, 54, 76, 189, 233}
+lpdvmfdess08.broadcom.com;APMDatadog;service15;CHASSIS fdt-snc.net DOWN;{12, 18, 117, 121, 125, 242, 244, 245, 252, 275}
+jira-rtp-08.ash.broadcom.net;APMDatadog;service2;The alert Memory Utilization has breached the CRITICAL threshold of 90;{22, 34, 56, 117, 137, 149, 160, 205, 211, 213, 222, 279, 281}
+mec-wan-sr1.nw-em.broadcom.net_Gi0/0/0;Datadog;service15;Interface is down;{4, 35, 106, 124, 157, 196, 208, 215, 252, 267}
+tok-wan-symlab01.nw-ap.broadcom.net_Tu12132;Solarwinds;service7;SWITCH FIBRE CHANNEL PORT SCAN;{21, 171, 230, 264}
+ihl-wan-sr2.nw-em.broadcom.net_Gi0/0/1;Spectrum;service16;DNS lookup of 'www.google.com' failed (type 'a') on nameserver 'sha-dns-1.broadcom.net' for profile 'sha-dns-1.broadcom.net';{19, 27, 50, 84, 101, 127, 168, 212, 213, 281}
+lc-irv-2705.lvn.broadcom.net;UIM;service6;The alert Memory Utilization has breached the CRITICAL threshold of 90;{7, 9, 64, 130, 144, 157, 226, 241, 245, 251, 258, 280}
+sdg-ll2-1f-a1047-wcc-stb-sw3.nw-am.broadcom.net;Spectrum;service16;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{16, 48, 53, 75, 90, 96, 133, 183, 210}
+SC5TFBOSW2.arcot.ca.com_Gi1/0/34;Dynatrace;service14;Percentage of Maximum Capacity Currently Used going to reach 85.0 pct;{0, 13, 109, 160, 227}
+lc-sj1-4184.lvn.broadcom.net;APM;service11;CPU Average Total Usage on Total for User is at 1.14 %.;{2, 13, 42, 54, 95, 117, 142, 153, 196, 197, 263, 280, 282}
+lc-blr-380.ibn.broadcom.net;UIM;service16;The alert Total Restart has breached the MAJOR threshold of 10;{12, 43, 72, 88, 131, 198, 206, 236, 242, 244}
+wpdvwsd07;APM;service3;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{10, 58, 72, 74, 87, 141, 147, 162, 214, 239, 277, 278}
+wyisvmgc01;UIM;service7;DEVICE DETECTED A COMMUNICATION LINK DOWN ON AN INTERFACE;{94, 105, 111, 118, 158, 207, 247, 275, 278, 284}
+lnpvcodeinsight07.ash.broadcom.net;APMDatadog;service6;Profile MSSQLSERVER- instance ldcna1cht1- buffer cache hit-ratio (88.80%) is too low;{3, 7, 82, 111, 129, 165, 221, 263}
+cpr-wan-sr1.nw-em.broadcom.net_Gi0/0/0;Spectrum;service8;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{11, 43, 89, 97, 191}
+lc-lvn-1499.lvn.broadcom.net;APM;service3;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000;{19, 32, 57, 90, 115, 129, 168, 209, 274}
+wpdvwsd13;Datadog;service1;High Transmit Percent Utilization;{16, 57, 67, 77, 130, 134, 187, 193, 238, 268, 271}
+wnpvpndm02;Dynatrace;service15;MANAGEMENT AGENT LOST;{62, 86, 113, 204, 214, 268}
+wsgpvmjh01;APMDatadog;service5;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{3, 23, 42, 56, 57, 73, 81, 104, 113, 122, 132, 133, 159, 170, 173, 190, 191, 268}
+lc-lvn-1503.lvn.broadcom.net;Solarwinds;service12;High Transmit Percent Utilization on Interface Vlan268 · L3 for ReplicationNetwork-1-1_vl.110_10.22.168.0/24 for node N7706-2-DC2_Spine-2;{41, 69, 97, 109, 143, 182, 191, 250}
+ibnb-nis-it-02.ibn.broadcom.net;APMDatadog;service16;Node is down;{108, 113, 173, 232}
+wlvnvmgc02;APM;service14;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS;{48, 125, 225, 245}
+wnpvisscmfejb1;Datadog;service12;High Transmit Percent Utilization on Interface Vlan268 · L3 for ReplicationNetwork-1-1_vl.110_10.22.168.0/24 for node N7706-2-DC2_Spine-2;{26, 32, 60, 104, 117, 127, 147, 155, 156, 163, 167, 254}
+vmsjc-ops025_rh58.lvn.broadcom.net;Spectrum;service4;Profile MAZNASQLTSTC1N2- instance MAZNASQLTSTC1N2- buffer cache hit-ratio (87.17%) is too low;{25, 54, 68, 78, 96, 116, 148, 161, 177, 200, 236, 280}
+lc-sj1-5542.lvn.broadcom.net;Datadog;service12;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database;{34, 41, 62, 67, 101, 110, 131, 151, 159, 174, 183, 191, 196, 248}
+bri-wan-sr1.nw-em.broadcom.net_Gi0/0/3;Solarwinds;service6;The alert Frontend Errors has breached the MAJOR threshold of 1;{36, 41, 77, 155, 161, 164, 191, 205, 234, 243}
+banlcs114.ibn.broadcom.net;Spectrum;service9;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{31, 36, 42, 72, 92, 131, 155, 165, 166, 174, 201, 212, 216, 229, 232, 245, 258, 265, 267, 268}
+wyisvmgc01;Datadog;service2;The alert Response Time Variance Intensity has breached the CRITICAL threshold of 5;{18, 65, 153, 179, 205, 220, 223, 273}
+sen-wan-sr1.nw-ap.broadcom.net_Gi0/1/1;Spectrum;service15;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{90, 107, 135, 149, 284}
+esxashsa01.ash.broadcom.net;APMDatadog;service3;SWITCH FIBRE CHANNEL PORT SCAN;{14, 19, 131, 133, 140, 195, 211, 240, 252}
+tau-cas-B4-sw01;Solarwinds;service6;DNS lookup of 'www.google.com' failed (type 'a') on nameserver 'sha-dns-1.broadcom.net' for profile 'sha-dns-1.broadcom.net';{0, 5, 10, 14, 30, 64, 85, 108, 117, 174, 231}
+png-wan-sr1.nw-ap.broadcom.net_Gi0/0/4;Spectrum;service12;Temperature for CPU1 Temp on lc-ibn-1051.ibn.broadcom.net is 103.0 (> 100.0);{38, 41, 69, 126, 168, 171, 194, 209, 283}
+sju-wctrl-1.nw-am.broadcom.net;Spectrum;service3;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{77, 107, 136, 138, 152, 157, 164, 192, 200, 259, 272}
+lc-lvn-1508.lvn.broadcom.net;NetOps;service1;CHASSIS fdt-snc.net DOWN;{26, 51, 72, 119, 129, 135, 176, 220, 231, 236, 252, 272, 285}
+inp-ll2-2f-sep-tor-a04-sw01.nw-ap.broadcom.net;APM;service13;Broadcast alarm was triggered.;{20, 35, 92, 115, 168, 231, 281}
+lc-sj1-5371.lvn.broadcom.net;Spectrum;service4;Hardware component is in warning or critical state;{5, 43, 69, 112, 130, 138, 206, 258, 271}
+utd-wan-sr1.nw-am.broadcom.net_Gi0/0/0;Dynatrace;service5;ASA Site-to-Site VPN tunnel down;{6, 58, 100, 119, 139, 159, 240, 247}
+SC5TFFOSW2_Ethernet1/30;UIM;service9;ntpd_monitoring: Process ntpd not started- max starts 3 reached;{9, 52, 68, 78, 79, 94, 145, 268, 269}
+ihy-wan-sr1.nw-ap.broadcom.net_Gi0/0/0;Solarwinds;service5;Percentage of Maximum Capacity Currently Used going to reach 85.0 pct;{40, 55, 83, 84, 123, 191, 222, 254}
+lc-sj1-5900.lvn.broadcom.net;UIM;service1;High Transmit Percent Utilization;{1, 37, 73, 100, 128, 161, 169, 182, 197, 216, 253, 256, 262, 268}
+wpdvwsd06;Solarwinds;service16;Profile MSSQLSERVER- instance ldcna1cht1- buffer cache hit-ratio (88.80%) is too low;{7, 19, 62, 63, 67, 102, 154, 157, 162, 199, 265}
+SC5TFBOFW02-5200_mgmt;APM;service3;Data Center Outage Alert;{6, 13, 129, 147, 181, 184, 186, 219, 247}
+lc-sj1-4412.lvn.broadcom.net;UIM;service6;High packet loss;{52, 78, 145, 178}
+wpdvokad05;APM;service9;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards;{37, 47, 85, 120, 158, 165, 194, 248, 266}
+lc-sj1-4429.lvn.broadcom.net;NetOps;service2;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{11, 45, 65, 70, 77, 130, 156, 170, 203, 220, 239, 246, 253, 275}
+apdveapi04.broadcom.com;Datadog;service12;CHASSIS fdt-snc.net DOWN;{18, 76, 81, 99, 126, 132, 148, 175, 213, 259}
+10.85.25.110;Dynatrace;service11;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00);{15, 24, 31, 106, 160, 214, 275}
+lc-lvn-2181.lvn.broadcom.net;Spectrum;service13;The alert Response Time Variance Intensity has breached the CRITICAL threshold of 5;{64, 94, 104, 126, 166, 217, 257}
+lc-sj1-4865.lvn.broadcom.net;APM;service10;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000;{52, 70, 84, 107, 131, 144}
+sjs-ll2-lab103-d25-csg-sw10;NetOps;service3;The alert Memory Utilization has breached the CRITICAL threshold of 90;{4, 27, 53, 56, 143, 155, 173, 196, 255}
+lc-sj1-5887.lvn.broadcom.net;NetOps;service15;The alert Memory Utilization has breached the CRITICAL threshold of 90;{41, 95, 135, 151, 181, 185, 196, 273}
+opi-fab-inarip34sw2.nw-ap.broadcom.net;NetOps;service13;Cellular Interface is Up;{4, 8, 46, 79, 97, 114, 150, 158, 178, 193, 212, 238, 270}
+ash-wan-sr3.nw-am.broadcom.net_Gi0/0/12;Dynatrace;service14;Concurrent Invocations going to reach 5.0 pct;{3, 20, 24, 32, 34, 42, 71, 145, 187, 200, 220}
+wathvntxf03.wat.broadcom.net;Dynatrace;service7;SWITCH FIBRE CHANNEL PORT SCAN;{32, 33, 106, 197, 201, 274, 284, 286}
+sju-ll2-lab133-bvt-b10-sw12;APM;service7;ASA Site-to-Site VPN tunnel down;{27, 53, 67, 113, 136, 250}
+lc-lvn-0870.lvn.broadcom.net;Spectrum;service12;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{60, 75, 99, 138, 146, 171, 176, 243, 248}
+wpdvwsd07;UIM;service2;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00);{23, 26, 91, 113, 123, 163, 201, 221, 223, 225, 234}
+lvn-wan-sr3.nw-am.broadcom.net_Gi1/0/4;APMDatadog;service8;ntpd_monitoring: Process ntpd not started- max starts 3 reached;{14, 63, 64, 201, 230, 247, 283}
+lc-ibn-1049.ibn.broadcom.net;NetOps;service14;Concurrent Invocations going to reach 5.0 pct;{2, 6, 40, 50, 87, 93, 104, 109, 126, 171, 183, 184, 185, 224, 253, 266}
+sen-wan-sr1.nw-ap.broadcom.net_Gi0/0/0;APM;service4;The alert CPU Throttling has breached the CRITICAL threshold of 10000000000;{34, 47, 55, 72, 97, 124, 174, 204, 223, 228}
+mvj-fab-gfidf01-sw1.nw-ap.broadcom.net;APMDatadog;service16;High packet loss;{102, 105, 112, 144, 152, 172, 190, 231, 248, 252, 259, 261, 272}
+ren-wan-sr1.nw-am.broadcom.net_Gi0/0/1;Datadog;service8;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{14, 15, 49, 64, 74, 79, 149, 175, 186, 195, 270, 279, 281}
+wpdvepiap01;APM;service6;The alert Heap Used Percent has breached the MAJOR threshold of 40;{65, 75, 141, 160, 216, 226, 227, 236, 264}
+lc-irv-2922.lvn.broadcom.net;Spectrum;service1;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{69, 74, 78, 89, 91, 102, 133, 158, 178, 180, 217, 226, 232, 235}
+wpdvisscmfedb1;Dynatrace;service8;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{37, 52, 106, 115, 120, 145, 164, 187, 188, 210, 237, 249, 264}
+lc-irv-3400.lvn.broadcom.net;Dynatrace;service8;A power outage was detected in server room 23;{12, 55, 62, 92, 97, 148, 188, 265, 267, 282}
+wpdvwins01;Spectrum;service2;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000;{27, 78, 102, 110, 143, 176, 199, 209, 258, 275}
+acc-dcobmgmt-p5e9sw01.nw-am.broadcom.net;Dynatrace;service12;The alert Total Restart has breached the MAJOR threshold of 10;{3, 15, 43, 122, 124, 240}
+lc-sj1-6591.lvn.broadcom.net;Spectrum;service3;The alert Frontend Errors has breached the MAJOR threshold of 1;{35, 71, 80, 103, 125, 162, 184, 237, 249, 251, 281, 282}
+wnpvisscmbejb2;APMDatadog;service11;Broadcast alarm was triggered.;{0, 10, 66, 79, 115, 126, 172, 200, 239}
+lnpvbstws02.broadcom.com;APM;service1;MANAGEMENT AGENT LOST;{18, 21, 62, 65, 99, 128, 129, 149, 185, 190, 202, 239, 270}
+wnpdvweb01;Datadog;service5;CHASSIS fdt-snc.net DOWN;{11, 20, 33, 47, 68, 151, 167, 255, 278}
+lc-sj1-3936.lvn.broadcom.net;Spectrum;service15;The alert Memory Utilization has breached the CRITICAL threshold of 90;{49, 60, 79, 83, 91, 163, 239}
+pales203.ash.broadcom.net;APMDatadog;service13;Concurrent Invocations going to reach 5.0 pct;{1, 8, 16, 21, 26, 38, 46, 105, 111, 127, 139, 200, 227, 254, 278}
+lc-irv-4034.lvn.broadcom.net;NetOps;service2;Concurrent Invocations going to reach 5.0 pct;{13, 60, 67, 170, 183, 198}
+lc-sj1-5855.lvn.broadcom.net;Solarwinds;service5;ASA Site-to-Site VPN tunnel down;{12, 28, 36, 55, 59, 190, 194, 208}
+lc-lvn-0804.lvn.broadcom.net;Datadog;service16;High packet loss;{11, 14, 39, 88, 100, 157, 175, 185, 202, 210, 229, 244}
+banis10.ibn.broadcom.net;UIM;service16;The alert Response Time Variance Intensity has breached the MAJOR threshold of 25;{25, 39, 50, 71, 82, 106, 113, 147, 219, 253}
+lc-blr-627.ibn.broadcom.net;APMDatadog;service3;A power outage was detected in server room 23;{10, 41, 83, 85, 118, 124, 140, 145, 154, 161, 171, 175, 245, 246, 273}
+wat-wan-sr1.nw-em.broadcom.net_Gi0/0/15;APMDatadog;service1;Node is down;{17, 73, 85, 96, 98, 108, 112, 118, 153, 177, 193, 237, 277}
+wpdvwsd07;Dynatrace;service13;The alert Total Restart has breached the MAJOR threshold of 10;{8, 12, 42, 57, 58, 60, 115, 149, 169, 215, 221, 227, 232}
+lhostbpl01;NetOps;service13;DEVICE DETECTED A COMMUNICATION LINK DOWN ON AN INTERFACE;{53, 81, 89, 151, 188, 195, 253, 262}
+lc-sj1-5628.lvn.broadcom.net;UIM;service6;High Receive Percent Utilization on Interface GigabitEthernet0/0/1 · *** LAN *** for node 4LU-Antwerpen-RTR01;{5, 7, 70, 76, 142, 168, 236, 251, 259, 279}
+wyisvmgc01;Spectrum;service11;The alert Response Time Variance Intensity has breached the MAJOR threshold of 25;{8, 15, 61, 68, 75, 170, 207, 240, 259}
+sju-cas-stk-sw09.nw-am.broadcom.net;Datadog;service7;Interface is down;{6, 44, 82, 90, 96, 152, 177, 206, 226, 237, 264, 271}
+wpdvjmp02;APMDatadog;service16;A power outage was detected in server room 23;{9, 67, 133, 136, 142, 167, 188, 218, 220, 233, 251, 258, 265}
+lvn-dcagg-3cr01c08sw01.nw-am.broadcom.net_Ethernet1/63;Spectrum;service6;Total CPU Usage on Total for WNPVTSF09.Broadcom.net is at 1.07 %. It has violated the threshold for at least 7.0 minutes out of 5.0 MINUTES.;{5, 20, 35, 41, 43, 91, 98, 150, 182, 200, 204, 232}
+wac-ll2-r81-cali-sw02;APMDatadog;service14;Broadcast alarm was triggered.;{21, 39, 49, 58, 61, 83, 99, 112, 120, 143, 189, 199, 240}
+sdg-ll2-1f-a1047-wcc-stb-sw3.nw-am.broadcom.net;Datadog;service3;Profile MAZNASQLTSTC1N2- instance MAZNASQLTSTC1N2- buffer cache hit-ratio (87.17%) is too low;{29, 30, 56, 132, 139, 166, 206, 225, 241, 254, 264, 285, 286}
+lc-sj1-4185.lvn.broadcom.net;APM;service16;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{21, 29, 118, 125, 222, 253, 285}
+wpdvisscmbedb2;APMDatadog;service1;disk usage c exceeds;{7, 8, 15, 17, 80, 107, 121, 137, 140, 194, 203, 261, 263, 276}
+wpdvweb02;UIM;service4;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000;{8, 17, 33, 45, 49, 77, 82, 87, 93, 106, 176, 203, 235, 277}
+wnpvisscmfejb2;Solarwinds;service15;The alert CPU Throttling has breached the CRITICAL threshold of 10000000000;{0, 36, 72, 111, 167, 176, 204, 243}
+lnpvimpootb19.sgn.broadcom.net;Solarwinds;service2;High packet loss;{31, 38, 59, 71, 89, 116, 122, 127, 137, 140, 162, 179, 199, 219, 221, 227, 231, 280, 282}
+lvn-lc-bcawlan-13.lvn.broadcom.net;Dynatrace;service2;Server returned HTTP response code 401 for URL http://abc.com;{9, 25, 44, 50, 93, 111, 125, 157, 177, 218, 225, 255, 258}
+lc-sj1-6148.lvn.broadcom.net;APMDatadog;service4;The alert Response Time Variance Intensity has breached the MAJOR threshold of 25;{18, 27, 52, 63, 73, 151, 153, 159, 161, 175, 186, 192, 284}
+wpdvwsd13;APM;service13;LINK UP/DOWN TRAPS RECEIVED IN THE LAST 5 MINUTES EXCEEDS THRESHOLD;{21, 39, 114, 132, 147, 194, 211, 213, 225, 245, 256, 272, 284}
+wpdvwsd14;APM;service8;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{117, 130, 132, 186, 206, 221, 227, 236}
+lc-sj1-4478.lvn.broadcom.net;UIM;service12;MANAGEMENT AGENT LOST;{24, 39, 63, 75, 87, 89, 97, 128, 139, 162, 180, 190, 191, 214, 286}
+lnpvmysql02.ash.broadcom.net;NetOps;service8;DEVICE DETECTED A COMMUNICATION LINK DOWN ON AN INTERFACE;{4, 35, 59, 60, 80, 95, 105, 129, 161, 190, 243}
+kc1sqlac-1594;Solarwinds;service4;The alert Heap Used Percent has breached the MAJOR threshold of 40;{18, 26, 33, 37, 150, 151, 156, 181, 218}
+png-wan-sr1.nw-ap.broadcom.net_Gi0/0/4;Dynatrace;service5;Concurrent Invocations going to reach 5.0 pct;{1, 6, 12, 48, 58, 61, 81, 119, 134, 193, 195, 234, 244, 285}
+wnpvepistap01;Dynatrace;service7;DNS lookup of 'www.google.com' failed (type 'a') on nameserver 'sha-dns-1.broadcom.net' for profile 'sha-dns-1.broadcom.net';{31, 67, 98, 120, 127, 179, 210, 257, 286}
+lc-sj1-6218.lvn.broadcom.net;Dynatrace;service6;sssd: Process /usr/sbin/sssd/ is not running;{57, 65, 118, 149, 161, 208, 233, 262, 283}
+wnpvpndm04;Datadog;service9;The alert Response Time Variance Intensity has breached the MAJOR threshold of 25;{0, 26, 74, 84, 134, 185, 197, 199, 228, 234}
+lc-sj1-4457.lvn.broadcom.net;APMDatadog;service6;CHASSIS fdt-snc.net DOWN;{15, 87, 88, 152, 160, 177, 200, 201, 242, 244, 250, 261}
+SC5TFAPPSW0102_ge-1/0/20;NetOps;service4;sssd: Process /usr/sbin/sssd/ is not running;{2, 38, 50, 94, 96, 126, 148, 184, 230, 271, 283}
+lnpvcodeinsight02.ash.broadcom.net;Solarwinds;service16;High response time;{2, 17, 33, 59, 63, 68, 70, 119, 136, 167, 170, 180, 215, 240, 269}
+wnpvepistdb02;UIM;service6;Hardware component is in warning or critical state;{45, 47, 63, 68, 70, 72, 103, 107, 115, 131, 186, 206, 251, 283}
+wsgpvmegc08;Dynatrace;service4;Server returned HTTP response code 401 for URL http://abc.com;{31, 34, 47, 118, 157, 187, 204}
+lc-sj1-6661.lvn.broadcom.net;Datadog;service9;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000;{39, 67, 88, 92, 117, 118, 136, 159, 165, 212, 239, 246}
+lc-sj1-4865.lvn.broadcom.net;NetOps;service12;The alert Memory Utilization has breached the CRITICAL threshold of 90;{63, 65, 87, 109, 126, 169, 175}
+wpdvsdi01;Solarwinds;service10;High Transmit Percent Utilization on Interface Vlan268 · L3 for ReplicationNetwork-1-1_vl.110_10.22.168.0/24 for node N7706-2-DC2_Spine-2;{23, 26, 35, 97, 107, 117, 136, 256, 273, 283}
+SC5TFAPPSW0102_ge-1/0/21;Solarwinds;service12;Temperature for CPU1 Temp on lc-ibn-1051.ibn.broadcom.net is 103.0 (> 100.0);{10, 42, 80, 110, 129, 151, 156, 157, 178, 201, 251, 252, 277}
+ren-wan-bdr2.nw-am.broadcom.net;NetOps;service11;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{16, 41, 62, 86, 98, 121, 139, 152, 156, 189, 196, 215, 238, 243}
+wnpvisstsjp01;Datadog;service11;percentage java heap used;{80, 129, 225, 259, 274}
+sju-ll2-lab133-aggr2-e6-gray-sw35;APMDatadog;service15;MANAGEMENT AGENT LOST;{7, 24, 64, 66, 85, 142, 170, 258}
+cam-wan-sr1.nw-em.broadcom.net_Gi0/0/3;Dynatrace;service15;Robot mnmjmp6405 is inactive;{1, 116, 134, 139, 167, 169, 171, 233}
+tok-wan-symlab01.nw-ap.broadcom.net_Gi0/0/0;Solarwinds;service1;High Receive Percent Utilization on Interface GigabitEthernet0/0/1 · *** LAN *** for node 4LU-Antwerpen-RTR01;{6, 37, 50, 102, 160, 173, 181, 188}
+lc-lvn-1086.lvn.broadcom.net;UIM;service6;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000;{27, 61, 79, 122, 159, 271}
+lnpvwsestn01.broadcom.com;Solarwinds;service2;The alert Deployment Availablity has breached the MAJOR threshold of 0;{27, 103, 122, 137, 199, 281}
+lnpvsubscw02.broadcom.com;NetOps;service12;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000;{25, 29, 47, 56, 123, 182, 187, 197, 205, 220, 246, 267, 279, 280}
+lhostbpl01;APM;service6;DEVICE DETECTED A COMMUNICATION LINK DOWN ON AN INTERFACE;{2, 14, 66, 72, 119, 121, 132, 143, 157, 198, 280}
+wnpvchef03;Spectrum;service1;CPU Average Total Usage on Total for User is at 1.14 %.;{9, 39, 56, 64, 80, 104, 161, 180, 192, 209, 213, 243, 268, 282}
+washvmegc03;NetOps;service14;Temperature for CPU1 Temp on lc-ibn-1051.ibn.broadcom.net is 103.0 (> 100.0);{2, 60, 70, 129, 132, 213, 221, 224, 241, 249, 258, 262}
+lc-hyd-033.ibn.broadcom.net;Datadog;service4;The alert Response Time Variance Intensity has breached the MAJOR threshold of 25;{26, 45, 58, 68, 98, 154, 199, 200}
+lnpvnerp08.sgn.broadcom.net;APM;service13;The alert Response Time Variance Intensity has breached the MAJOR threshold of 25;{93, 197, 220, 225, 231}
+LPDVMFT13;NetOps;service4;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards;{17, 95, 112, 116, 120, 135, 150, 169, 198, 222, 227, 250}
+sdj-wan-sr1.nw-ap.broadcom.net_Gi0/0/0;Spectrum;service11;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS;{17, 23, 30, 41, 44, 86, 127, 158, 174, 204}
+sgs-wan-sr1.nw-ap.broadcom.net_Gi0/0/0;APMDatadog;service7;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database;{38, 46, 191, 228, 261, 263, 266}
+sdg-ll2-3f-a3059-stb-sw9.nw-am.broadcom.net;Dynatrace;service16;Server returned HTTP response code 401 for URL http://abc.com;{49, 55, 102, 107, 131, 159, 205, 249}
+lc-sj1-5670.lvn.broadcom.net;Spectrum;service7;High Transmit Percent Utilization;{54, 75, 92, 135, 154, 214, 226, 272, 276}
+SC5TFFOSW1_Ethernet1/30;Spectrum;service15;The alert Memory Utilization has breached the CRITICAL threshold of 90;{18, 84, 93, 94, 96, 168, 184, 264, 265, 272, 275, 286}
+vmsjc-ops025_rh58.lvn.broadcom.net;Solarwinds;service2;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00);{29, 36, 37, 92, 168}
+wpdpfdsc01;Spectrum;service2;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards;{32, 108, 135, 179}
+wpvirvops004;UIM;service1;Server returned HTTP response code 401 for URL http://abc.com;{4, 26, 38, 97, 130, 187, 195, 198, 233, 244, 258, 263, 283}
+lnpvinrdb01.png.broadcom.net;Solarwinds;service2;sssd: Process /usr/sbin/sssd/ is not running;{0, 28, 43, 59, 64, 93, 202}
+_10;UIM;service14;The alert GCPHeap1 has breached the MAJOR threshold of 8;{22, 38, 57, 63, 156, 162, 209, 268, 274, 282, 286}
+sju-ll2-lab133-bvt-c2-sw16;APM;service15;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS;{0, 6, 16, 21, 54, 74, 88, 135, 148, 167, 181}
+sju-ll2-lab133-bvt-d10-yellow-sw13;UIM;service13;The alert Heap Used Percent has breached the MAJOR threshold of 40;{46, 48, 69, 97, 101, 128, 133, 178, 189, 199, 216, 236, 250, 270}
+SC5TFAPPSW0102_ae4;APMDatadog;service14;The alert Response Time Variance Intensity has breached the MAJOR threshold of 25;{20, 28, 37, 51, 65, 110, 114, 115, 138, 152, 192, 243}
+wsgpvmjmp01;Spectrum;service2;Disk Usage (%) on D:\ for D:\ is at 5.57 %.;{0, 18, 19, 78, 90, 91, 109, 141, 169, 186, 215, 216}
+lc-lvn-1503.lvn.broadcom.net;Solarwinds;service14;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database;{45, 47, 57, 104, 183, 218, 221, 278}
+lc-tlva-132.ihl.broadcom.net;Dynatrace;service16;Profile MSSQLSERVER- instance ldcna1cht1- buffer cache hit-ratio (88.80%) is too low;{1, 22, 48, 53, 73, 83, 136, 150, 162, 163, 229, 263}
+LPDVCEDA02;Datadog;service3;High Transmit Percent Utilization;{10, 22, 66, 88, 115, 130, 147, 189, 217, 227, 244, 276}
+wprdvmcucm01;APM;service12;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000;{35, 40, 45, 92, 134, 148, 158, 160, 172, 207, 219, 249, 251, 266, 267, 271, 278}
+sjs-dns-1.broadcom.net;NetOps;service15;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{8, 43, 101, 145, 172, 223, 235, 241}
+lvn-lc-bcawlan-13.lvn.broadcom.net;APM;service9;ASA Site-to-Site VPN tunnel down;{22, 40, 48, 115, 133, 139, 145, 231, 237, 279}
+lc-sj1-4145.lvn.broadcom.net;Solarwinds;service6;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS;{40, 79, 112, 154, 170, 174, 175, 233, 236, 256}
+lvn-dcagg-3cr01c08sw01.nw-am.broadcom.net_Ethernet1/63;APM;service10;Cellular Interface is Up;{38, 74, 85, 111, 211, 229, 248, 254}
+lc-lvn-1063.lvn.broadcom.net;NetOps;service1;LINK UP/DOWN TRAPS RECEIVED IN THE LAST 5 MINUTES EXCEEDS THRESHOLD;{1, 115, 157, 244, 250}
+lc-sj1-5576.lvn.broadcom.net;UIM;service10;High packet loss;{15, 24, 30, 51, 146, 209, 278, 285}
+wpdvissjp02;Spectrum;service3;High Transmit Percent Utilization on Interface Vlan268 · L3 for ReplicationNetwork-1-1_vl.110_10.22.168.0/24 for node N7706-2-DC2_Spine-2;{5, 42, 51, 58, 74, 87, 126, 173, 181}
+lc-sj1-4832.lvn.broadcom.net;UIM;service15;CPU Average Total Usage on Total for User is at 1.14 %.;{1, 11, 30, 31, 46, 103, 110, 151, 190, 216, 267, 276, 280}
+gen-wan-sr1.nw-em.broadcom.net_Gi0/0/0;Datadog;service4;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards;{49, 67, 103, 124, 132, 175, 208, 238, 242, 286}
+lc-lvn-1658.lvn.broadcom.net;UIM;service4;High Transmit Percent Utilization;{24, 27, 58, 62, 73, 86, 91, 92, 108, 267}
+lc-sj1-6148.lvn.broadcom.net;NetOps;service4;High Transmit Percent Utilization;{13, 61, 115, 123, 168, 210, 222, 248}
+lgh-wan-sr1.nw-ap.broadcom.net_Gi0/0/0;Dynatrace;service9;Robot mnmjmp6405 is inactive;{50, 114, 121, 174, 231, 267, 275}
+wnpvokt02;UIM;service12;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{40, 59, 100, 147, 162, 180, 213, 220, 226, 237, 238, 256}
+lc-sj1-4009.lvn.broadcom.net;UIM;service5;DEVICE IRV2-4-AP03 HAS STOPPED RESPONDING TO POLLS;{85, 96, 99, 151, 186, 194, 264, 268}
+SC5TFAPPSW0102_ge-0/0/21;NetOps;service15;java-AdminServer: Process /AdminServer/ is not running;{67, 153}
+wnpvisstsap01;NetOps;service1;percentage java heap used;{24, 39, 85, 98, 102, 142, 254}
+wnpvisscmbeap2;NetOps;service11;QOS_CPU_MULTI_USAGE on CPU-2 for User-2 is at 52.53 %.;{21, 33, 35, 71, 77, 122, 205}
+lvn-dctor-7cr02c04sw01.nw-am.broadcom.net;Solarwinds;service2;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{2, 114, 118, 126, 182, 235, 245, 279, 282}
+wlvnvmegc08;Datadog;service15;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{18, 24, 57, 78, 95, 120, 138, 147, 168, 194, 199, 214, 227, 248}
+lc-sj1-3936.lvn.broadcom.net;APMDatadog;service2;ASA Site-to-Site VPN tunnel down;{12, 20, 59, 66, 80, 107, 132, 166, 220, 275}
+wpdvpwc01;Solarwinds;service2;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{54, 55, 57, 166, 188, 212, 215, 226, 235, 237, 245, 270}
+lc-sj1-4457.lvn.broadcom.net;APM;service4;DEVICE IRV2-4-AP03 HAS STOPPED RESPONDING TO POLLS;{4, 37, 52, 130, 141, 144, 160, 162, 175}
+lpdvcodeinsight10.ash.broadcom.net;Datadog;service9;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{0, 9, 44, 55, 89, 167, 202, 210, 221}
+SC5TFAPPSW0102_ge-1/0/21;Solarwinds;service13;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database;{12, 31, 36, 39, 74, 82, 148, 172, 176, 192, 209, 242}
+dvtmysql-sin-01.sgn.broadcom.net;NetOps;service8;The alert Deployment Availablity has breached the MAJOR threshold of 0;{4, 5, 10, 86, 88, 141, 229, 277}
+sju-ll2-cubicle-sw02;APMDatadog;service15;DEVICE DETECTED A COMMUNICATION LINK DOWN ON AN INTERFACE;{4, 32, 50, 74, 83, 87, 170, 174, 181, 183, 190, 232, 255, 268, 277}
+vmsjc-ops022_rh58.lvn.broadcom.net;Spectrum;service10;The alert Heap Used Percent has breached the MAJOR threshold of 40;{86, 89, 105, 185, 199, 202}
+banlcs128.ibn.broadcom.net;NetOps;service1;sssd: Process /usr/sbin/sssd/ is not running;{108, 140, 160, 170, 184, 235}
+sju-ll2-cubicle-sw02;Datadog;service2;percentage java heap used;{32, 36, 156, 164, 193, 200, 218, 275, 286}
+LPDVCEDA01;Solarwinds;service10;sssd: Process /usr/sbin/sssd/ is not running;{28, 46, 85, 94, 112, 137, 145, 155, 208, 216, 256}
+sdg-ll2-2f-mdf-a2027-sw1.nw-am.broadcom.net;Dynatrace;service14;High Transmit Percent Utilization on Interface Vlan268 · L3 for ReplicationNetwork-1-1_vl.110_10.22.168.0/24 for node N7706-2-DC2_Spine-2;{25, 78, 83, 103, 156, 165, 172, 184, 185, 231, 238, 261, 276}
+lc-lvn-1504.lvn.broadcom.net;APMDatadog;service9;Node is down;{1, 33, 53, 91, 151, 163, 173, 268}
+lc-irv-3489.lvn.broadcom.net;Spectrum;service3;SWITCH FIBRE CHANNEL PORT SCAN;{31, 37, 41, 49, 95, 122, 127, 139, 176, 213, 243, 273}
+lnpvnerp08.sgn.broadcom.net;APM;service12;Cellular Interface is Up;{5, 7, 14, 46, 57, 61, 64, 80, 126, 193, 209, 213, 249, 263, 281}
+lc-lvn-0404.lvn.broadcom.net;Solarwinds;service2;The alert Frontend Errors has breached the MAJOR threshold of 1;{58, 60, 72, 84, 94, 124, 146, 165, 191, 201, 203, 218, 262, 283}
+lnpvsubscw02.broadcom.com;UIM;service12;High Transmit Percent Utilization;{23, 89, 106, 114, 163, 192, 230, 241}
+wnpvtsf06;UIM;service6;The alert Deployment Availablity has breached the MAJOR threshold of 0;{43, 44, 88, 140, 150, 178, 220, 255}
+mvj-pfw-cm01.nw-ap.broadcom.net;UIM;service15;sssd: Process /usr/sbin/sssd/ is not running;{40, 56, 73, 106, 107, 134, 173, 176, 196, 220, 224, 240, 256, 264}
+lnpvela08.ash.broadcom.net;Dynatrace;service7;Interface is down;{8, 19, 34, 54, 85, 135, 139, 184, 191, 200, 230, 250, 272, 273, 285}
+lvn-dcagg-3cr01c08sw01.nw-am.broadcom.net_Ethernet1/63;Datadog;service12;Profile MAZNASQLTSTC1N2- instance MAZNASQLTSTC1N2- buffer cache hit-ratio (87.17%) is too low;{10, 34, 65, 69, 161, 166, 182, 204, 230, 234, 239, 260}
+ash-wan-eavbr1.nw-am.broadcom.net_Tu16149;APM;service11;Cellular Interface is Up;{3, 37, 50, 99, 131, 132, 217, 252, 261}
+tky-wan-eavbr1.nw-ap.broadcom.net_Gi0/0/0;Datadog;service16;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{32, 75, 76, 95, 104, 106, 119, 159, 168, 198, 219, 229}
+lc-blr-627.ibn.broadcom.net;Solarwinds;service10;High response time;{12, 15, 124, 133, 135, 172, 201, 203, 242, 258}
+lc-sj1-5853.lvn.broadcom.net;Solarwinds;service7;ntpd_monitoring: Process ntpd not started- max starts 3 reached;{2, 81, 82, 119, 127, 224, 226, 234, 254, 259}
+lc-lvn-1685.lvn.broadcom.net;Solarwinds;service10;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000;{44, 96, 108, 195, 208, 212}
+cvc-wan-sr1.nw-am.broadcom.net_Gi0/0/0;NetOps;service8;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards;{15, 16, 73, 91, 96, 158, 209, 232, 236, 244, 257}
+wpdvisscmbeap9;Solarwinds;service12;Profile MSSQLSERVER- instance ldcna1cht1- buffer cache hit-ratio (88.80%) is too low;{47, 58, 121, 129, 145, 179, 202, 231, 236}
+lc-lvn-1086.lvn.broadcom.net;APMDatadog;service2;Broadcast alarm was triggered.;{33, 47, 64, 92, 142, 164, 169, 188, 204, 214, 240, 266, 281}
+vmsjc-ops016_rh58.lvn.broadcom.net;Spectrum;service8;Server returned HTTP response code 401 for URL http://abc.com;{111, 113, 116, 126, 195}
+SC5TFBOFW02-5200_mgmt;APM;service7;The alert Response Time Variance Intensity has breached the CRITICAL threshold of 5;{1, 52, 101, 104, 165, 191, 246, 262, 272}
+sdg-cas-mdfas02.nw-am.broadcom.net;NetOps;service8;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{11, 19, 37, 53, 62, 64, 108, 121, 176, 273}
+LNPVEDSD01;APM;service2;Server returned HTTP response code 401 for URL http://abc.com;{58, 69, 177, 266, 284}
+lc-lvn-1504.lvn.broadcom.net;APM;service4;A power outage was detected in server room 23;{26, 50, 51, 61, 62, 78, 105, 138, 171, 223, 230, 245, 261, 272, 276, 282}
+ash-wan-sr3.nw-am.broadcom.net_Gi0/0/1;APMDatadog;service6;DNS lookup of 'www.google.com' failed (type 'a') on nameserver 'sha-dns-1.broadcom.net' for profile 'sha-dns-1.broadcom.net';{15, 22, 61, 68, 94, 101, 105, 112, 160, 170, 209, 248, 263}
+lc-lvn-1508.lvn.broadcom.net;Dynatrace;service1;High response time;{36, 45, 47, 48, 91, 129, 136, 169, 175, 177, 204, 210, 226, 227, 228, 237, 271}
+lc-sj1-3936.lvn.broadcom.net;NetOps;service8;The alert Memory Utilization has breached the CRITICAL threshold of 90;{20, 23, 81, 113, 127, 149, 155, 193, 201, 206, 269}
+ren-dctor-p4r02c03sw02;APMDatadog;service6;Concurrent Invocations going to reach 5.0 pct;{23, 35, 48, 70, 79, 108, 118, 130, 131, 151, 210, 211, 241, 269, 270, 279}
+wpdvjmp02;APMDatadog;service6;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database;{26, 36, 48, 66, 72, 77, 90, 111, 137, 149, 178, 180, 198, 217, 223, 244, 270, 284}
+lnpvbstws02.broadcom.com;NetOps;service1;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics;{10, 42, 54, 84, 189, 196, 241, 258, 261, 280}
+lcs11-18.lvn.broadcom.net;UIM;service3;The alert Heap Used Percent has breached the MAJOR threshold of 40;{2, 3, 46, 60, 101, 112, 149, 202, 206, 241, 244, 264}
+png-srstk9.nw-ap.broadcom.net;Dynatrace;service8;DEVICE DETECTED A COMMUNICATION LINK DOWN ON AN INTERFACE;{6, 43, 53, 92, 221, 266, 273}
+wsgpvmegc04;Dynatrace;service6;Concurrent Invocations going to reach 5.0 pct;{29, 117, 208}
+wpdvwsd15;APM;service3;disk usage c exceeds;{10, 28, 39, 42, 51, 82, 88, 171, 195, 254, 267}
+mab-wan-sr1.nw-am.broadcom.net_Gi0/0/3;Solarwinds;service6;The alert CPU Throttling has breached the CRITICAL threshold of 10000000000;{43, 66, 77, 89, 99, 185}
+wyisvmgc02;Solarwinds;service4;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{2, 32, 54, 60, 72, 122, 232, 247}
+wnpdvweb01;Dynatrace;service12;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{17, 28, 56, 94, 99, 109, 157, 166, 171, 249}
+ash-wan-sr3.nw-am.broadcom.net_Gi0/0/5;Spectrum;service14;Interface is down;{14, 31, 60, 113, 144, 161, 162, 170, 180, 189, 212, 221}
+wac-wan-sr1.nw-am.broadcom.net_Gi0/0/0;UIM;service10;A power outage was detected in server room 23;{20, 120, 122, 139, 141, 146, 169, 207, 235, 280}
+brm-wan-sr1.nw-am.broadcom.net_Gi0/0/0;Dynatrace;service8;java-AdminServer: Process /AdminServer/ is not running;{56, 75, 84, 98, 109, 176, 179, 241, 246, 259}
+lc-lvn-1412.lvn.broadcom.net;Datadog;service5;Profile MSSQLSERVER- instance ldcna1cht1- buffer cache hit-ratio (88.80%) is too low;{23, 27, 30, 33, 107, 141, 145, 146, 154, 185, 286}
+sjs-dns-1.broadcom.net;APMDatadog;service13;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{27, 32, 121, 130, 136, 160, 164, 238, 255, 262, 266, 280}
+lc-sj1-4285.lvn.broadcom.net;APM;service10;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{42, 76, 106, 112, 128, 196, 200, 247, 254, 262, 265, 278}
+lc-sj1-4505.lvn.broadcom.net;Solarwinds;service14;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards;{21, 28, 123, 134, 144, 147, 185, 191, 236, 265}
+mec-wan-sr1.nw-em.broadcom.net_Gi0/0/0;APMDatadog;service4;Concurrent Invocations going to reach 5.0 pct;{29, 66, 97, 143, 148, 153, 164, 168, 203, 205, 212, 240, 252, 264, 274}
+wnpdvweb01;Datadog;service1;LINK UP/DOWN TRAPS RECEIVED IN THE LAST 5 MINUTES EXCEEDS THRESHOLD;{8, 17, 18, 77, 85, 91, 124, 147, 154, 197, 201, 251, 267, 271}
+ren-dctor-p4r01c04sw01;NetOps;service15;Profile MAZNASQLTSTC1N2- instance MAZNASQLTSTC1N2- buffer cache hit-ratio (87.17%) is too low;{7, 74, 84, 125, 132, 148, 222, 270}
+lc-irv-2922.lvn.broadcom.net;Datadog;service8;DEVICE IRV2-4-AP03 HAS STOPPED RESPONDING TO POLLS;{64, 102, 123, 137, 142, 149, 179, 223, 231, 240, 243}
+bbm-wan-asesr1.nw-ap.broadcom.net_Gi0/0;APM;service9;Server returned HTTP response code 401 for URL http://abc.com;{4, 7, 23, 70, 76, 90, 110, 163, 164, 206, 215, 227}
+wpdvisscmbedb6;Spectrum;service13;The alert GCPHeap1 has breached the MAJOR threshold of 8;{151, 172, 188}
+wsgpvmjmp01;UIM;service11;DEVICE DETECTED A COMMUNICATION LINK DOWN ON AN INTERFACE;{25, 139, 159, 167, 170, 210, 218, 233, 234, 256}
+wpdvwins01;APMDatadog;service7;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards;{29, 40, 82, 165, 225, 226, 270}
+bcatestdev.lvn.broadcom.net;Solarwinds;service10;The alert Frontend Errors has breached the MAJOR threshold of 1;{14, 48, 70, 122, 141, 250, 256, 257}
+ren-wan-sr2.nw-am.broadcom.net;Spectrum;service8;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards;{12, 28, 87, 94, 112, 150, 223, 227}
+lc-sj1-6090.lvn.broadcom.net;APM;service1;The alert CPU Throttling has breached the CRITICAL threshold of 10000000000;{45, 79, 98, 119, 144, 199, 211, 217}
+wnpvisstsap01;Datadog;service2;The alert Deployment Availablity has breached the MAJOR threshold of 0;{5, 8, 90, 148, 186, 243}
+tau-wan-sr1.nw-am.broadcom.net_Gi0/0/3;Dynatrace;service4;Profile MSSQLSERVER- instance ldcna1cht1- buffer cache hit-ratio (88.80%) is too low;{11, 56, 59, 71, 106, 128, 152, 203, 211, 225, 239, 251, 275}
+lc-irv-3006.lvn.broadcom.net;APM;service1;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000;{49, 68, 113, 145, 224, 286}
+bji-wan-sr1.nw-ap.broadcom.net_Gi0/0/0;UIM;service9;Robot mnmjmp6405 is inactive;{95, 106, 197, 229, 240, 255}
+lc-sj1-4832.lvn.broadcom.net;APM;service16;The alert Total Restart has breached the MAJOR threshold of 10;{3, 8, 24, 29, 79, 98, 101, 208, 217, 218, 262, 277}
+wpdvlab04;Datadog;service12;DNS lookup of 'www.google.com' failed (type 'a') on nameserver 'sha-dns-1.broadcom.net' for profile 'sha-dns-1.broadcom.net';{38, 63, 114, 116, 155, 193, 216, 230, 246, 268}
+SC5TFAPPSW0102_ge-1/0/21;Spectrum;service16;MANAGEMENT AGENT LOST;{88, 97, 100, 105, 119, 136, 174, 203, 269}
+lc-lvn-1612.lvn.broadcom.net;APMDatadog;service8;DNS lookup of 'www.google.com' failed (type 'a') on nameserver 'sha-dns-1.broadcom.net' for profile 'sha-dns-1.broadcom.net';{35, 89, 100, 119, 177, 197, 213, 234, 247}
+sju-cas-stk-sw04.nw-am.broadcom.net;NetOps;service1;High Transmit Percent Utilization;{14, 57, 72, 142, 158, 168, 173, 205, 220, 244, 260, 276}
+lc-sj1-4009.lvn.broadcom.net;Spectrum;service13;The alert Deployment Availablity has breached the MAJOR threshold of 0;{95, 96, 111, 115, 134, 153, 186, 233, 247, 261}
+sdg-cas-mdfas02.nw-am.broadcom.net;APMDatadog;service13;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{16, 78, 83, 140, 176, 185, 186, 253, 255}
+wpdvwsd09;NetOps;service16;Hardware component is in warning or critical state;{27, 82, 150, 161, 202, 227, 251, 274}
+ash-wan-sr3.nw-am.broadcom.net_Gi1/0/1;APM;service4;The alert Memory Utilization has breached the CRITICAL threshold of 90;{5, 67, 73, 128, 146, 153, 177, 187, 221, 242, 247, 253, 259, 269}
+SC5TFAPPSW0102_ge-1/0/21;APM;service3;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{9, 123, 124, 131, 149, 155, 191, 194, 196, 207, 215, 218, 245, 274}
+don-fab-sw3.nw-ap.broadcom.net;UIM;service11;The alert CPU Throttling has breached the MAJOR threshold of 3000000000;{4, 80, 111, 144, 164, 175, 228}
+oss-cent7.lvn.broadcom.net;Dynatrace;service10;Server returned HTTP response code 401 for URL http://abc.com;{114, 118, 126, 127, 200, 217, 225}
+wnpvtsf05;APM;service4;disk usage c exceeds;{75, 91, 133, 140, 161, 178, 207, 276, 281}
+lc-lvn-1658.lvn.broadcom.net;Dynatrace;service4;The alert Frontend Errors has breached the MAJOR threshold of 1;{9, 17, 53, 59, 124, 125, 171, 245, 265}
+lc-lvn-1221.lvn.broadcom.net;NetOps;service1;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{12, 19, 83, 125, 142, 156, 158, 162, 193, 199, 214, 232, 240, 252}
+ren-dcobmgmt-p2br02c05sw04;APMDatadog;service15;Cellular Interface is Up;{13, 22, 36, 50, 59, 67, 81, 82, 135, 182, 259}
+lnpvela02;APM;service16;ASA Site-to-Site VPN tunnel down;{5, 41, 65, 67, 116, 144, 158, 188, 197, 211, 255}
+sju-ll2-lab133-bvt-b4-sw08;Dynatrace;service4;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{56, 61, 74, 107, 203, 248}
+wpdvpaysec01;Datadog;service11;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{5, 10, 49, 65, 104, 189, 203, 206, 218, 224, 228, 234, 246, 270, 277, 279, 280}
+lc-blr-559.ibn.broadcom.net;Datadog;service6;Cellular Interface is Up;{25, 29, 38, 71, 76, 84, 132, 167, 215, 223, 237, 238, 239, 254, 264, 269}
+ihl-wan-sr2.nw-em.broadcom.net_Gi0/0/1;Spectrum;service6;The alert Frontend Errors has breached the MAJOR threshold of 1;{73, 142, 159, 176, 183, 185, 188, 190, 246, 253, 283, 285}
+wnpvtsf02;Datadog;service2;Profile MSSQLSERVER- instance ldcna1cht1- buffer cache hit-ratio (88.80%) is too low;{43, 81, 89, 90, 99, 102, 133, 153, 224, 242, 279}
+lc-sj1-4513.lvn.broadcom.net;NetOps;service16;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00);{3, 12, 51, 70, 93, 129, 138, 182, 198, 210, 230, 249, 282}
+wpdvsdi01;UIM;service10;Server returned HTTP response code 401 for URL http://abc.com;{7, 41, 58, 100, 123, 130, 138, 161, 179, 206, 233, 260, 277}
+tok-wan-symlab01.nw-ap.broadcom.net_Gi0/0/0;NetOps;service1;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000;{26, 33, 39, 52, 76, 118, 124, 128, 212}
+ftc-wan-sr1.nw-am.broadcom.net_Gi0/0/0;Solarwinds;service3;High packet loss;{27, 86, 194, 195, 212, 228, 250}
+lc-sj1-4429.lvn.broadcom.net;Datadog;service16;DNS lookup of 'www.google.com' failed (type 'a') on nameserver 'sha-dns-1.broadcom.net' for profile 'sha-dns-1.broadcom.net';{110, 116, 138, 184, 194, 202, 262, 285}
+wpdvlab04;APMDatadog;service9;Disk Usage (%) on D:\ for D:\ is at 5.57 %.;{15, 113, 157, 161, 175, 206, 213, 216}
+wnpvtosca02;Spectrum;service4;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{18, 21, 75, 78, 143, 148, 165, 188, 204, 231, 281}
+oss-cent7.lvn.broadcom.net;NetOps;service5;Profile MSSQLSERVER- instance ldcna1cht1- buffer cache hit-ratio (88.80%) is too low;{18, 20, 71, 75, 76, 109, 131, 237, 282}
+lc-ibn-1040.ibn.broadcom.net;APMDatadog;service1;LINK UP/DOWN TRAPS RECEIVED IN THE LAST 5 MINUTES EXCEEDS THRESHOLD;{0, 42, 52, 60, 63, 118, 134, 166, 187, 253}
+ash-wan-sr3.nw-am.broadcom.net_Gi0/0/5;Datadog;service4;Temperature for CPU1 Temp on lc-ibn-1051.ibn.broadcom.net is 103.0 (> 100.0);{16, 110, 186, 193, 217, 245, 278}
+lc-sj1-4832.lvn.broadcom.net;UIM;service15;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00);{31, 134, 136, 167, 178, 181, 194, 219, 236}
+sju-ll2-lab133-bvt-a6-yellow-sw04;Datadog;service12;Robot mnmjmp6405 is inactive;{1, 4, 105, 151, 194, 211, 257}
+lnpvabrcaw02.broadcom.com;APM;service7;Profile MSSQLSERVER- instance ldcna1cht1- buffer cache hit-ratio (88.80%) is too low;{21, 52, 80, 111, 140, 164, 190, 197, 239, 265, 283, 284}
+wpdvepidb03;Spectrum;service7;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards;{13, 17, 18, 60, 125, 131, 163, 166, 174, 184, 222, 257, 271, 273}
+SC5TFBOSW3.arcot.ca.com_Gi1/0/17;APM;service10;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net;{117, 128, 190, 200, 207, 277, 283}
+lc-tlva-109.ihl.broadcom.net;Solarwinds;service15;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards;{69, 79, 96, 149, 215, 243, 253, 274}
+lnpvsubscw02.broadcom.com;NetOps;service15;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{89, 123, 143, 268, 273}
+don-fab-sw3.nw-ap.broadcom.net;UIM;service5;robot inactive;{8, 21, 26, 71, 79, 82, 97, 116, 137, 141, 165, 177, 219, 230, 269, 271}
+lc-sj1-5912.lvn.broadcom.net;NetOps;service14;The alert Frontend Errors has breached the MAJOR threshold of 1;{6, 19, 40, 68, 69, 86, 137, 179, 183, 192, 214, 232}
+lc-sj1-6090.lvn.broadcom.net;UIM;service9;Disk Usage (%) on D:\ for D:\ is at 5.57 %.;{32, 44, 52, 62, 100, 130, 146, 154, 158, 226, 237, 238}
+ihy-wan-sr1.nw-ap.broadcom.net_Gi0/0/3;NetOps;service4;Temperature for CPU1 Temp on lc-ibn-1051.ibn.broadcom.net is 103.0 (> 100.0);{9, 70, 77, 163, 210}
+lvn-wan-sr3.nw-am.broadcom.net_Gi0/0/5;Solarwinds;service13;Broadcast alarm was triggered.;{3, 55, 62, 166, 181, 228, 253, 269}
+wpngvmrfs01;Spectrum;service3;temperature cpu1 temp;{7, 71, 101, 119, 187, 201, 208, 211, 260, 271, 285}
+lc-irv-3238.lvn.broadcom.net;APM;service10;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.;{6, 11, 14, 16, 19, 31, 55, 90, 140, 150, 156, 162, 247, 257, 260}
+wnpvarcs01;APMDatadog;service13;High Receive Percent Utilization on Interface GigabitEthernet0/0/1 · *** LAN *** for node 4LU-Antwerpen-RTR01;{34, 81, 106, 152, 153, 171, 219, 281}
+wnpvtsf09;APMDatadog;service14;Cellular Interface is Up;{30, 34, 87, 93, 109, 189, 201, 225, 232, 240, 259, 278, 284}
+sji-wan-bdr1.nw-am.broadcom.net_Gi0/0/0;NetOps;service3;High Transmit Percent Utilization on Interface Vlan268 · L3 for ReplicationNetwork-1-1_vl.110_10.22.168.0/24 for node N7706-2-DC2_Spine-2;{11, 35, 97, 102, 104, 150, 173, 222, 229, 258, 260}
+wnpvisscmbejb2;APMDatadog;service11;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01);{0, 30, 114, 147, 181, 204, 205, 232, 242, 257}
+opi-fab-inarip34sw2.nw-ap.broadcom.net;Dynatrace;service5;QOS_CPU_MULTI_USAGE on CPU-2 for User-2 is at 52.53 %.;{49, 76, 103, 147, 184, 252, 272}
+lc-irv-3396.lvn.broadcom.net;Datadog;service10;CHASSIS fdt-snc.net DOWN;{22, 30, 77, 117, 125, 143, 152, 177, 208, 214, 222, 228, 248, 278, 284}
+ihl-wan-sr2.nw-em.broadcom.net_Gi0/0/1;UIM;service11;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{7, 13, 17, 21, 65, 105, 154, 234, 239, 260, 264}
+ren-wan-sr1.nw-am.broadcom.net;Solarwinds;service14;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS;{13, 15, 52, 54, 104, 109, 128, 214, 216, 242, 245, 255, 285}
+lc-irv-2970.lvn.broadcom.net;Dynatrace;service12;ASA Site-to-Site VPN tunnel down;{2, 67, 78, 100, 103, 126, 163, 180, 207, 254, 257}
+ren-dcobmgmt-p2ar02c05sw04;NetOps;service1;percentage java heap used;{9, 83, 96, 138, 153, 190, 191, 195, 222, 259, 263}
+lc-irv-3396.lvn.broadcom.net;APMDatadog;service7;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1;{75, 100, 102, 180, 183, 195}
+lnpvela08.ash.broadcom.net;UIM;service4;Data Center Outage Alert;{55, 84, 120, 137, 140, 155, 157, 178}
+rgb-wan-sr1.nw-em.broadcom.net_Gi0/0/0;NetOps;service7;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards;{8, 11, 19, 25, 63, 180, 192, 196, 275, 281}
+wnpvuimp01.lvn.broadcom.net;APM;service11;LINK UP/DOWN TRAPS RECEIVED IN THE LAST 5 MINUTES EXCEEDS THRESHOLD;{15, 25, 69, 113, 172, 182, 196, 207, 272, 274, 284}
+lc-irv-3226.lvn.broadcom.net;Spectrum;service3;Node is down;{0, 6, 36, 41, 77, 117, 120, 155, 200, 265}
+apdvqualys08.ash.broadcom.net;Solarwinds;service1;ASA Site-to-Site VPN tunnel down;{14, 34, 44, 61, 81, 108, 247, 251}
+sju-cas-stk-sw12.nw-am.broadcom.net;Dynatrace;service4;The alert CPU Throttling has breached the CRITICAL threshold of 10000000000;{16, 20, 33, 73, 90, 93, 111, 182, 192, 221, 258}
+bld-med-bca-05.ihl.broadcom.net;Datadog;service7;Node is down;{34, 38, 110, 127, 129, 149, 167, 177, 198, 252, 261, 266}
+lnpvinrdb01.png.broadcom.net;APM;service9;Hardware component is in warning or critical state;{3, 44, 46, 81, 95, 171, 205, 233, 248, 249, 253}
+sju-cas-sw02.nw-am.broadcom.net;APM;service9;CHASSIS fdt-snc.net DOWN;{13, 33, 55, 57, 65, 87, 127, 159, 160, 183, 252, 265, 282}
+wlvnvmgc02;Spectrum;service4;disk usage c exceeds;{39, 71, 87, 125, 145, 275}
+lc-tlva-109.ihl.broadcom.net;Dynatrace;service15;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards;{42, 59, 63, 83, 121, 144, 155, 174, 183, 187, 225, 234}
+wpdvisscmfefs1;APMDatadog;service9;sssd: Process /usr/sbin/sssd/ is not running;{3, 20, 43, 53, 69, 133, 146, 224, 235}
+bcatestdev.lvn.broadcom.net;Dynatrace;service6;The alert Heap Used Percent has breached the MAJOR threshold of 40;{12, 24, 45, 62, 105, 120, 133, 152, 219, 263, 285}
+lc-irv-3489;APM;kafka_service;The alert ClusterManager - ServiceAlarm AlarmThreadPool QueuedTask Alert(US PROD) has breached the CRITICAL threshold of 100;{ 67, 69, 70, 85, 221, 224, 225, 227, 229, 230 }
+bri-wan-sr1.nw-em.broadcom.net_Gi0/0/3;APM;service4;The alert GCPHeap1 has breached the MAJOR threshold of 8;{49, 68, 94, 113, 117, 152, 250}
+anpvpsc12.yis.broadcom.net;Datadog;service6;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000;{9, 11, 41, 68, 93, 143, 219, 235, 236, 286}
+sju-cas-sw08.nw-am.broadcom.net;NetOps;service10;LINK UP/DOWN TRAPS RECEIVED IN THE LAST 5 MINUTES EXCEEDS THRESHOLD;{6, 25, 51, 53, 72, 99, 173, 179, 190, 193, 223, 233}

@@ -1,18 +1,7 @@
 package com.illinois.cs410.project;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.BitSet;
-import java.util.Collections;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
-import java.util.TreeMap;
-import java.util.TreeSet;
+import java.io.*;
+import java.util.*;
 
 public class DemoScenario {
 
@@ -26,16 +15,33 @@ public class DemoScenario {
         MatrixGenerator generator = new MatrixGenerator(demoScenarios.getIncidents(), demoScenarios.getIntervals(), demoScenarios.getTotalTemplates());
         LinkedHashMap<Integer, BitSet> templates = generator.doDataProcessing();
         DataProcessor processor = new DataProcessor(templates, demoScenarios.getIntervals());
+        processor.dumpDataToCsv(demoScenarios.getIncidents());
         processor.computerMutualInformation();
-        int totalDisplay = demoScenarios.totalTemplates - demoScenarios.incidents.get(demoScenarios.incidents.size() -1 ).getTemplates();
         double[][] mi = processor.getMutualInfomation();
+        writeAlarmData(templates, processor.getAlarmTemplatesList());
         writeFile(mi);
-        AlarmFactory factory = new AlarmFactory(totalTemplates);
-        factory.createAlarms();
-        List<AlarmTemplates> vertices = factory.getAlarms();
-        List<Edge> edges = factory.getEdges(mi);
-        Graph g = new Graph(vertices, edges);
 
+
+    }
+
+    private static void writeAlarmData(LinkedHashMap<Integer, BitSet> templates, List<AlarmTemplates> alarmTemplatesList) {
+        try {
+            File directory = new File("output");
+            if (! directory.exists()){
+                directory.mkdir();
+            }
+            PrintWriter writer = new PrintWriter("output/AlarmData.txt");
+            int count =0;
+            for(AlarmTemplates a: alarmTemplatesList)
+            {
+                writer.print(a.host+";"+a.source+";"+a.service+";"+a.message+";"+templates.get(count)+"\n");
+                count++;
+            }
+
+            writer.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     private static void writeFile(double[][] mi) throws IOException {
@@ -84,22 +90,25 @@ public class DemoScenario {
         System.out.format("Enter the number of dummy incidents to create. (Default: 3) -> ");
         String s = scan.nextLine();
         int totalScenarios = getInputValue(s, 3);
-
+        int startId=0;
         for(int i=0; i<totalScenarios; i++)
         {
             System.out.format("Enter the number of correlated Alarm templates for Incident #%d (Default: 5) -> ",(i+1));
             s = scan.nextLine();
             Incident incident = new Incident(i+1, getInputValue(s, 5));
             incidents.add(incident);
+            startId+=incident.getTemplates();
         }
         System.out.format("Enter the number of total number of noise templates (Default: 200) ->");
         s = scan.nextLine();
         Incident incident = new Incident(-1, getInputValue(s, 200));
         incidents.add(incident);
         incident.updateRandomNumber();
-        System.out.format("Enter the number of intervals for the entire run (Default: 600) ->");
+        System.out.format("Enter the number of intervals for the entire run (Max: 288) ->");
         s = scan.nextLine();
-        intervals = getInputValue(s, 600);
+        intervals = getInputValue(s, 288);
+        if(intervals >=288)
+            intervals = 287;
         printSummary();
 
     }

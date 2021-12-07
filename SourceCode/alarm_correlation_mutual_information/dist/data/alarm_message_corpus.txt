@@ -1,0 +1,71 @@
+Spectrum;LINK UP/DOWN TRAPS RECEIVED IN THE LAST 5 MINUTES EXCEEDS THRESHOLD
+Spectrum;Temperature for CPU1 Temp on lc-ibn-1051.ibn.broadcom.net is 103.0 (> 100.0)
+Spectrum;MANAGEMENT AGENT LOST
+Spectrum;SWITCH FIBRE CHANNEL PORT SCAN
+Spectrum;Device or SNMP agent on Device lvn-dctor-2dr02c01sw01.nw-am.bro of type CiscoNXOS has been Rebooted.
+Spectrum;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS
+Spectrum;CHASSIS fdt-snc.net DOWN
+UIM;CPU Average Total Usage on Total for User is at 1.14 %.
+UIM;Total CPU Usage on Total for WNPVTSF09.Broadcom.net is at 1.07 %. It has violated the threshold for at least 7.0 minutes out of 5.0 MINUTES.
+UIM;Disk Usage (%) on D:\ for D:\ is at 5.57 %.
+UIM;DEVICE DETECTED A COMMUNICATION LINK DOWN ON AN INTERFACE
+UIM;Temperature for CPU1 Temp on lc-ibn-1051.ibn.broadcom.net is 103.0 (> 100.0)
+UIM;DEVICE IRV2-4-AP03 HAS STOPPED RESPONDING TO POLLS
+UIM;CDM is running on bpel-vip.ash.broadcom.net- possibly duplicated data series in the QoS database
+UIM;Robot mnmjmp6405 is inactive
+Datadog;Connection to 'clmnacvma01' (ping) failed  (profile: clmnacvma01)
+UIM;Profile SQL102- instance admsqlc9n2\SQL102- AGRIS:  master: user 356 (NT AUTHORITY\SYSTEM) runs query for 614929.22 sec- sql text: sp_server_diagnostics
+UIM;Profile NP01SOA3- instance NP01SOA3- tablespace DSOA14_CUSTOM has 0.55% (567.30 MB) free space available (autoext.:YES- chunks:39.00)
+UIM;16	root	localhost	limda_data	Query	12	Waiting for global read lock	UPDATE limda_data.calculations SET next_calc='20211113160500'- last_calc='20211113160400'- redo_start='0'- redo_stop='0' WHERE calc_id=1	0.000
+UIM;Profile MSSQLSERVER- instance ldcna1cht1- buffer cache hit-ratio (88.80%) is too low
+UIM;Profile MAZNASQLTSTC1N2- instance MAZNASQLTSTC1N2- buffer cache hit-ratio (87.17%) is too low
+UIM;sssd: Process /usr/sbin/sssd/ is not running
+UIM;java-AdminServer: Process /AdminServer/ is not running
+UIM;ntpd_monitoring: Process ntpd not started- max starts 3 reached
+UIM;DNS lookup of 'www.google.com' failed (type 'a') on nameserver 'sha-dns-1.broadcom.net' for profile 'sha-dns-1.broadcom.net'
+UIM;QOS_CPU_MULTI_USAGE on CPU-2 for User-2 is at 52.53 %.
+UIM;robot inactive
+APM;The alert Frontend Errors has breached the MAJOR threshold of 1
+APM;The alert Response Time Variance Intensity has breached the MAJOR threshold of 25
+APM;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000
+Datadog;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000
+APM;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000
+Datadog;The alert Memory Utilization has breached the CRITICAL threshold of 90
+APM;The alert Response Time Variance Intensity has breached the CRITICAL threshold of 5
+APM;The alert CPU Throttling has breached the CRITICAL threshold of 10000000000
+APM;The alert Response Time Variance Intensity has breached the CRITICAL threshold of 5
+Datadog;The alert CPU Throttling has breached the CRITICAL threshold of 10000000000
+APM;The alert Total Restart has breached the MAJOR threshold of 10
+APM;The alert Deployment Availablity has breached the MAJOR threshold of 0
+Datadog;Concurrent Invocations going to reach 5.0 pct
+APM;The alert CPU Throttling has breached the MAJOR threshold of 3000000000
+APM;The alert Total Restart has breached the MAJOR threshold of 10
+APM;Percentage of Maximum Capacity Currently Used going to reach 85.0 pct
+APM;The alert GCPHeap1 has breached the MAJOR threshold of 8
+APM;The alert Heap Used Percent has breached the MAJOR threshold of 40
+APMDatadog;The alert ConnectionStatus has exceeded CRITICAL target of threshold 1
+Solarwinds;High Transmit Percent Utilization
+Solarwinds;Hardware component is in warning or critical state
+Solarwinds;High Receive Percent Utilization on Interface GigabitEthernet0/0/1 · *** LAN *** for node 4LU-Antwerpen-RTR01
+Solarwinds;Node is down
+Solarwinds;ASA Site-to-Site VPN tunnel down
+Solarwinds;High response time
+Solarwinds;High packet loss
+Solarwinds;Cellular Interface is Up
+Solarwinds;Interface is down
+Solarwinds;Broadcast alarm was triggered.
+Solarwinds;Data Center Outage Alert
+Solarwinds;High Transmit Percent Utilization on Interface Vlan268 · L3 for ReplicationNetwork-1-1_vl.110_10.22.168.0/24 for node N7706-2-DC2_Spine-2
+Dynatrace;A power outage was detected in server room 23
+Dynatrace;Server returned HTTP response code 401 for URL http://abc.com
+Dynatrace;percentage java heap used
+Dynatrace;disk usage /bkp_qa_mongo_cohesity lnpvqbslmongo01.ash.broadcom.net
+Dynatrace;disk usage c exceeds
+NetOps;violation event raised mgmt profile name paysec interface discards deviation discards rule name discards
+APM;temperature cpu1 temp
+NetOps;violation event raised ethernet1/30 profile name paysec interface discards deviation discards rule name discards
+APM;The alert Service Metrics Anomaly Consumer Group Lag Alert has breached the CRITICAL threshold of 100000
+APM;The alert Log Collector Consumer Group Lag Alert has breached the CRITICAL threshold of 200000
+APM;The alert ClusterManager - Zookeeper Client QueryForInstances ART Alert has breached the CRITICAL threshold of 1000
+Spectrum;DEVICE abc-xyz.net HAS STOPPED RESPONDING TO POLLS
+Spectrum;CHASSIS fdt-snc.net DOWN
