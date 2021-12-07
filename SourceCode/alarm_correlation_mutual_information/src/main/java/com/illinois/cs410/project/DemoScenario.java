@@ -26,6 +26,10 @@ public class DemoScenario {
 
     private static void writeAlarmData(LinkedHashMap<Integer, BitSet> templates, List<AlarmTemplates> alarmTemplatesList) {
         try {
+            File directory = new File("output");
+            if (! directory.exists()){
+                directory.mkdir();
+            }
             PrintWriter writer = new PrintWriter("output/AlarmData.txt");
             int count =0;
             for(AlarmTemplates a: alarmTemplatesList)

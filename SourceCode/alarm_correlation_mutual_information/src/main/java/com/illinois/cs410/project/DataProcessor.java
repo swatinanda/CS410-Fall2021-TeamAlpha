@@ -1,5 +1,6 @@
 package com.illinois.cs410.project;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.text.DecimalFormat;
@@ -116,6 +117,10 @@ public class DataProcessor {
 
     private void createRelationshipFiles(List<AlarmTemplates> alarmTemplatesList) {
         try{
+            File directory = new File("output");
+            if (! directory.exists()){
+                directory.mkdir();
+            }
             PrintWriter sourceCi = new PrintWriter("./output/Source-CI-MONITORS.csv");
             PrintWriter serviceCi = new PrintWriter("./output/Service-CI-CONTAINS.csv");
             PrintWriter ciTime = new PrintWriter("./output/CI-Time-ALERT_RAISED_AT.csv");
@@ -163,6 +168,10 @@ public class DataProcessor {
     Map<Interval, Integer> intervalMap = new HashMap<>();
 
     private void writeOtherFiles(List<AlarmTemplates> alarmTemplatesList) {
+        File directory = new File("output");
+        if (! directory.exists()){
+            directory.mkdir();
+        }
         Set<String> cIs = alarmTemplatesList.stream().map(x->x.host).collect(Collectors.toSet());
         Set<String> sources = alarmTemplatesList.stream().map(x->x.source).collect(Collectors.toSet());
         Set<String> services = alarmTemplatesList.stream().map(x->x.service).collect(Collectors.toSet());
