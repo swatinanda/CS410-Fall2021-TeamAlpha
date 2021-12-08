@@ -33,6 +33,17 @@ public class AlertsController {
         this.driver = driver;
     }
 
+    /*
+    Heartbeat API
+     */
+    @GetMapping(path = "/alive", produces = MediaType.APPLICATION_JSON_VALUE)
+    public Boolean alive() {
+        return Boolean.TRUE;
+    }
+
+    /*
+    Fetches top 5 correlated alerts to the input alert
+     */
     @GetMapping(path = "/alerts", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<Map<String, Object>> getAlerts(String message, String device) throws JsonProcessingException {
         final List<Map<String, Object>> response = new ArrayList<>();
@@ -84,7 +95,9 @@ public class AlertsController {
 
     }
 
-
+    /*
+    Fetches Alert counts in the input time duration
+     */
     @GetMapping(path = "/alertsCounts", produces = MediaType.APPLICATION_JSON_VALUE)
     public String getAlertsCount(String start, String end) throws JsonProcessingException {
         final String[] response = {""};
@@ -126,7 +139,9 @@ public class AlertsController {
         return response[0];
     }
 
-
+    /*
+    Fetches the alerts marked as root-cause alerts
+     */
     @GetMapping(path = "/rootCauseAlerts", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<String> getRootCauseAlerts(String date, String start, String end) throws JsonProcessingException {
         List<String> response = new ArrayList<>();
@@ -163,33 +178,27 @@ public class AlertsController {
                                     else if(node.hasLabel("Interval"))
                                         endNodeInterval = node;
                                 }
-
                                 String resultString = "Root cause alert on date: " + endNodeInterval.get("date")
                                         + " time: " + endNodeInterval.get("intervalPeriod") + " is " + startNodeAlert.get("name");
 
                                 response.add(resultString);
-
                             }
-                            //Arr values = ((InternalRecord) record).values();
-                            //((InternalPath)((ListValue)((InternalRecord) record).values().get(0)).asList().get(0)).nodes().
-
 
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
-                        //((InternalNode)((Arrays.ArrayList)((PathValue)((ListValue)(((InternalRecord) record).values[0])).get(0)).asPath().nodes()).get(0)).labels()
-
                     }
                     return response;
                 }
-
             });
         }
         return response;
     }
 
 
-
+    /*
+    Fetches the affected devices due to input alert in the time duration
+     */
     @GetMapping(path = "/affectedCIs", produces = MediaType.APPLICATION_JSON_VALUE)
     public Set<String> getAffectedCIs(String start, String end, String alert) throws JsonProcessingException {
          Set<String> response = new HashSet<>();
@@ -212,8 +221,6 @@ public class AlertsController {
                     String whereClause = String.join(" AND ", lstWhere);
 
                     String whereAlert = String.format(" toLower(n.name) CONTAINS toLower('%s') ", alert);
-
-
                     Query qry = new Query("MATCH (n:Alert ) WHERE  " + whereAlert + "\n" +
                             "MATCH (n)-[r:CORRELATED_AT]-(asso_alert) \n" +
                             "with n,asso_alert, r ORDER BY r.mutual_information DESC limit 5 \n" +
@@ -234,7 +241,6 @@ public class AlertsController {
                     Result result = tx.run(qry);
                     while (result.hasNext()) {
                         Record record = result.next();
-                        //response[0] = "Alert counts between period " + start + " and " + end + " is " + record.get("cnt").asInt();
                         if(record.get("ci") != null)
                             response.add(((NodeValue)record.get("ci")).get("name").asString());
                     }
@@ -245,6 +251,10 @@ public class AlertsController {
         }
         return response;
     }
+
+    /*
+    Mark the alert aas root cause alert
+     */
     @PostMapping(path = "/setRootCause", produces = MediaType.APPLICATION_JSON_VALUE)
     public Boolean setRootCauseAlert(String inputAlert, String rootCauseAlert, String rootCauseTime)
     {
@@ -295,6 +305,9 @@ public class AlertsController {
         }
         return response[0];
     }
+    /*
+    Fetches the impacted devices due to input alert in the time duration
+     */
     @GetMapping(path = "/affectedServices", produces = MediaType.APPLICATION_JSON_VALUE)
     public Set<String> getAffectedServices(String start, String end, String alert) throws JsonProcessingException {
         Set<String> response = new HashSet<>();
@@ -339,7 +352,6 @@ public class AlertsController {
                     Result result = tx.run(qry);
                     while (result.hasNext()) {
                         Record record = result.next();
-                        //response[0] = "Alert counts between period " + start + " and " + end + " is " + record.get("cnt").asInt();
                         if(record.get("s") != null)
                             response.add(((NodeValue)record.get("s")).get("name").asString());
                     }
@@ -354,9 +366,7 @@ public class AlertsController {
     private AlertVertex getAlertVertex(InternalNode vertex) {
         AlertVertex av = new AlertVertex();
         av.setMessage(vertex.get("name").asString());
-        //av.setDevice(vertex.get("device").asString());
-        //av.setHost(vertex.get("host").asString());
-        //av.setService(vertex.get("service").asString());
+
         return av;
     }
 

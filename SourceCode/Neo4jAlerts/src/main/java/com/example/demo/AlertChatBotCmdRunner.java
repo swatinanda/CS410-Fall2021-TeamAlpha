@@ -16,6 +16,10 @@ import java.util.*;
 
 @Component
 @Configuration
+/*
+This is the Terminal Chat Client
+It guides user to enable alert diagnosis and provide feedback
+ */
 public class AlertChatBotCmdRunner implements CommandLineRunner {
 
     @Autowired
@@ -147,7 +151,8 @@ public class AlertChatBotCmdRunner implements CommandLineRunner {
                 }
             } while (!choice.equals("N"));
         } catch (Exception exp) {
-
+            System.out.println("Error in getAlerts");
+            System.out.println(exp.getMessage());
         }
     }
 
@@ -183,7 +188,8 @@ public class AlertChatBotCmdRunner implements CommandLineRunner {
             } while (!choice.equals("N"));
         }
         catch (Exception exp) {
-
+            System.out.println("Error in getAlertCount");
+            System.out.println(exp.getMessage());
         }
     }
 
@@ -226,7 +232,8 @@ public class AlertChatBotCmdRunner implements CommandLineRunner {
                 }
             } while (!choice.equals("N"));
         } catch (Exception exp) {
-
+            System.out.println("Error in getRootCauseAlert");
+            System.out.println(exp.getMessage());
         }
     }
     private void getAffectedCIs(Scanner sc, Driver driver) throws JsonProcessingException {
@@ -270,7 +277,8 @@ public class AlertChatBotCmdRunner implements CommandLineRunner {
                 }
             } while (!choice.equals("N"));
         } catch (Exception exp) {
-
+            System.out.println("Error in getAffectedCIs");
+            System.out.println(exp.getMessage());
         }
     }
 
@@ -316,7 +324,8 @@ public class AlertChatBotCmdRunner implements CommandLineRunner {
                 }
             } while (!choice.equals("N"));
         } catch (Exception exp) {
-
+            System.out.println("Error in getAffectedServices");
+            System.out.println(exp.getMessage());
         }
     }
 }
