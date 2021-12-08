@@ -95,8 +95,7 @@ Complete Updating Mutual Information ... Took 261 ms
 
 ### Setup a Neo4j database 
 
- - Create a directory on a Unix Machine with Docker installed 
- - Create a directory named **csv** and place all the csv files generated on previous steps to this directory 
+ - On a Unix setup where docker is installed, create a directory named **csv** and place all the csv files generated on previous steps to this directory 
  - Spin off a Neo4j docker container 
 ```
 docker run -d -e NEO4J_AUTH=none -p 7474:7474 -v $PWD/csv:/var/lib/neo4j/import -p 7687:7687 neo4j:4.3
