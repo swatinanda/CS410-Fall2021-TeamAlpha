@@ -99,4 +99,23 @@ Please see the section 'Building a Chat client' in the [ProjectReport.pdf](/Proj
 #### 8 Various APIs exposed to Chat client
 Please see the section 'Building a Chat client' in the [ProjectReport.pdf](/ProjectReport.pdf) for the details of the software  implementation.
 
+#### 9 Running the Neo4jAlerts service
+Below are the steps to run Neo4jAlerts service, run the Chat Client, get the underlying Cypher queries and REST APIs.
+
+1.	Ensure Neo4j instance is running and set up with user and database
+
+2.	Download Neo4jAlerts.zip and unzip it.
+Update your Neo4j instance details in application.properties:
+org.neo4j.driver.uri=bolt://<neo4j system>:7687
+org.neo4j.driver.authentication.username=<username>
+org.neo4j.driver.authentication.password=<password>
+
+3.	Execute the service as follows on the terminal
+java -jar demo-0.0.1-SNAPSHOT.jar com.example.demo.Neo4jAlertsApplication -a application.properties
+
+4.	The Chat client will appear on the terminal. Through the guided instruction we can navigate the system to get additional info about alerts.
+
+5.	The chat client outputs the cypher query and that can be directly used. It also executes the queries automatically on Neo4j instance via Neo4j client.
+
+6.	The REST APIs can be executed on http://localhost:8080/<path> end points as illustrated in the section 'Various REST APIs exposed to Chat client' in the [ProjectReport.pdf]
 
