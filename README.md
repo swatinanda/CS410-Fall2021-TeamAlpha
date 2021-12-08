@@ -171,7 +171,9 @@ LOAD CSV WITH HEADERS FROM "file:///MutualInformation.csv" AS row MATCH (a1:Aler
 Update your Neo4j instance details in application.properties: 
 
 **org.neo4j.driver.uri**=bolt://\<neo4jsystem\>:7687
+
 **org.neo4j.driver.authentication.username**=\<username> 
+
 **org.neo4j.driver.authentication.password**=\<password>
 
  - Execute the service as follows on the terminal
