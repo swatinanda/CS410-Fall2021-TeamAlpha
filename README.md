@@ -42,40 +42,8 @@ Please watch the [Project Presentaion](https://mediaspace.illinois.edu/media/t/1
 
 The rest of the entire section below is extra detailed documentation for how to  install the software 
 ### Prerequisites
-#### Python 3.9
-#### JDK 8
-#### Neo4J
-#### SpringBoot
 
-### Project Steps
-
-This project has the following different steps:
-
-1. Downloading the Project Source Code
-2. Setting Up the Local Environment
-3. Ingesting different kinds of Alerts 
-4. Alert Preprocessing and Alert Correlation Analysis
-5. Building Knowledge graph for the correlated Alerts
-6. Building a querying layer to pull information from knowledge graph
-7. Building a Chat client that will interact with the Knowledge graph
-
-#### 1 Downloading the Project Source Code
-
-Please follow the steps below to download the project zip file.
-
-1. Go to https://github.com/masamip2/CourseProject .
-2. Click 'Code' button.
-3. Choose 'Download ZIP'.
-
-NOTE: Alternatively, you can clone the project repository, if you prefer to use GIT.
-
-```bash
-git clone https://github.com/masamip2/CourseProject.git
-```
-
-#### 2 Setting Up the Local Environment
-
-##### Prepare the DataSet and calculate Mutual Information 
+### Prepare the DataSet and calculate Mutual Information 
  - Download the zips from distribution folder 
  - Unzip **alert-correlation.zip** 
  - Run the following command from the extracted zip 
@@ -125,7 +93,7 @@ Complete Updating Mutual Information ... Took 261 ms
  
  **output/*.csv** : This contains the metadata of knowledge graph in CSV format . This raw data will be used to populate Knowledge graph in neo4j database 
 
-##### Setup a Neo4j database 
+### Setup a Neo4j database 
 
  - Create a directory on a Unix Machine with Docker installed 
  - Create a directory named **csv** and place all the csv files generated on previous steps to this directory 
@@ -163,7 +131,7 @@ LOAD CSV WITH HEADERS FROM "file:///Service-CI-CONTAINS.csv" AS row MATCH (s1:Se
 LOAD CSV WITH HEADERS FROM "file:///MutualInformation.csv" AS row MATCH (a1:Alert {id:row.from}), (a2:Alert {id:row.to}) CREATE (a1)-[:CORRELATED_AT {mutual_information:row.mi}]->(a2);
 ```
 
-##### Querying Knowledge Graph and Extract data  
+### Querying Knowledge Graph and Extract data  
 
  - Ensure Neo4j instance is running and set up with user and database
  - Download **Neo4jAlerts.zip** in the Artifacts directory and unzip it.
@@ -183,6 +151,36 @@ java -jar demo-0.0.1-SNAPSHOT.jar com.example.demo.Neo4jAlertsApplication -a app
  - The chat client will appear on the terminal. Through the guided instruction we can navigate the system to get additional info about alerts
  - The chat client outputs the cypher query and that can be directly used. It also executes the queries automatically on Neo4j instance via Neo4j client.
  - The REST APIs can be executed on http://\<locaalhost>:8080/<path> end points as illustrated in this section
+
+
+
+### Project Steps
+
+This project has the following different steps:
+
+1. Downloading the Project Source Code
+2. Setting Up the Local Environment
+3. Ingesting different kinds of Alerts 
+4. Alert Preprocessing and Alert Correlation Analysis
+5. Building Knowledge graph for the correlated Alerts
+6. Building a querying layer to pull information from knowledge graph
+7. Building a Chat client that will interact with the Knowledge graph
+
+#### 1 Downloading the Project Source Code
+
+Please follow the steps below to download the project zip file.
+
+1. Go to https://github.com/masamip2/CourseProject .
+2. Click 'Code' button.
+3. Choose 'Download ZIP'.
+
+NOTE: Alternatively, you can clone the project repository, if you prefer to use GIT.
+
+```bash
+git clone https://github.com/masamip2/CourseProject.git
+```
+
+#### 2 Setting Up the Local Environment
 
 
 #### 3 Ingesting different kinds of Alerts
