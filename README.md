@@ -99,4 +99,6 @@ Please see the section 'Building a Chat client' in the [ProjectReport.pdf](/Proj
 #### 8 Various APIs exposed to Chat client
 Please see the section 'Building a Chat client' in the [ProjectReport.pdf](/ProjectReport.pdf) for the details of the software  implementation.
 
+#### 9 Running the Neo4jAlerts service
+Please see the section 'Running the Neo4jAlerts service' in the [ProjectReport.pdf](/ProjectReport.pdf) for the details.
 
