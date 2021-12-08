@@ -74,6 +74,7 @@ git clone https://github.com/masamip2/CourseProject.git
 ```
 
 #### 2 Setting Up the Local Environment
+
 ##### Prepare the DataSet and calculate Mutual Information 
  - Download the zips from distribution folder 
  - Unzip **alert-correlation.zip** 
@@ -119,8 +120,10 @@ Complete Updating Mutual Information ... Took 261 ms
  ```
 
  - This will create the following files 
+ 
  **mutual_infomation.txt** : This contains the mutual information for each and every Alarm which has been generated based on the input provided 
-**output/*.csv** : This contains the metadata of knowledge graph in CSV format . This raw data will be used to populate Knowledge graph in neo4j database 
+ 
+ **output/*.csv** : This contains the metadata of knowledge graph in CSV format . This raw data will be used to populate Knowledge graph in neo4j database 
 
 ##### Setup a Neo4j database 
 
