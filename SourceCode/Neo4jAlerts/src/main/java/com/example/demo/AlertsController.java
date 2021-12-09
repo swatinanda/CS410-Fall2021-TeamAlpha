@@ -17,6 +17,8 @@ package com.example.demo;
  import org.neo4j.driver.internal.value.PathValue;
  import org.neo4j.driver.types.Node;
  import org.neo4j.driver.types.Relationship;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.core.env.Environment;
  import org.springframework.http.MediaType;
  import org.springframework.util.StringUtils;
  import org.springframework.web.bind.annotation.GetMapping;
@@ -26,9 +28,20 @@ package com.example.demo;
 @RestController
 public class AlertsController {
 
+    @Autowired
+    private Environment env;
+
     private Driver driver = null;
     ObjectMapper mapper = new ObjectMapper();
-    public AlertsController() {}
+    public AlertsController() {
+
+    }
+    private void initialize() {
+        String username = env.getProperty("org.neo4j.driver.authentication.username","neo4j");
+        String password = env.getProperty("org.neo4j.driver.authentication.password","abcd");
+        String uri = env.getProperty("org.neo4j.driver.uri", "bolt://localhost:7687");
+        driver = GraphDatabase.driver(uri, AuthTokens.basic(username, password));
+    }
     public AlertsController(Driver driver) {
         this.driver = driver;
     }
@@ -47,6 +60,8 @@ public class AlertsController {
     @GetMapping(path = "/alerts", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<Map<String, Object>> getAlerts(String message, String device) throws JsonProcessingException {
         final List<Map<String, Object>> response = new ArrayList<>();
+         if(driver == null)
+            initialize();
         try (Session session = driver.session(SessionConfig.forDatabase("neo4j"))) {
 
             session.readTransaction(new TransactionWork<List<Map<String, Object>>>() {
@@ -101,6 +116,8 @@ public class AlertsController {
     @GetMapping(path = "/alertsCounts", produces = MediaType.APPLICATION_JSON_VALUE)
     public String getAlertsCount(String start, String end) throws JsonProcessingException {
         final String[] response = {""};
+        if(driver == null)
+            initialize();
         try (Session session = driver.session(SessionConfig.forDatabase("neo4j"))) {
 
             session.readTransaction(new TransactionWork<String>() {
@@ -145,6 +162,8 @@ public class AlertsController {
     @GetMapping(path = "/rootCauseAlerts", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<String> getRootCauseAlerts(String date, String start, String end) throws JsonProcessingException {
         List<String> response = new ArrayList<>();
+        if(driver == null)
+            initialize();
         try (Session session = driver.session(SessionConfig.forDatabase("neo4j"))) {
 
             session.readTransaction(new TransactionWork<List<String>>() {
@@ -202,6 +221,8 @@ public class AlertsController {
     @GetMapping(path = "/affectedCIs", produces = MediaType.APPLICATION_JSON_VALUE)
     public Set<String> getAffectedCIs(String start, String end, String alert) throws JsonProcessingException {
          Set<String> response = new HashSet<>();
+        if(driver == null)
+            initialize();
         try (Session session = driver.session(SessionConfig.forDatabase("neo4j"))) {
 
             session.readTransaction(new TransactionWork<Set<String>>() {
@@ -259,6 +280,8 @@ public class AlertsController {
     public Boolean setRootCauseAlert(String inputAlert, String rootCauseAlert, String rootCauseTime)
     {
         final Boolean[] response = {true};
+        if(driver == null)
+            initialize();
         try (Session session = driver.session(SessionConfig.forDatabase("neo4j"))) {
 
             session.writeTransaction(new TransactionWork<Boolean>() {
@@ -311,6 +334,8 @@ public class AlertsController {
     @GetMapping(path = "/affectedServices", produces = MediaType.APPLICATION_JSON_VALUE)
     public Set<String> getAffectedServices(String start, String end, String alert) throws JsonProcessingException {
         Set<String> response = new HashSet<>();
+        if(driver == null)
+            initialize();
         try (Session session = driver.session(SessionConfig.forDatabase("neo4j"))) {
 
             session.readTransaction(new TransactionWork<Set<String>>() {
