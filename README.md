@@ -169,14 +169,14 @@ This project has the following different steps:
 
 Please follow the steps below to download the project zip file.
 
-1. Go to https://github.com/masamip2/CourseProject .
+1. Go to https://github.com/swatinanda/CS410-Fall2021-TeamAlpha .
 2. Click 'Code' button.
 3. Choose 'Download ZIP'.
 
 NOTE: Alternatively, you can clone the project repository, if you prefer to use GIT.
 
 ```bash
-git clone https://github.com/masamip2/CourseProject.git
+git clone https://github.com/swatinanda/CS410-Fall2021-TeamAlpha.git
 ```
 
 #### 2 Setting Up the Local Environment
