@@ -28,11 +28,11 @@ For more details, please refer to () document.
 
 ## The Software Usage and Testing the Software
 
-Please go to the () document and see the section 'How to Use/Test the Software' in the [ProjectReport.pdf](/TeamAlpha_ProjectReport.pdf) for the details of the software usage and testing the software.
+Please go to the () document and see the section 'How to Use/Test the Software' in the [Team_Alpha_Final_Project_Report.pdf](/Team_Alpha_Final_Project_Report.pdf) for the details of the software usage and testing the software.
 
 ## The Software Implementation
 
-Please see the section 'How the Software Implemented' in the [ProjectReport.pdf](/TeamAlpha_ProjectReport.pdf) for the details of the software  implementation.
+Please see the section 'How the Software Implemented' in the [Team_Alpha_Final_Project_Report.pdf](/Team_Alpha_Final_Project_Report.pdf) for the details of the software  implementation.
 
 ## The Software Usage Tutorial Presentation
 
@@ -184,23 +184,24 @@ git clone https://github.com/swatinanda/CS410-Fall2021-TeamAlpha.git
 
 #### 3 Ingesting different kinds of Alerts
 
-Please see the section 'Ingesting different kinds of Alerts' in the [ProjectReport.pdf](/TeamAlpha_ProjectReport.pdf) for more details.
+Please see the section 'Ingesting different kinds of Alerts' in the [Team_Alpha_Final_Project_Report.pdf](/Team_Alpha_Final_Project_Report.pdf) for more details.
 
 #### 4 Alert Preprocessing and Alert Correlation Analysis
-Please see the section 'Alert Preprocessing and Alert Correlation Analysis' in the [ProjectReport.pdf](/TeamAlpha_ProjectReport.pdf) for more details.
+Please see the section 'Alert Preprocessing and Alert Correlation Analysis' in the [Team_Alpha_Final_Project_Report.pdf](/Team_Alpha_Final_Project_Report.pdf) for more details.
 
 #### 5 Building Knowledge graph for the correlated Alerts
-Please see the section 'Building Knowledge graph for the correlated Alerts' in the [ProjectReport.pdf](/TeamAlpha_ProjectReport.pdf) for more details.
+Please see the section 'Building Knowledge graph for the correlated Alerts' in the [Team_Alpha_Final_Project_Report.pdf](/Team_Alpha_Final_Project_Report.pdf) for more details.
 
 #### 6 Building a querying layer to pull information from knowledge graph
-Please see the section 'Building a querying layer to pull information from knowledge graph' in the [ProjectReport.pdf](/TeamAlpha_ProjectReport.pdf) for more details.
+Please see the section 'Building a querying layer to pull information from knowledge graph' in the [Team_Alpha_Final_Project_Report.pdf](/Team_Alpha_Final_Project_Report.pdf) for more details.
 
 #### 7 Building a Chat client that will interact with the Knowledge graph
-Please see the section 'Building a Chat client' in the [ProjectReport.pdf](/TeamAlpha_ProjectReport.pdf) for the details of the software  implementation.
+Please see the section 'Building a Chat client' in the [Team_Alpha_Final_Project_Report.pdf](/Team_Alpha_Final_Project_Report.pdf) for the details of the software  implementation.
 
 #### 8 Various APIs exposed to Chat client
-Please see the section 'Building a Chat client' in the [ProjectReport.pdf](/TeamAlpha_ProjectReport.pdf) for the details of the software  implementation.
+Please see the section 'Building a Chat client' in the [Team_Alpha_Final_Project_Report.pdf](/Team_Alpha_Final_Project_Report.pdf) for the details of the software  implementation.
 
 #### 9 Running the Neo4jAlerts service
-Please see the section 'Running the Neo4jAlerts service' in the [ProjectReport.pdf](/TeamAlpha_ProjectReport.pdf) for the details.
+Please see the section 'Running the Neo4jAlerts service' in the [Team_Alpha_Final_Project_Report.pdf](/Team_Alpha_Final_Project_Report.pdf) for the details.
+Please see the section 'Running the Neo4jAlerts service' in the [Team_Alpha_Final_Project_Report.pdf](/Team_Alpha_Final_Project_Report.pdf) for the details.
 
