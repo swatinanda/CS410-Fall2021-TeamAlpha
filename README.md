@@ -75,4 +75,4 @@ Please see the section 'Building a querying layer to pull information from knowl
 Please see the section 'Building a Chat client' in the [Team_Alpha_Final_Project_Report.pdf](/Team_Alpha_Final_Project_Report.pdf) for the details of the software  implementation.
 
 #### 7 Various APIs exposed to Chat client
-Please see the section 'Building a Chat client' in the [Team_Alpha_Final_Project_Report.pdf](/Team_Alpha_Final_Project_Report.pdf) for the details of the software  implementation.
+Please see the section 'Various REST APIs exposed to Chat client' in the [Team_Alpha_Final_Project_Report.pdf](/Team_Alpha_Final_Project_Report.pdf) for the details of the software  implementation.
