@@ -1,4 +1,4 @@
-# Alarm Correlation via Mutual Information ( POC )
+# Alarm Correlation via Mutual Information 
 
 - Run DemoScenario
 - This is the sample output
