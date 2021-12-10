@@ -18,7 +18,7 @@ In this project, we are correlating these alerts by collecting, analysing, and b
 ## Design Details
 
 The underlying algorithm uses Shanon's Mutual Information as a similarity measure and explots its grouping property.
-For more details, please refer to () document.
+For more details, please refer to [Team_Alpha_Final_Project_Report.pdf](/Team_Alpha_Final_Project_Report.pdf).
 
 ## The Software Components
 
