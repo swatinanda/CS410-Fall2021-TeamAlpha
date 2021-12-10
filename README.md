@@ -59,7 +59,7 @@ git clone https://github.com/swatinanda/CS410-Fall2021-TeamAlpha.git
 ```
 
 #### 2 Setting Up the Local Environment
-
+Please see the section 'Source Code Information' in the [Team_Alpha_Final_Project_Report.pdf](/Team_Alpha_Final_Project_Report.pdf) for more details.
 
 #### 3 Ingesting different kinds of Alerts
 
